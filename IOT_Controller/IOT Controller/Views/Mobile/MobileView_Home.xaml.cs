@@ -1,6 +1,5 @@
-using Android.Views;
+
 using IOT_Controller.CarousselModels;
-using Java.Math;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Shapes;
 
