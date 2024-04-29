@@ -1,0 +1,20 @@
+{
+  "name": "serveur-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ngrok/ngrok": "^1.2.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "mqtt": "^5.5.0",
+    "nodemon": "^3.1.0",
+    "ws": "^8.16.0"
+  }
+}

@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IOT_Controller
+build_property.ProjectDir = D:\Projet_Licence\IOT_Controller\IOT Controller\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Views/Desktop/AppShell_Desktop.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Views.Desktop.AppShell_Desktop.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Desktop\AppShell_Desktop.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Desktop\AppShell_Desktop.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Views/Desktop/DesktopView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Views.Desktop.DesktopView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Desktop\DesktopView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Desktop\DesktopView.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Views/Desktop/DesktopView_Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Views.Desktop.DesktopView_Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Desktop\DesktopView_Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Desktop\DesktopView_Home.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Views/Mobile/AppShell_Mobile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Views.Mobile.AppShell_Mobile.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mobile\AppShell_Mobile.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mobile\AppShell_Mobile.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Views/Mobile/MobileView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Views.Mobile.MobileView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mobile\MobileView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mobile\MobileView.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Views/Mobile/MobileView_Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Views.Mobile.MobileView_Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mobile\MobileView_Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mobile\MobileView_Home.xaml
+
+[D:/Projet_Licence/IOT_Controller/IOT Controller/Views/Mobile/MobileView_Setting.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.Views.Mobile.MobileView_Setting.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mobile\MobileView_Setting.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mobile\MobileView_Setting.xaml

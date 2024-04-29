@@ -1,0 +1,19 @@
+#Ignorer les fichiers de compilation et les binaires
+*.dll
+*.exe
+
+#Ignorer les fichiers d'environnemenr local 
+.env
+.vs
+
+#Ignorer les dependances externes
+/node_modules
+/packages
+
+#Ignorer les fichiers de sauvegarde et les fichiers temporaires
+*.bak
+*.temp
+
+#Ignorer les fichiers de logs
+/logs
+
