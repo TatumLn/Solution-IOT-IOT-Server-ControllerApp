@@ -1,23 +1,27 @@
+using Android.Views;
 using IOT_Controller.CarousselModels;
+using Java.Math;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Controls.Shapes;
 
 namespace IOT_Controller.Views.Mobile;
 
 public partial class MobileView_Home : ContentPage
 {
     public Grid grid;
-    public RowDefinition rowDefASupprimer;
+    public Border? ControlFrameBordure;
+    public RowDefinition rowDefADesactiver;
     public GridLength hauteurTemp;
     public RowDefinition nouveauRowDef;
     public RowDefinitionCollection rowDefinitions;
-    public Frame? monFrame;
+    public Frame? ControlFrame;
 
     public MobileView_Home()
 	{
         InitializeComponent();
         grid = monGrid;
-        rowDefASupprimer = monGrid.RowDefinitions[0];
-        hauteurTemp = rowDefASupprimer.Height;
+        rowDefADesactiver = monGrid.RowDefinitions[0];
+        hauteurTemp = rowDefADesactiver.Height;
         nouveauRowDef = new RowDefinition { Height = hauteurTemp };
         rowDefinitions = grid.RowDefinitions;
     }
@@ -25,12 +29,14 @@ public partial class MobileView_Home : ContentPage
     private void AfficherPlus(object sender, EventArgs e)
     {
         rowDefinitions.RemoveAt(0);// Supprimez le premier RowDefinition
-        // rowDefinitions[0].Height = new GridLength(1, GridUnitType.Star); // Modifiez la première définition de ligne
+                                   // rowDefinitions[0].Height = new GridLength(1, GridUnitType.Star); // Modifiez la première définition de ligne
+                                   // Déplacer les autres RowDefinitions d'un index vers le haut
+                                   // Sauvegarder les hauteurs d'origine de toutes les RowDefinitions
         //monLabel.SetValue(Grid.RowProperty, 1); // Déplace monLabelReunion à la deuxième ligne
         rowDefinitions.Add(nouveauRowDef);
 
         //Frames ou contrôles
-        var monStacklayout = new StackLayout
+        var ControlStacklayout = new StackLayout
             {
                 Orientation = StackOrientation.Horizontal,
                 HorizontalOptions = LayoutOptions.Center,
@@ -40,7 +46,7 @@ public partial class MobileView_Home : ContentPage
         // Créez une boucle pour ajouter plusieurs contrôles à Children
         for (int i = 0; i < 4; i++)
         {
-            monStacklayout.Children.Add(new Frame
+            ControlStacklayout.Children.Add(new Frame
             {
                 BackgroundColor = Color.FromArgb("#19CBC0"),
                 CornerRadius = 30,
@@ -78,29 +84,38 @@ public partial class MobileView_Home : ContentPage
                      }
         };
 
+        Mongrille.Children.Add(ControlStacklayout);
+        Mongrille.SetRow(ControlStacklayout, 0);
         Mongrille.Children.Add(button);
         Mongrille.SetRow(button, 3);
 
-        monFrame = new Frame
+        ControlFrame = new Frame
         {
             BorderColor = Colors.White,
-            // Autres propriétés
-            CornerRadius = 40,
+
             Content = Mongrille
-            
+
+        };
+
+        ControlFrameBordure = new Border
+        {
+            StrokeShape = new RoundRectangle
+            {
+                CornerRadius = new CornerRadius( 40, 40, 0, 0)
+           },
+           Content = ControlFrame,
         };
 
         // Ajoutez le Frame au Grid
-        grid.Children.Add(monFrame);
+        grid.Children.Add(ControlFrameBordure);
         // Définissez la position du Frame dans le Grid
-        Grid.SetRow(monFrame, monGrid.RowDefinitions.Count - 1); // Positionnez-le dans le dernier RowDefinition ajouté
+        Grid.SetRow(ControlFrameBordure, monGrid.RowDefinitions.Count - 1); // Positionnez-le dans le dernier RowDefinition ajouté
 
     }
 
     private void AfficherMoins()
     {
-        grid.Children.Remove(monFrame);
-        rowDefinitions.Insert(0, nouveauRowDef);
+        grid.Children.Remove(ControlFrameBordure);
 
     }
 }
