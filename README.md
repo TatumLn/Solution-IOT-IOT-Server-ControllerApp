@@ -1,7 +1,11 @@
 Solution-IOT-IOT-Server-ControllerApp 
+(Le projet se divise en trois partie (1)la partie simulation des IOT, (2)la partie serveur et (3)la partie application client).
 
-wokwi Simulation du projet : https://wokwi.com/projects/392675938703985665
+(1)-wokwi Simulation du projet : https://wokwi.com/projects/392675938703985665
 
-Server : NodeJs
+(2)-Server Proxy : NodeJs
 
-ControllerApp : MAUI C#
+(3)-ControllerApp : MAUI C# 
+(Module Nuget à installer: Newtonsoft.Json, AcrylicView.Maui)
+
+
