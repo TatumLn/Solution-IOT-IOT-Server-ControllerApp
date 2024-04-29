@@ -10,6 +10,7 @@ public partial class MobileView_Home : ContentPage
     public GridLength hauteurTemp;
     public RowDefinition nouveauRowDef;
     public RowDefinitionCollection rowDefinitions;
+    public Frame? monFrame;
 
     public MobileView_Home()
 	{
@@ -37,7 +38,7 @@ public partial class MobileView_Home : ContentPage
             };
 
         // Créez une boucle pour ajouter plusieurs contrôles à Children
-        for (int i = 0; i < 4; i++) // Remplacez 3 par le nombre de fois que vous voulez répéter
+        for (int i = 0; i < 4; i++)
         {
             monStacklayout.Children.Add(new Frame
             {
@@ -59,30 +60,34 @@ public partial class MobileView_Home : ContentPage
             WidthRequest = 80,
             HeightRequest = 40,
             VerticalOptions = LayoutOptions.End,
+            Command = new Command(() =>
+            {
+                AfficherMoins();
+            })
         };
 
-
-        //
-        var monFrame = new Frame
+        var Mongrille = new Grid
         {
-            BorderColor = Colors.White,
-            // Autres propriétés
-            CornerRadius = 40,
-            Content = new Grid
-            {
-                BackgroundColor = Colors.Blue,
-                RowDefinitions =
+            BackgroundColor = Colors.Transparent,
+            RowDefinitions =
                      {
                          new RowDefinition { Height = new GridLength(1, GridUnitType.Star) },
                          new RowDefinition { Height = new GridLength(1, GridUnitType.Star) },
                          new RowDefinition { Height = new GridLength(1, GridUnitType.Star) },
                          new RowDefinition { Height = new GridLength(1, GridUnitType.Star) }
-                     },
-                Children =
-                {
-                   
-                }
-            }
+                     }
+        };
+
+        Mongrille.Children.Add(button);
+        Mongrille.SetRow(button, 3);
+
+        monFrame = new Frame
+        {
+            BorderColor = Colors.White,
+            // Autres propriétés
+            CornerRadius = 40,
+            Content = Mongrille
+            
         };
 
         // Ajoutez le Frame au Grid
@@ -94,7 +99,8 @@ public partial class MobileView_Home : ContentPage
 
     private void AfficherMoins()
     {
-        //rowDefinitions.Insert(0, new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+        grid.Children.Remove(monFrame);
+        rowDefinitions.Insert(0, nouveauRowDef);
 
     }
 }
