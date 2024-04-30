@@ -7,5 +7,6 @@ Solution-IOT-IOT-Server-ControllerApp
 
 (3)-ControllerApp : MAUI C# 
 (Module Nuget à installer: Newtonsoft.Json, AcrylicView.Maui)
+(Figma AppDesign UI : https://www.figma.com/file/ILxpUJx6WR8OLF8cWRIHnM/Projet-IOT?type=design&node-id=97%3A39&mode=design&t=oqbx3p5hkmxnc6oU-1)
 
 
