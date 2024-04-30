@@ -24,11 +24,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-<<<<<<< HEAD:IOT_Controller/IOT Controller/obj/Debug/net8.0-android/designtime/build.props
-_nugetassetstimestamp=638500732349951483
-=======
-_nugetassetstimestamp=638500604769640080
->>>>>>> master:IOT_Controller/IOT_Controller/obj/Debug/net8.0-android/designtime/build.props
+_nugetassetstimestamp=638500734165309879
 typemapkind=strings-asm
 androidsupportedabis=armeabi-v7a;arm64-v8a;x86;x86_64
 androidmanifestplaceholders=

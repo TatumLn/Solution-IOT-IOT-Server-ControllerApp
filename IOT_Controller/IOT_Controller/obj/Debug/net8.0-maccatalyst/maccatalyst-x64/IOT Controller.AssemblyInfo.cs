@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD:IOT_Controller/IOT Controller/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/IOT Controller.AssemblyInfo.cs
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+278a3d13a2b7e02aede2dfb70e0cf41d283b2911")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+92316e2409305efa7ba2a120b2b0a26097196498")]
->>>>>>> master:IOT_Controller/IOT_Controller/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/IOT Controller.AssemblyInfo.cs
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+17134c44905f756fbfc534bf24454ebf52b61561")]
 [assembly: System.Reflection.AssemblyProductAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
