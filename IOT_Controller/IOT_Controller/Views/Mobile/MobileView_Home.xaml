@@ -12,7 +12,8 @@
             <CarouselView   
             AbsoluteLayout.LayoutFlags="All"
             AbsoluteLayout.LayoutBounds="0,0,1,1"
-            ItemsSource="{Binding BackgroundImages}">
+            ItemsSource="{Binding BackgroundImages}"
+            Position="{Binding Position}">
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <Image Source="{Binding}" 
@@ -52,7 +53,8 @@
                     </StackLayout>
                 </Frame>
                 <Label x:Name="monLabel"
-                       Grid.Row="1" Text="Reunion" 
+                       Grid.Row="1" 
+                       Text="{Binding PositionText}"
                        FontFamily="Italiana" 
                        FontSize="60" 
                        TextColor="#8C8888" 
@@ -78,7 +80,11 @@
                                WidthRequest="60">
                             <Label Text="{Binding Temperature}" 
                                    TextColor="White"
-                                   FontSize="Medium"/>
+                                   FontSize="Medium">
+                                <Label.BindingContext>
+                                    <viewModels:MainViewModel/>
+                                </Label.BindingContext>
+                             </Label>
                         </Frame>
                     </Border>
                     
@@ -96,7 +102,11 @@
                                WidthRequest="60">
                             <Label Text="{Binding Humidity}" 
                                    TextColor="White" 
-                                   FontSize="Medium"/>
+                                   FontSize="Medium">
+                                <Label.BindingContext>
+                                    <viewModels:MainViewModel/>
+                                </Label.BindingContext>
+                            </Label>
                         </Frame>
                     </Border>
 
@@ -113,7 +123,11 @@
                            WidthRequest="60">
                             <Label Text="{Binding Temperature}" 
                                TextColor="White" 
-                               FontSize="Medium"/>
+                               FontSize="Medium">
+                                <Label.BindingContext>
+                                    <viewModels:MainViewModel/>
+                                </Label.BindingContext>
+                            </Label>
                         </Frame>
                     </Border>
                 </StackLayout>
@@ -133,7 +147,8 @@
                                IndicatorSize="12"
                                ItemsSource="{Binding BackgroundImages}"
                                HorizontalOptions="Center"
-                               VerticalOptions="FillAndExpand"/>
+                               VerticalOptions="FillAndExpand"
+                               Position="{Binding Position}"/>
             </Grid>
             
         </AbsoluteLayout>
