@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const WebSocket = require('ws'); 
 const ngrok = require('@ngrok/ngrok');
-const mqtt = require('mqtt');
 const app = express();
 const port = 3000;
 

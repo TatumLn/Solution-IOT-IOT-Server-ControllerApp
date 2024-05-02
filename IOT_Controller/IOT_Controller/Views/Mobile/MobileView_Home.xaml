@@ -80,7 +80,11 @@
                                WidthRequest="60">
                             <Label Text="{Binding Temperature}" 
                                    TextColor="White"
-                                   FontSize="Medium"/>
+                                   FontSize="Medium">
+                                <Label.BindingContext>
+                                    <viewModels:MainViewModel/>
+                                </Label.BindingContext>
+                             </Label>
                         </Frame>
                     </Border>
                     
@@ -98,7 +102,11 @@
                                WidthRequest="60">
                             <Label Text="{Binding Humidity}" 
                                    TextColor="White" 
-                                   FontSize="Medium"/>
+                                   FontSize="Medium">
+                                <Label.BindingContext>
+                                    <viewModels:MainViewModel/>
+                                </Label.BindingContext>
+                            </Label>
                         </Frame>
                     </Border>
 
@@ -115,7 +123,11 @@
                            WidthRequest="60">
                             <Label Text="{Binding Temperature}" 
                                TextColor="White" 
-                               FontSize="Medium"/>
+                               FontSize="Medium">
+                                <Label.BindingContext>
+                                    <viewModels:MainViewModel/>
+                                </Label.BindingContext>
+                            </Label>
                         </Frame>
                     </Border>
                 </StackLayout>
