@@ -11,7 +11,7 @@ namespace IOT_Controller.CarousselModels
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        private string[] _pageTexts = { "Bureau", "Living", "Reunion", "" };
+        private string[] _pageTexts = { "Reunion", "Bureau", "Living", "" };
         public string PositionText
         {
             get { return _pageTexts[Position]; }
@@ -50,7 +50,7 @@ namespace IOT_Controller.CarousselModels
             BackgroundImages = new List<string>
             {
                 "sallereunion2.jpg",
-                "chambre.jpg",
+                "backgroundbureau.jpg",
                 "salon.jpg",
                 "backgroundsetting.jpg"
             };

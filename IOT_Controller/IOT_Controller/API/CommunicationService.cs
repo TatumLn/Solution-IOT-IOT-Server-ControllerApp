@@ -10,8 +10,10 @@ namespace IOT_Controller.API
 {
     class CommunicationService
     {
+
         private readonly ClientWebSocket _webSocket;
         private CancellationTokenSource _cancellationTokenSource;
+        public bool isConnected { get; private set; }
 
         public event EventHandler<DataReceivedEventArgs>? DataReceived;
 
@@ -28,13 +30,14 @@ namespace IOT_Controller.API
             try
             {
                 await _webSocket.ConnectAsync(uri, CancellationToken.None);
-
+                isConnected = true;
                 // Commencer à recevoir les données en boucle
                 await ReceiveLoop();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Erreur de connexion au WebSocket : " + ex.Message);
+                isConnected = false;
             }
         }
 

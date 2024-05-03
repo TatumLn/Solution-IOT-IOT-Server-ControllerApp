@@ -2182,3 +2182,4 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundbureau.jpg
