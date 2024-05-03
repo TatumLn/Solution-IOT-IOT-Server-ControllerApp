@@ -40,14 +40,12 @@ namespace IOT_Controller.ViewModels
                     Uri uri = new Uri("ws://localhost:3000"); // URL du serveur WebSocket
                     await _communicationService.ConnectWebSocket(uri);
                     // Mettre à jour ConnexionStatus en fonction de l'état de la connexion
-                    ConnectionStatus = _communicationService.isConnected ? "Connexion au serveur réussi!" : "Connexion au serveur échoué!";
+                    ConnectionStatus = _communicationService.IsConnected ? _communicationService.ConnectingMessage : _communicationService.ErrorMessage;
                 }
                 catch (Exception ex)
                 {
                     // Gérer toute exception survenue lors de la connexion au WebSocket
-                    Console.WriteLine("Une erreur est survenue lors de la connexion au WebSocket : " + ex.Message);
-                    // Si la connexion échoue, définir ConnectionStatus à "echoue"
-                    ConnectionStatus = "Connexion au serveur échoué!";
+                    ConnectionStatus = "Une erreur est survenue lors de la connexion au WebSocket : " + ex.Message;
             }
             });
         }
@@ -95,7 +93,7 @@ namespace IOT_Controller.ViewModels
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

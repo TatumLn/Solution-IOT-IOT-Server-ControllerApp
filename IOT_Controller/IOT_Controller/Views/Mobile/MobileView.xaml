@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:IOT_Controller.ViewModels"
+             xmlns:viewModels="clr-namespace:IOT_Controller.ViewModels"
              x:Class="IOT_Controller.Views.Mobile.MobileView"
              BackgroundColor="#19CBC0"
-             NavigationPage.HasNavigationBar="False"
-             BindingContext="{local:MainViewModel}">
+             NavigationPage.HasNavigationBar="False">
     
-    <ContentPage.Content>
+    <ContentPage.BindingContext>
+        <viewModels:MainViewModel/>
+    </ContentPage.BindingContext>
+
         <StackLayout>
             <Border StrokeThickness="4" Stroke="Transparent" >
                 <Label Text="{Binding ConnectionStatus}" 
-                       TextColor="White"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       TextColor="#FFD700"
                        HorizontalOptions="Center"/>
             </Border>
             <Label Text="Bienvenue!" 
@@ -54,7 +58,6 @@
                     CornerRadius="10"
                     Clicked="OnButtonClicked"/>
         </StackLayout>
-    </ContentPage.Content>
-    
+
 </ContentPage>
     

@@ -1,6 +1,7 @@
 using IOT_Controller.ViewModels;
 
-namespace IOT_Controller.Views.Mobile;
+namespace IOT_Controller.Views.Mobile
+{ 
 
 public partial class MobileView : ContentPage
 {
