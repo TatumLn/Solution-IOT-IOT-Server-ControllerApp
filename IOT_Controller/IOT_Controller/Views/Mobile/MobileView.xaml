@@ -10,7 +10,7 @@
         <viewModels:MainViewModel/>
     </ContentPage.BindingContext>
 
-        <StackLayout>
+    <StackLayout>
             <Border StrokeThickness="4" Stroke="Transparent" >
                 <Label Text="{Binding ConnectionStatus}" 
                        FontSize="Micro"
@@ -49,7 +49,7 @@
                        BackgroundColor="Transparent" 
                        IsPassword="True"/>
             </Frame>
-            <Button Text="VALIDER" 
+        <Button Text="VALIDER" 
                     TextColor="#1E1E1E" 
                     FontAttributes="Bold"
                     BackgroundColor="#FFD700" 
@@ -57,7 +57,7 @@
                     WidthRequest="100" 
                     CornerRadius="10"
                     Clicked="OnButtonClicked"/>
-        </StackLayout>
+    </StackLayout>
 
 </ContentPage>
     
