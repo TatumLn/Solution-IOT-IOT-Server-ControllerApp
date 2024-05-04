@@ -1,5 +1,6 @@
 ﻿using IOT_Controller.API;
 using Newtonsoft.Json.Linq;
+using DotNetEnv;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,15 +38,15 @@ namespace IOT_Controller.ViewModels
             {
                 try
                 {
-                    Uri uri = new Uri("ws://localhost:3000"); // URL du serveur WebSocket
+                    Uri uri = new Uri($"ws://{_ipAdress}:3000"); // URL du serveur WebSocket
                     await _communicationService.ConnectWebSocket(uri);
                     // Mettre à jour ConnexionStatus en fonction de l'état de la connexion
                     ConnectionStatus = _communicationService.IsConnected ? _communicationService.ConnectingMessage : _communicationService.ErrorMessage;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     // Gérer toute exception survenue lors de la connexion au WebSocket
-                    ConnectionStatus = "Une erreur est survenue lors de la connexion au WebSocket : " + ex.Message;
+                    ConnectionStatus = _communicationService.ErrorMessage;
             }
             });
         }
