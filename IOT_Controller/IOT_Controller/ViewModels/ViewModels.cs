@@ -1,11 +1,13 @@
 ﻿using IOT_Controller.API;
 using Newtonsoft.Json.Linq;
+using DotNetEnv;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace IOT_Controller.ViewModels
 {
@@ -13,6 +15,7 @@ namespace IOT_Controller.ViewModels
     {
 
         private readonly CommunicationService _communicationService;
+        private string? _ipAdress;
         private string? _connexionStatus;
         public string? ConnectionStatus
         {
@@ -26,6 +29,9 @@ namespace IOT_Controller.ViewModels
 
         public MainViewModel()
         {
+            string envFilePath = "./.env";
+            DotNetEnv.Env.Load(envFilePath);
+            _ipAdress = Environment.GetEnvironmentVariable("IP_ADDRESS");
             _communicationService = new CommunicationService();
             _communicationService.DataReceived += CommunicationService_DataReceived;
             _humidity = "";
@@ -37,17 +43,15 @@ namespace IOT_Controller.ViewModels
             {
                 try
                 {
-                    Uri uri = new Uri("ws://localhost:3000"); // URL du serveur WebSocket
+                    Uri uri = new Uri($"ws://{_ipAdress}:3000"); // URL du serveur WebSocket
                     await _communicationService.ConnectWebSocket(uri);
                     // Mettre à jour ConnexionStatus en fonction de l'état de la connexion
-                    ConnectionStatus = _communicationService.isConnected ? "Connexion au serveur réussi!" : "Connexion au serveur échoué!";
+                    ConnectionStatus = _communicationService.IsConnected ? _communicationService.ConnectingMessage : _communicationService.ErrorMessage;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     // Gérer toute exception survenue lors de la connexion au WebSocket
-                    Console.WriteLine("Une erreur est survenue lors de la connexion au WebSocket : " + ex.Message);
-                    // Si la connexion échoue, définir ConnectionStatus à "echoue"
-                    ConnectionStatus = "Connexion au serveur échoué!";
+                    ConnectionStatus = _communicationService.ErrorMessage;
             }
             });
         }
@@ -95,7 +99,7 @@ namespace IOT_Controller.ViewModels
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

@@ -4,25 +4,40 @@ using System.Linq;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
 
 namespace IOT_Controller.API
 {
-    class CommunicationService
+    public class CommunicationService
     {
-
         private readonly ClientWebSocket _webSocket;
         private CancellationTokenSource _cancellationTokenSource;
-        public bool isConnected { get; private set; }
-
+        public bool IsConnected { get; private set; }
         public event EventHandler<DataReceivedEventArgs>? DataReceived;
+        private string? _errorMessage;
+        private string? _connectingMessage;
 
         public CommunicationService()
         {
             _webSocket = new ClientWebSocket();
             _cancellationTokenSource = new CancellationTokenSource();
+        }
 
+        public string? ConnectingMessage
+        {
+            get { return _connectingMessage; }
+            private set
+            {
+                _connectingMessage = value;
+            }
+        }
 
+        public string? ErrorMessage
+        {
+            get { return _errorMessage; }
+            private set
+            {
+                _errorMessage = value;
+            }
         }
 
         public async Task ConnectWebSocket(Uri uri)
@@ -30,14 +45,15 @@ namespace IOT_Controller.API
             try
             {
                 await _webSocket.ConnectAsync(uri, CancellationToken.None);
-                isConnected = true;
+                ConnectingMessage = "Connexion au serveur réussi!";
+                IsConnected = true;
                 // Commencer à recevoir les données en boucle
                 await ReceiveLoop();
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Erreur de connexion au WebSocket : " + ex.Message);
-                isConnected = false;
+                ErrorMessage = "Erreur de connexion au WebSocket : " + ex.Message;
+                IsConnected = false;
             }
         }
 
