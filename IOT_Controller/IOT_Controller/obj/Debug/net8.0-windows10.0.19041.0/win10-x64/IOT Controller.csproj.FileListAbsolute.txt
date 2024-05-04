@@ -419,3 +419,16 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.190
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash00SplashScreen.scale-100.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash00SplashScreen.scale-125.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash00SplashScreen.scale-150.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash00SplashScreen.scale-200.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash00SplashScreen.scale-400.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashiSplashScreen.scale-100.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashiSplashScreen.scale-125.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashiSplashScreen.scale-150.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashiSplashScreen.scale-200.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashiSplashScreen.scale-400.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundjardin.scale-100.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotNetEnv.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sprache.dll

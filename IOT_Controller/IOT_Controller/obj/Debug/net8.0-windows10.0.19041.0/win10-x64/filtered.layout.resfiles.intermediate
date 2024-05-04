@@ -48,6 +48,7 @@ appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
 backgroundbureau.scale-100.jpg
+backgroundjardin.scale-100.jpg
 backgroundsetting.scale-100.jpg
 bluetooth.scale-100.png
 bluetooth.scale-125.png
@@ -94,4 +95,14 @@ iotyellowSplashScreen.scale-125.png
 iotyellowSplashScreen.scale-150.png
 iotyellowSplashScreen.scale-200.png
 iotyellowSplashScreen.scale-400.png
+splash00SplashScreen.scale-100.gif
+splash00SplashScreen.scale-125.gif
+splash00SplashScreen.scale-150.gif
+splash00SplashScreen.scale-200.gif
+splash00SplashScreen.scale-400.gif
+splashiSplashScreen.scale-100.gif
+splashiSplashScreen.scale-125.gif
+splashiSplashScreen.scale-150.gif
+splashiSplashScreen.scale-200.gif
+splashiSplashScreen.scale-400.gif
 AboutAssets.txt

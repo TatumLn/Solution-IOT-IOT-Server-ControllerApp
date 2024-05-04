@@ -2175,3 +2175,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundbureau.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable\splash00.gif
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable\splashi.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundjardin.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\DotNetEnv.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Sprache.dll

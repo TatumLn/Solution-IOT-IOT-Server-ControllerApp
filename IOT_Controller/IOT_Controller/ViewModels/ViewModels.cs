@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace IOT_Controller.ViewModels
 {
@@ -14,6 +15,7 @@ namespace IOT_Controller.ViewModels
     {
 
         private readonly CommunicationService _communicationService;
+        private string? _ipAdress;
         private string? _connexionStatus;
         public string? ConnectionStatus
         {
@@ -27,6 +29,9 @@ namespace IOT_Controller.ViewModels
 
         public MainViewModel()
         {
+            string envFilePath = "./.env";
+            DotNetEnv.Env.Load(envFilePath);
+            _ipAdress = Environment.GetEnvironmentVariable("IP_ADDRESS");
             _communicationService = new CommunicationService();
             _communicationService.DataReceived += CommunicationService_DataReceived;
             _humidity = "";

@@ -11,7 +11,7 @@ namespace IOT_Controller.CarousselModels
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        private string[] _pageTexts = { "Reunion", "Bureau", "Living", "" };
+        private string[] _pageTexts = { "Reunion", "Bureau", "Jardinage", "" };
         public string PositionText
         {
             get { return _pageTexts[Position]; }
@@ -51,7 +51,7 @@ namespace IOT_Controller.CarousselModels
             {
                 "sallereunion2.jpg",
                 "backgroundbureau.jpg",
-                "salon.jpg",
+                "backgroundjardin.jpg",
                 "backgroundsetting.jpg"
             };
             // Initialiser la page sélectionnée à 0 (première page)
