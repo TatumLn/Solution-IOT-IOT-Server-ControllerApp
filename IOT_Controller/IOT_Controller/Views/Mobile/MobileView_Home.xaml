@@ -83,6 +83,7 @@
                                WidthRequest="60">
                             <Label Text="{Binding Temperature}" 
                                    TextColor="White"
+                                   FontFamily="Inter"
                                    FontSize="Medium"
                                    FontAttributes="Bold"
                                    HorizontalOptions="Center"
@@ -106,8 +107,9 @@
                                Padding="10" 
                                HeightRequest="60" 
                                WidthRequest="60">
-                            <Label Text="{Binding Humidity}" 
+                            <Label Text="{Binding Luminosite}" 
                                    TextColor="White" 
+                                   FontFamily="Inter"
                                    FontSize="Medium"
                                    FontAttributes="Bold"
                                    HorizontalOptions="Center"
@@ -130,8 +132,9 @@
                            Padding="10" 
                            HeightRequest="60" 
                            WidthRequest="60">
-                            <Label Text="{Binding Temperature}" 
+                            <Label Text="{Binding Humidity}" 
                                TextColor="White" 
+                               FontFamily="Inter"
                                FontSize="Medium"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
