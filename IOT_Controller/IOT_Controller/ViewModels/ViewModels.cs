@@ -36,6 +36,7 @@ namespace IOT_Controller.ViewModels
             _communicationService.DataReceived += CommunicationService_DataReceived;
             _humidity = "";
             _temperature = "";
+            _luminosite = "";
             PropertyChanged = delegate { }; // Initialiser l'événement PropertyChanged
 
             // Connecter le WebSocket
@@ -43,7 +44,7 @@ namespace IOT_Controller.ViewModels
             {
                 try
                 {
-                    Uri uri = new Uri($"ws://{_ipAdress}:3000"); // URL du serveur WebSocket
+                    Uri uri = new Uri($"ws://192.168.0.200:3000"); // URL du serveur WebSocket
                     await _communicationService.ConnectWebSocket(uri);
                     // Mettre à jour ConnexionStatus en fonction de l'état de la connexion
                     ConnectionStatus = _communicationService.IsConnected ? _communicationService.ConnectingMessage : _communicationService.ErrorMessage;
@@ -66,10 +67,12 @@ namespace IOT_Controller.ViewModels
                 // Extraire la température et l'humidité du JSON
                 double temperature = responseJson.Value<double>("temperature");
                 double humidity = responseJson.Value<double>("humidity");
+                double luminosite = responseJson.Value<double>("luminosite");
 
                 // Mettre à jour les propriétés Temperature et Humidity
                 Temperature = temperature.ToString();
                 Humidity = humidity.ToString();
+                Luminosite = luminosite.ToString();
             }
             catch (Exception ex)
             {
@@ -96,6 +99,17 @@ namespace IOT_Controller.ViewModels
             {
                 _humidity = value;
                 OnPropertyChanged(nameof(Humidity));
+            }
+        }
+
+        private string _luminosite;
+        public string Luminosite
+        {
+            get { return _luminosite; }
+            set
+            {
+                _luminosite = value;
+                OnPropertyChanged(nameof(Luminosite));
             }
         }
 

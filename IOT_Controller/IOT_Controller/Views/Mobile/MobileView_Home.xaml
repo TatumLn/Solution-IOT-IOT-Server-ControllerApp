@@ -84,8 +84,7 @@
                             <Label Text="{Binding Temperature}" 
                                    TextColor="White"
                                    FontFamily="Inter"
-                                   FontSize="Medium"
-                                   FontAttributes="Bold"
+                                   FontSize="15"
                                    HorizontalOptions="Center"
                                    VerticalOptions="Center">
                                 <Label.BindingContext>
@@ -110,8 +109,7 @@
                             <Label Text="{Binding Luminosite}" 
                                    TextColor="White" 
                                    FontFamily="Inter"
-                                   FontSize="Medium"
-                                   FontAttributes="Bold"
+                                   FontSize="15"
                                    HorizontalOptions="Center"
                                    VerticalOptions="Center">
                                 <Label.BindingContext>
@@ -135,8 +133,7 @@
                             <Label Text="{Binding Humidity}" 
                                TextColor="White" 
                                FontFamily="Inter"
-                               FontSize="Medium"
-                               FontAttributes="Bold"
+                               FontSize="15"
                                HorizontalOptions="Center"
                                VerticalOptions="Center">
                                 <Label.BindingContext>
