@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0537bbfc5caf9b58efef701d12ceea3dd6f5a688")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ed8ef7960694558928fb644224c84b5ab7c103cf")]
->>>>>>> TatumLn
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+96c2c7bce13a00cfac92bf521dde4e9db168a350")]
 [assembly: System.Reflection.AssemblyProductAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

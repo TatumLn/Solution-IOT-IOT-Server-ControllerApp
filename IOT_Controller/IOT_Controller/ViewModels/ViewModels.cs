@@ -48,7 +48,7 @@ namespace IOT_Controller.ViewModels
             {
                 try
                 {
-                    Uri uri = new Uri($"ws://192.168.0.200:3000"); // URL du serveur WebSocket
+                    Uri uri = new Uri($"ws://{_ipAdress}:3000"); // URL du serveur WebSocket
                     await _communicationService.ConnectWebSocket(uri);
                     // Mettre à jour ConnexionStatus en fonction de l'état de la connexion
                     ConnectionStatus = _communicationService.IsConnected ? _communicationService.ConnectingMessage : _communicationService.ErrorMessage;
