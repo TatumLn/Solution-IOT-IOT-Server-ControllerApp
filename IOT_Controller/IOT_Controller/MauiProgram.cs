@@ -16,6 +16,7 @@ namespace IOT_Controller
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("Italiana-Regular.ttf", "Italiana");
+                    fonts.AddFont("Inter-Regular.ttf", "Inter");
                 });
 
 #if DEBUG

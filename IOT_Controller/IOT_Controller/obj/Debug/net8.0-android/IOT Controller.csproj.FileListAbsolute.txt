@@ -2178,3 +2178,10 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizet
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundjardin.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\DotNetEnv.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Sprache.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\Inter-Regular.otf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\Inter-Regular.ttf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\setting.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\setting.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\setting.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\setting.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\setting.png
