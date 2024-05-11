@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 
 namespace IOT_Controller.ViewModels
 {
@@ -37,6 +38,9 @@ namespace IOT_Controller.ViewModels
             _humidity = "";
             _temperature = "";
             _luminosite = "";
+            _climActif = "";
+            _deshumidActif = "";
+            _lumiereActif = "";
             PropertyChanged = delegate { }; // Initialiser l'événement PropertyChanged
 
             // Connecter le WebSocket
@@ -68,11 +72,18 @@ namespace IOT_Controller.ViewModels
                 double temperature = responseJson.Value<double>("temperature");
                 double humidity = responseJson.Value<double>("humidity");
                 double luminosite = responseJson.Value<double>("luminosite");
+                string? climActif = responseJson.Value<string>("climActif");
+                string? deshumidActif = responseJson.Value<string>("deshumidActif");
+                string? lumiereActif = responseJson.Value<string>("lumiereActif");
 
                 // Mettre à jour les propriétés Temperature et Humidity
                 Temperature = temperature.ToString();
                 Humidity = humidity.ToString();
                 Luminosite = luminosite.ToString();
+                ClimActif = climActif??("Null");
+                DeshumidActif = deshumidActif??("Null");
+                LumiereActif = lumiereActif ?? ("Null");
+
             }
             catch (Exception ex)
             {
@@ -84,39 +95,60 @@ namespace IOT_Controller.ViewModels
         public string Temperature
         {
             get { return _temperature; }
-            set
-            {
-                _temperature = value;
-                OnPropertyChanged(nameof(Temperature));
-            }
+            set { SetProperty(ref _temperature, value); }
         }
 
         private string _humidity;
         public string Humidity
         {
             get { return _humidity; }
-            set
-            {
-                _humidity = value;
-                OnPropertyChanged(nameof(Humidity));
-            }
+            set { SetProperty(ref _humidity, value); }
         }
 
         private string _luminosite;
         public string Luminosite
         {
             get { return _luminosite; }
-            set
-            {
-                _luminosite = value;
-                OnPropertyChanged(nameof(Luminosite));
-            }
+            set { SetProperty(ref _luminosite, value); }
         }
+
+        private string _climActif;
+        public string ClimActif
+        {
+            get => _climActif;
+            set { SetProperty(ref _climActif, value); }
+        }
+
+        private string _deshumidActif;
+        public string DeshumidActif
+        {
+            get => _deshumidActif;
+            set { SetProperty(ref _deshumidActif, value); }
+        }
+
+        private string _lumiereActif;
+        public string LumiereActif
+        {
+            get => _lumiereActif;
+            set { SetProperty(ref _lumiereActif, value); }
+        }
+
 
         public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+        protected bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string propertyName = "")
+        {
+            if (Equals(storage, value))
+            {
+                return false;
+            }
+
+            storage = value;
+            OnPropertyChanged(propertyName);
+            return true;
         }
     }
 }

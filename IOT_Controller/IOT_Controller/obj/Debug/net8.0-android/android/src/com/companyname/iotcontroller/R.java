@@ -11605,14 +11605,15 @@ public final class R {
     public static final int power=0x7f0700ee;
     public static final int sallereunion2=0x7f0700ef;
     public static final int salon=0x7f0700f0;
-    public static final int smileyellow=0x7f0700f1;
-    public static final int splash=0x7f0700f2;
-    public static final int splash00=0x7f0700f3;
-    public static final int splashi=0x7f0700f4;
-    public static final int test_level_drawable=0x7f0700f5;
-    public static final int tooltip_frame_dark=0x7f0700f6;
-    public static final int tooltip_frame_light=0x7f0700f7;
-    public static final int wifi=0x7f0700f8;
+    public static final int setting=0x7f0700f1;
+    public static final int smileyellow=0x7f0700f2;
+    public static final int splash=0x7f0700f3;
+    public static final int splash00=0x7f0700f4;
+    public static final int splashi=0x7f0700f5;
+    public static final int test_level_drawable=0x7f0700f6;
+    public static final int tooltip_frame_dark=0x7f0700f7;
+    public static final int tooltip_frame_light=0x7f0700f8;
+    public static final int wifi=0x7f0700f9;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
