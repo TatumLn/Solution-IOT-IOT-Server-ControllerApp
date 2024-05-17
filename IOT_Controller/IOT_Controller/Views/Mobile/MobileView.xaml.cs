@@ -1,4 +1,4 @@
-using IOT_Controller.ViewModels;
+using IOT_Controller.ControllersModels;
 
 namespace IOT_Controller.Views.Mobile
 { 

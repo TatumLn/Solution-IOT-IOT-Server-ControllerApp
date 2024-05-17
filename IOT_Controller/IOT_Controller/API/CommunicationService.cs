@@ -78,6 +78,25 @@ namespace IOT_Controller.API
             }
         }
 
+        public async Task SendDesactivationCommand()
+        {
+            try
+            {
+                // Construire la commande de désactivation
+                string desactivationCommand = "disactiver"; // Exemple de commande de désactivation du climatiseur
+
+                // Convertir la commande en tableau de bytes
+                byte[] commandBytes = Encoding.UTF8.GetBytes(desactivationCommand);
+
+                // Envoyer la commande au serveur via WebSocket
+                await _webSocket.SendAsync(new ArraySegment<byte>(commandBytes), WebSocketMessageType.Text, true, CancellationToken.None);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erreur lors de l'envoi de la commande de désactivation : " + ex.Message);
+            }
+        }
+
         private void OnDataReceived(string data)
         {
             DataReceived?.Invoke(this, new DataReceivedEventArgs(data));
@@ -90,13 +109,13 @@ namespace IOT_Controller.API
         }
     }
 
-    public class DataReceivedEventArgs : EventArgs
-    {
-        public string Data { get; }
-
-        public DataReceivedEventArgs(string data)
+        public class DataReceivedEventArgs : EventArgs
         {
-            Data = data;
+            public string Data { get; }
+
+            public DataReceivedEventArgs(string data)
+            {
+                Data = data;
+            }
         }
-    }
 }

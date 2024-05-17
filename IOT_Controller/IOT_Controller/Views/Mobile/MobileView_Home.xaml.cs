@@ -1,10 +1,10 @@
 
-using IOT_Controller.CarousselModels;
+using IOT_Controller.ControllersModels;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.Shapes;
-using IOT_Controller.ViewModels;
+using IOT_Controller.ViewsModels;
 
 namespace IOT_Controller.Views.Mobile;
 
