@@ -1,4 +1,5 @@
 ﻿using IOT_Controller.Views.Mobile;
+using IOT_Controller.ControllersModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,8 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using IOT_Controller;
 using System.Globalization;
+using System.Collections.ObjectModel;
+using System.Windows.Input;
+using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
 
-namespace IOT_Controller.CarousselModels
+namespace IOT_Controller.ViewsModels
 {
     public class CarrouselModels : INotifyPropertyChanged
     {
@@ -78,11 +82,11 @@ namespace IOT_Controller.CarousselModels
 
     public class IndicatorTemplateSelector : DataTemplateSelector
     {
-        public DataTemplate DefaultIndicator { get; set; }
-        public DataTemplate LastIndicator { get; set; }
-        protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
+        public DataTemplate? DefaultIndicator { get; set; }
+        public DataTemplate? LastIndicator { get; set; }
+        protected override DataTemplate? OnSelectTemplate(object item, BindableObject container)
         {
-                return ((CarrouselModels)item).IsLast? LastIndicator : DefaultIndicator;
+            return ((CarrouselModels)item).IsLast ? LastIndicator : DefaultIndicator;
         }
     }
 }
