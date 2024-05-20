@@ -3,6 +3,7 @@
 <ResourceDictionary 
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    
 
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
@@ -428,5 +429,49 @@
         <Setter Property="BackgroundColor" Value="Transparent" />
         <Setter Property="HasShadow" Value="True" />
     </Style>
+    
+    <!--Ressource Personnaliser-->
+
+    <Style TargetType="Button" x:Key="BouttonStyle1">
+        <Setter Property="TextColor" Value="#8C8888"/>
+        <Setter Property="BackgroundColor" Value="#EAFD0E"/>
+        <Setter Property="BorderColor" Value="#D9D9D9"/>
+        <Setter Property="WidthRequest" Value="80"/>
+        <Setter Property="HeightRequest" Value="40"/>
+    </Style>
+
+    <ControlTemplate x:Key="TemplateBarDeProgressionCirculaire">
+
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="TemplateTroisIndicateur">
+        <Border HeightRequest="{Binding Source={x:Reference frame}, Path=HeightRequest}"
+            WidthRequest="{Binding Source={x:Reference frame}, Path=WidthRequest}"
+            StrokeShape="RoundRectangle 40"
+            Stroke="#D9D9D9"
+            StrokeThickness="7">
+            <Frame x:Name="frame"
+               CornerRadius="40" 
+               BackgroundColor="#19CBC0" 
+               Padding="10" 
+               HeightRequest="70" 
+               WidthRequest="70"
+               BindingContext="{TemplateBinding FrameBindingContext}">
+                <Label Text="{Binding Source={x:Reference frame}, Path=BindingContext.AlternativeValue}"
+                   TextColor="White"
+                   FontFamily="Inter"
+                   FontSize="15"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                    <Label.Triggers>
+                        <DataTrigger TargetType="Label" 
+                                Binding="{TemplateBinding IsTriggered}">
+                            <Setter Property="TextColor" Value="OrangeRed"/>
+                        </DataTrigger>
+                    </Label.Triggers>
+                </Label>
+            </Frame>
+        </Border>
+    </ControlTemplate>
 
 </ResourceDictionary>

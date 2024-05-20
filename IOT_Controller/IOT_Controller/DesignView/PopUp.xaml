@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IOT_Controller.ControllersModels"
+             xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
+             x:Class="IOT_Controller.DesignView.PopUp">
+
+    <AbsoluteLayout BackgroundColor="#80000000">
+        <!-- Semi-transparent background -->
+        <Border AbsoluteLayout.LayoutBounds="0, 370, 395, 400" 
+                AbsoluteLayout.LayoutFlags="None"
+                StrokeShape="RoundRectangle 40,40,0,0"
+                BackgroundColor="White" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0"
+                       Text="Appareils disponible"
+                       FontFamily="Inter"
+                       FontSize="15"
+                       Margin="6"
+                       HorizontalOptions="Center"/>
+
+                <ScrollView Grid.Row="1"
+                            Orientation="Horizontal" 
+                            HorizontalOptions="Center">
+                    <!-- Boutons -->
+                    <CollectionView ItemsSource="{Binding ButtonList}">
+                        <CollectionView.ItemsLayout>
+                            <GridItemsLayout Orientation="Horizontal" 
+                                             HorizontalItemSpacing="20"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView VerticalOptions="Center">
+                                    <Border BackgroundColor="Black"
+                                            StrokeShape="RoundRectangle 40"
+                                            HeightRequest="70"
+                                            WidthRequest="70">
+                                        <ImageButton Source="{Binding ButtonImage}"
+                                                     HeightRequest="45"
+                                                     Command="{Binding ButtonCommand}" 
+                                                     CommandParameter="{Binding ButtonIndex}"
+                                                     VerticalOptions="Center"/>
+                                    </Border>
+                                </ContentView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                        <CollectionView.BindingContext>
+                            <local:ContenuPopUp/>
+                        </CollectionView.BindingContext>
+                    </CollectionView>
+                </ScrollView>
+
+                <Frame Grid.Row="2"
+                       Padding="0"
+                       HeightRequest="160"
+                       WidthRequest="360"
+                       BorderColor="Transparent">
+                            <!--<Label Text="{Binding SelectedContent}" 
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"-->
+                    <VerticalStackLayout>
+                        <viewModels:TemplateReglageAppareil/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Button Style="{StaticResource BouttonStyle1}"
+                        Grid.Row="3"
+                        Text="Fermer"
+                        Clicked="FermeturePopup"/>
+
+            </Grid>
+        </Border>
+    </AbsoluteLayout>
+
+</ContentView>
+    

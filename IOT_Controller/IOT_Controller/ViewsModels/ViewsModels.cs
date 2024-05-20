@@ -24,7 +24,6 @@ namespace IOT_Controller.ViewsModels
             get { return _pageTexts[Position]; }
         }
 
-
         private List<string> _backgroundImages = new List<string>();
         public List<string> BackgroundImages
         {
@@ -36,6 +35,8 @@ namespace IOT_Controller.ViewsModels
                 OnPropertyChanged(nameof(IsLast));
             }
         }
+
+        public ObservableCollection<string> BtnImgHeader { get; set; }
 
         private int _position;
         public int Position
@@ -53,11 +54,22 @@ namespace IOT_Controller.ViewsModels
             }
         }
 
+        private bool _isPopupVisible;
+        public bool IsPopupVisible
+        {
+            get => _isPopupVisible;
+            set
+            {
+                _isPopupVisible = value;
+                OnPropertyChanged(nameof(IsPopupVisible));
+            }
+        }
+
         // Propriété pour l'IndicatorTemplate
         public IndicatorTemplateSelector? IndicatorTemplate { get; private set; }
         public CarrouselModels()
         {
-            // Initialisez la liste d'URLs d'images de fond
+            // Initialisation d la liste d'URLs d'images de fond
             BackgroundImages = new List<string>
             {
                 "sallereunion2.jpg",
@@ -65,8 +77,20 @@ namespace IOT_Controller.ViewsModels
                 "backgroundjardin.jpg",
                 "backgroundsetting.jpg"
             };
-            // Initialiser la page sélectionnée à 0 (première page)
+
+            // Initialisation de la page sélectionnée à 0 (première page)
             Position = 0;
+
+            // Initialisation de l'image des boutons
+            BtnImgHeader = new ObservableCollection<string>
+            {
+                "notification.svg",
+                "power.svg"
+            };
+
+            //Initialisation du Popup
+            IsPopupVisible = false;
+
         }
 
         public bool IsLast
@@ -78,7 +102,9 @@ namespace IOT_Controller.ViewsModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    }
+
+
+}
 
     public class IndicatorTemplateSelector : DataTemplateSelector
     {
