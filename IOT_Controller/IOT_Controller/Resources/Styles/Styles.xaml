@@ -440,38 +440,4 @@
         <Setter Property="HeightRequest" Value="40"/>
     </Style>
 
-    <ControlTemplate x:Key="TemplateBarDeProgressionCirculaire">
-
-    </ControlTemplate>
-
-    <ControlTemplate x:Key="TemplateTroisIndicateur">
-        <Border HeightRequest="{Binding Source={x:Reference frame}, Path=HeightRequest}"
-            WidthRequest="{Binding Source={x:Reference frame}, Path=WidthRequest}"
-            StrokeShape="RoundRectangle 40"
-            Stroke="#D9D9D9"
-            StrokeThickness="7">
-            <Frame x:Name="frame"
-               CornerRadius="40" 
-               BackgroundColor="#19CBC0" 
-               Padding="10" 
-               HeightRequest="70" 
-               WidthRequest="70"
-               BindingContext="{TemplateBinding FrameBindingContext}">
-                <Label Text="{Binding Source={x:Reference frame}, Path=BindingContext.AlternativeValue}"
-                   TextColor="White"
-                   FontFamily="Inter"
-                   FontSize="15"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center">
-                    <Label.Triggers>
-                        <DataTrigger TargetType="Label" 
-                                Binding="{TemplateBinding IsTriggered}">
-                            <Setter Property="TextColor" Value="OrangeRed"/>
-                        </DataTrigger>
-                    </Label.Triggers>
-                </Label>
-            </Frame>
-        </Border>
-    </ControlTemplate>
-
 </ResourceDictionary>
