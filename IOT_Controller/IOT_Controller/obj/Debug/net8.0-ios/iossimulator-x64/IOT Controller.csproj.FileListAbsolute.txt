@@ -662,3 +662,20 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulato
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\IOT Controller.pdb
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\IOT Controller.genruntimeconfig.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\ref\IOT Controller.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\iotyellow_271EE5E6B499869BE9E40C1CC6836BA9E97BE5102ED1F59CD530C2996C79929D.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\iotyellow_271EE5E6B499869BE9E40C1CC6836BA9E97BE5102ED1F59CD530C2996C79929D@2x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\iotyellow_271EE5E6B499869BE9E40C1CC6836BA9E97BE5102ED1F59CD530C2996C79929D@3x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\setting@3x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\setting@2x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\setting.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\deshumidificateur_icon@3x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\deshumidificateur_icon@2x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\deshumidificateur_icon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\backgroundjardin.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\led_icon@3x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\led_icon@2x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\led_icon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\climatiseur_icon@3x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\climatiseur_icon@2x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\climatiseur_icon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\Inter-Regular.ttf

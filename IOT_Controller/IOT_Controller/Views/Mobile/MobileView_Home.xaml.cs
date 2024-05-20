@@ -5,28 +5,32 @@ using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.Shapes;
 using IOT_Controller.ViewsModels;
+using IOT_Controller.DesignView;
+using System.ComponentModel;
+using CommunityToolkit.Maui.Views;
 
 namespace IOT_Controller.Views.Mobile;
 
 public partial class MobileView_Home : ContentPage
 {
     public double MaxY { get; set; }
-    // Propriété pour l'IndicatorTemplate
+    private CarrouselModels _popup;
+
     public MobileView_Home()
 	{
         InitializeComponent();
-        // Calculez la valeur maximale de Y
-        MaxY = absoluteLayout.Height - PopUpFrame.Height;
+        _popup = (CarrouselModels)BindingContext;
+        popup.Fermer += FermeturePopup;
     }
 
-    private void AfficherPlus(object sender, EventArgs e)
+    private void AfficherPopup(object sender, EventArgs e)
     {
-        PopUpFrame.IsVisible = true;
+        _popup.IsPopupVisible = true;
     }
 
-    private void AfficherMoins(object sender, EventArgs e)
+    private void FermeturePopup(object? sender, EventArgs e)
     {
-        PopUpFrame.IsVisible = false;
+        _popup.IsPopupVisible = false;
     }
 
 }
