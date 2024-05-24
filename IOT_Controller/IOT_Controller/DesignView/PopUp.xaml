@@ -62,10 +62,6 @@
                        HeightRequest="160"
                        WidthRequest="360"
                        BorderColor="Transparent">
-                            <!--<Label Text="{Binding SelectedContent}" 
-                    TextColor="Black"
-                    HorizontalOptions="Center"
-                    VerticalOptions="CenterAndExpand"-->
                     <VerticalStackLayout>
                         <viewModels:TemplateReglageAppareil/>
                     </VerticalStackLayout>

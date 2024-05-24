@@ -12,16 +12,30 @@
 
     <ContentPage.Resources>
         <!--Modele-->
+        <DataTemplate x:Key="DefaultTemplate">
+            <Image Source="{Binding}" Aspect="AspectFill" />
+        </DataTemplate>
+        
+        <DataTemplate x:Key="settingPage">
+            <viewModels:SettingPageUI/>
+        </DataTemplate>
+        
         <DataTemplate x:Key="default">
             <Frame WidthRequest="10" HeightRequest="10" BackgroundColor="#D9D9D9" CornerRadius="5"/>
         </DataTemplate>
-        <DataTemplate x:Key="last">
+
+        <DataTemplate x:Key="settingIndicateur">
             <Image Source="setting.svg" WidthRequest="10" HeightRequest="10"/>
         </DataTemplate>
+
         <!--Selecteur de modele-->
-        <local:IndicatorTemplateSelector x:Key="indicatorTemplateSelector" 
-                                         DefaultIndicator="{StaticResource default}"
-                                         LastIndicator="{StaticResource last}"/>
+        <!-- Selecteur de modèle de données -->
+        <local:SettingTemplateSelector x:Key="CarouselTemplateSelector"
+                                            DefaultTemplate="{StaticResource DefaultTemplate}"
+                                            LastPageTemplate="{StaticResource settingPage}" />
+        <local:SettingIndicatorSelector x:Key="IndicateurTemplateSelector" 
+                                         DefaultIndicateur="{StaticResource default}"
+                                         LastIndicateur="{StaticResource settingIndicateur}"/>
     </ContentPage.Resources>
 
     <ContentPage.Content>
@@ -30,17 +44,15 @@
             AbsoluteLayout.LayoutFlags="All"
             AbsoluteLayout.LayoutBounds="0,0,1,1"
             ItemsSource="{Binding BackgroundImages}"
+            ItemTemplate="{StaticResource CarouselTemplateSelector}"
             Position="{Binding Position}">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <Image Source="{Binding}" 
-                           Aspect="AspectFill" />
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
             </CarouselView>
+
             <Grid x:Name="monGrid" 
+                  IsVisible="{Binding IsDefaultPage}"
                   AbsoluteLayout.LayoutFlags="All"
                   AbsoluteLayout.LayoutBounds="0,0,1,1">
+                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="85"/>
@@ -48,22 +60,38 @@
                     <RowDefinition Height="10"/>
                     <RowDefinition Height="90"/>
                     <RowDefinition Height="30"/>
+                    
                 </Grid.RowDefinitions>
+                
                 <Grid x:Name="HeaderFrame" 
                        Grid.Row="0">
+                    
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
+
                     <StackLayout Grid.Column="0"
                                  Margin="0,20,0,0">
-                        <Label Text=" 03 Appareil : 0 Actif"
-                               TextColor="White"
+                        <Label TextColor="White"
                                FontFamily="Inter"
                                FontSize="15"
                                Margin="10,8"
                                HorizontalOptions="Start"
-                               VerticalOptions="Start"/>
+                               VerticalOptions="Start">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{Binding NbrDevice}" 
+                                          TextColor="OrangeRed"/>
+                                    <Span Text=" Appareil : " 
+                                          TextColor="White"/>
+                                    <Span Text="{Binding NbrBtnActive}"
+                                          TextColor="OrangeRed"/>
+                                    <Span Text=" Actif" 
+                                          TextColor="White"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal"
                                  Grid.Column="1"
@@ -71,13 +99,13 @@
                                  HorizontalOptions="EndAndExpand"
                                  Spacing="12">
                         <CollectionView ItemsSource="{Binding BtnImgHeader}">
-                                <CollectionView.ItemsLayout>
-                                    <GridItemsLayout Orientation="Horizontal"
+                            <CollectionView.ItemsLayout>
+                                <GridItemsLayout Orientation="Horizontal"
                                                      HorizontalItemSpacing="5"/>
-                                </CollectionView.ItemsLayout>
-                                <CollectionView.ItemTemplate>
-                                    <DataTemplate>
-                                        <Border StrokeShape="RoundRectangle 40"
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border StrokeShape="RoundRectangle 40"
                                                 BackgroundColor="#D9D9D9"
                                                 VerticalOptions="Start"
                                                 HeightRequest="35"
@@ -85,9 +113,9 @@
                                         <ImageButton Source="{Binding}"
                                                      HeightRequest="22"
                                                      VerticalOptions="Center" />
-                                        </Border>
-                                    </DataTemplate>
-                                </CollectionView.ItemTemplate>
+                                    </Border>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
                         </CollectionView>
                     </StackLayout>
                 </Grid>
@@ -112,20 +140,19 @@
                         Text="Ajuster"
                         VerticalOptions="FillAndExpand"
                         Clicked="AfficherPopup"/>
-
-                <IndicatorView Grid.Row="5"
-                               x:Name="indicateur"
-                               IndicatorColor="#1E1E1E47"
-                               SelectedIndicatorColor="#EAFD0E"
-                               IndicatorSize="12"
-                               ItemsSource="{Binding BackgroundImages}"
-                               HorizontalOptions="Center"
-                               VerticalOptions="FillAndExpand"
-                               Position="{Binding Position}">
-                    <!--IndicatorTemplate="{StaticResource indicatorTemplateSelector}"-->
-                </IndicatorView>
             </Grid>
 
+            <IndicatorView x:Name="indicateur"
+                           AbsoluteLayout.LayoutFlags="None"
+                           AbsoluteLayout.LayoutBounds="160,700,100,15"
+                               IndicatorColor="#1E1E1E47"
+                               SelectedIndicatorColor="#EAFD0E"
+                               IndicatorSize="10"
+                               ItemsSource="{Binding BackgroundImages}"
+                               Position="{Binding Position}"
+                               VerticalOptions="FillAndExpand">
+                <!--IndicatorTemplate="{StaticResource IndicateurTemplateSelector}"-->
+            </IndicatorView>
             <!-- Popup (initialement invisible) -->
             <viewModels:PopUp x:Name="popup" IsVisible="{Binding IsPopupVisible}"/>
 

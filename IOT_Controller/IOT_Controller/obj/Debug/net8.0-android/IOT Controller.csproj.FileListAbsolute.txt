@@ -1630,7 +1630,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86.ll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\AndroidManifest.xml
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\AndroidManifest.xml
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -1640,7 +1639,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\static.flag
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\__environment__.txt
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\buildid.txt
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86.ll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -2142,13 +2140,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\packaged_resources
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\com\companyname\iotcontroller\R.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86.ll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\marshal_methods.x86.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\jni_remap.x86.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\classes.dex
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\classes2.dex
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -2208,3 +2199,12 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiSemanticOrderView.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc648fc34c62be8fbbff\Snackbar_SnackbarCallback.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64d6358e7bf64fbac4\SpeechToTextImplementation_SpeechRecognitionListener.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86_64.ll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so

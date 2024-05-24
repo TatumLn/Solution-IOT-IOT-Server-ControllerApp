@@ -19,7 +19,13 @@ namespace IOT_Controller.ControllersModels
     {
 
         protected readonly CommunicationService _communicationService;
-        public ObservableCollection<CapteurData> CapteurDataCollection { get; }
+
+        private CapteurData? _capteurData;
+        public CapteurData CapteurData
+        {
+            get { return _capteurData; }
+            set { SetProperty(ref _capteurData, value); }
+        }
 
         private string? _ipAdress;
         private string? _connexionStatus;
@@ -35,7 +41,7 @@ namespace IOT_Controller.ControllersModels
 
         public MainViewModel()
         {
-            CapteurDataCollection = new ObservableCollection<CapteurData>();
+            CapteurData = new CapteurData();
             string envFilePath = "./.env";
             DotNetEnv.Env.Load(envFilePath);
             _ipAdress = Environment.GetEnvironmentVariable("IP_ADDRESS");
@@ -48,10 +54,11 @@ namespace IOT_Controller.ControllersModels
             {
                 try
                 {
-                    Uri uri = new Uri($"ws:// 192.168.0.200:3000"); //
+                    Uri uri = new Uri($"ws://192.168.0.200:3000"); //
                     await _communicationService.ConnectWebSocket(uri);
                     // Etat de la connexion
                     ConnectionStatus = _communicationService.IsConnected ? _communicationService.ConnectingMessage : _communicationService.ErrorMessage;
+     
                 }
                 catch (Exception)
                 {
@@ -67,16 +74,12 @@ namespace IOT_Controller.ControllersModels
             {
                 // Désérialiser les données JSON
                 JObject responseJson = JObject.Parse(e.Data);
-                var _capteurData = new CapteurData
-                {
-                    Temperature = responseJson.Value<double>("temperature").ToString(),
-                    Humidity = responseJson.Value<double>("humidity").ToString(),
-                    Luminosite = responseJson.Value<double>("luminosite").ToString(),
-                    ClimActif = responseJson.Value<string>("climActif") ?? "Null",
-                    DeshumidActif = responseJson.Value<string>("deshumidActif") ?? "Null",
-                    LumiereActif = responseJson.Value<string>("lumiereActif") ?? "Null"
-                };
-                CapteurDataCollection.Add(_capteurData);
+                CapteurData.Temperature = responseJson.Value<double>("temperature").ToString();
+                CapteurData.Humidity = responseJson.Value<double>("humidity").ToString();
+                CapteurData.Luminosite = responseJson.Value<double>("luminosite").ToString();
+                CapteurData.ClimActif = responseJson.Value<string>("climActif") ?? "Null";
+                CapteurData.DeshumidActif = responseJson.Value<string>("deshumidActif") ?? "Null";
+                CapteurData.LumiereActif = responseJson.Value<string>("lumiereActif") ?? "Null";
             }
             catch (Exception ex)
             {

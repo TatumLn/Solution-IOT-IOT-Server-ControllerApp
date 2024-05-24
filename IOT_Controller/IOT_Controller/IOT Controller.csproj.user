@@ -21,19 +21,13 @@
     <MauiXaml Update="DesignView\TroisCercleIndicateur.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Desktop\AppShell_Desktop.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Views\Desktop\DesktopView_Home.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Desktop\DesktopView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Mobile\AppShell_Mobile.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Views\Mobile\MobileView_Setting.xaml">
+    <MauiXaml Update="DesignView\SettingPageUI.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Mobile\MobileView_Home.xaml">

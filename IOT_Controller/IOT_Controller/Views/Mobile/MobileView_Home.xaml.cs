@@ -25,7 +25,12 @@ public partial class MobileView_Home : ContentPage
 
     private void AfficherPopup(object sender, EventArgs e)
     {
-        _popup.IsPopupVisible = true;
+        // Logique pour afficher le popup
+        var viewModel = BindingContext as CarrouselModels;
+        if (viewModel != null)
+        {
+            viewModel.IsPopupVisible = true;
+        }
     }
 
     private void FermeturePopup(object? sender, EventArgs e)

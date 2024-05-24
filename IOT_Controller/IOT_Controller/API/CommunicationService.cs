@@ -78,6 +78,17 @@ namespace IOT_Controller.API
             }
         }
 
+        private void OnDataReceived(string data)
+        {
+            DataReceived?.Invoke(this, new DataReceivedEventArgs(data));
+        }
+
+        public async Task DisconnectWebSocket()
+        {
+            _cancellationTokenSource.Cancel();
+            await _webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Fermeture", CancellationToken.None);
+        }
+
         public async Task SendDesactivationCommand()
         {
             try
@@ -95,17 +106,6 @@ namespace IOT_Controller.API
             {
                 Console.WriteLine("Erreur lors de l'envoi de la commande de désactivation : " + ex.Message);
             }
-        }
-
-        private void OnDataReceived(string data)
-        {
-            DataReceived?.Invoke(this, new DataReceivedEventArgs(data));
-        }
-
-        public async Task DisconnectWebSocket()
-        {
-            _cancellationTokenSource.Cancel();
-            await _webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Fermeture", CancellationToken.None);
         }
     }
 

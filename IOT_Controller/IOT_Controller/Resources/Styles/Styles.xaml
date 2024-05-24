@@ -431,6 +431,14 @@
     </Style>
     
     <!--Ressource Personnaliser-->
+    <Style TargetType="Label" x:Key="IndicateurValue">
+        <Setter Property="TextColor" Value="#FFFFFF"/>
+        <Setter Property="FontFamily" Value="Inter"/>
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+
+    </Style>
 
     <Style TargetType="Button" x:Key="BouttonStyle1">
         <Setter Property="TextColor" Value="#8C8888"/>
@@ -438,6 +446,16 @@
         <Setter Property="BorderColor" Value="#D9D9D9"/>
         <Setter Property="WidthRequest" Value="80"/>
         <Setter Property="HeightRequest" Value="40"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="SettingTitre">
+        <Setter Property="TextColor" Value="#FFFFFF"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontFamily" Value="Inter"/>
+    </Style>
+
+    <Style TargetType="Switch" x:Key="SwitchStyle">
     </Style>
 
 </ResourceDictionary>
