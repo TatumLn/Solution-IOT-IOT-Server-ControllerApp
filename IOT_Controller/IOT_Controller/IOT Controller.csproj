@@ -100,17 +100,11 @@
 	  <Compile Update="DesignView\TroisCercleIndicateur.xaml.cs">
 	    <DependentUpon>TroisCercleIndicateur.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\Desktop\AppShell_Desktop.xaml.cs">
-	    <DependentUpon>AppShell_Desktop.xaml</DependentUpon>
-	  </Compile>
 	  <Compile Update="Views\Desktop\DesktopView_Home.xaml.cs">
 	    <DependentUpon>DesktopView_Home.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\Mobile\AppShell_Mobile.xaml.cs">
-	    <DependentUpon>AppShell_Mobile.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Views\Mobile\MobileView_Setting.xaml.cs">
-	    <DependentUpon>MobileView_Setting.xaml</DependentUpon>
+	  <Compile Update="DesignView\SettingPageUI.xaml.cs">
+	    <DependentUpon>SettingPageUI.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\Mobile\MobileView_Home.xaml.cs">
 	    <DependentUpon>MobileView_Home.xaml</DependentUpon>
@@ -127,19 +121,13 @@
 	  <MauiXaml Update="DesignView\TroisCercleIndicateur.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Desktop\AppShell_Desktop.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\Desktop\DesktopView_Home.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Desktop\DesktopView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Mobile\AppShell_Mobile.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\Mobile\MobileView_Setting.xaml">
+	  <MauiXaml Update="DesignView\SettingPageUI.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Mobile\MobileView_Home.xaml">

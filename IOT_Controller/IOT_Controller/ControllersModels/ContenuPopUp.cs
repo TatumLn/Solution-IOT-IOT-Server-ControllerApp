@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
+using IOT_Controller.ViewsModels;
 
 namespace IOT_Controller.ControllersModels
 {
@@ -36,8 +37,15 @@ namespace IOT_Controller.ControllersModels
             }
         }
 
+        //Compteur 
+        public int nbrBtn => (ButtonList.Count)-1;
+        public int nbrBtnActive => GetNbrBtnActive();
+
+        private MainViewModel _mainViewModel;
+
         public ContenuPopUp ()
         {
+            _mainViewModel = new MainViewModel();
             ButtonList = new ObservableCollection<BoutonData>();
             AddButtonCommand = new Command(AddButton);
             Index = 1;
@@ -47,9 +55,9 @@ namespace IOT_Controller.ControllersModels
 
         private void InitializeButtons()
         {
-                ButtonList.Add(new BoutonData { ButtonText = "Climatiseur", ButtonIndex = Index++, ButtonImage = "climatiseur_icon.svg" });
-                ButtonList.Add(new BoutonData { ButtonText = "Deshumidificateur", ButtonIndex = Index++, ButtonImage = "deshumidificateur_icon.svg" });
-                ButtonList.Add(new BoutonData { ButtonText = "Lumiere", ButtonIndex = Index++, ButtonImage = "led_icon.svg" });
+            ButtonList.Add(new BoutonData { ButtonText = "Climatiseur", ButtonIndex = Index++, ButtonImage = "climatiseur_icon.svg"});
+                ButtonList.Add(new BoutonData { ButtonText = "Deshumidificateur", ButtonIndex = Index++, ButtonImage = "deshumidificateur_icon.svg"});
+                ButtonList.Add(new BoutonData { ButtonText = "Lumiere", ButtonIndex = Index++, ButtonImage = "led_icon.svg"});
                 ButtonList.Add(new BoutonData { ButtonText = "Add", ButtonIndex = Index++ });
 
                 foreach (var button in ButtonList)
@@ -58,8 +66,9 @@ namespace IOT_Controller.ControllersModels
                     button.UpdateBackgroundColor();
                 }
 
-                SelectedContent = "Sélectionnez un bouton pour afficher le contenu de réglage";
-
+                SelectedContent = $"{_mainViewModel.CapteurData.}";
+            OnPropertyChanged(nameof(nbrBtn));
+            OnPropertyChanged(nameof(nbrBtnActive));
         }
 
         private void UpdateSelectedContent(int buttonIndex) // Modification du type de paramètre
@@ -72,18 +81,24 @@ namespace IOT_Controller.ControllersModels
             switch (buttonIndex)
             {
                 case 1:
-                    SelectedContent = "Contenu spécifique du Climatisseur";
+                    SelectedContent = $"{_mainViewModel.CapteurData.Temperature}";
                     break;
                 case 2:
-                    SelectedContent = "Contenu spécifique du Deshumidificateur";
+                    SelectedContent = "Deshum";
                     break;
                 case 3:
-                    SelectedContent = "Contenu spécifique de la Lumiere";
+                    SelectedContent = "Lum";
                     break;
                 default:
-                    SelectedContent = "Sélectionnez un bouton pour afficher le contenu de réglage";
+                    SelectedContent = "Nouveau";
                     break;
             }
+        }
+
+        public int GetNbrBtnActive()
+        {
+            var BtnActive = ButtonList.Where(button => button.ButtonState == "1");
+            return BtnActive.Count();
         }
 
         private void AddButton()

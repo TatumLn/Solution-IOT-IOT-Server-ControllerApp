@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IOT_Controller.Views.Mobile"
+             x:Class="IOT_Controller.DesignView.SettingPageUI"
+             BackgroundColor="#19CBC0">
+
+    <ScrollView>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+        <Image Grid.Row="0" 
+               Source="iotyellow.png"
+               HeightRequest="190"
+        BackgroundColor="Fuchsia"/>
+        
+        <StackLayout Grid.Row="1"
+                     Spacing="10">
+        <Label Text="Parametre"
+               FontFamily="Italiana" 
+               FontSize="60" 
+               TextColor="#FFFFFF"
+               HorizontalOptions="Center"/>
+
+                <Label Style="{StaticResource SettingTitre}"
+                       Text="Parametre N1"/>
+            
+                <Entry x:Name="Entry"
+                   Placeholder="Nouveau ID de votre IOT" 
+                   TextColor="White" 
+                   WidthRequest="300"
+                   HorizontalOptions="Center"/>
+                <Entry Placeholder="Nouveau Mot de passe" 
+                   TextColor="White" 
+                   WidthRequest="{Binding Source={x:Reference Entry}, Path=WidthRequest}"
+                   IsPassword="True"
+                   HorizontalOptions="Center"/>
+                        
+                <Button Style="{StaticResource BouttonStyle1}"
+                    Text="Valider"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2"
+                     Margin="30">
+                <Label  Style="{StaticResource SettingTitre}"
+                        Text="Parametre N2"/>
+                <Switch Style="{StaticResource SwitchStyle}" />
+                <Switch Style="{StaticResource SwitchStyle}" />
+        </StackLayout>
+        
+    </Grid>
+    </ScrollView>
+
+</ContentView>
+    

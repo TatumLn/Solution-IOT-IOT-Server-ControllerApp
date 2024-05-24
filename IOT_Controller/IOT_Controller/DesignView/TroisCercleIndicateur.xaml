@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:IOT_Controller.ControllersModels"
              x:Class="IOT_Controller.DesignView.TroisCercleIndicateur">
+
+    <ContentView.BindingContext>
+        <local:MainViewModel/>
+    </ContentView.BindingContext>
 
     <Grid>
             <Grid.RowDefinitions>
@@ -11,7 +16,7 @@
 
         <StackLayout Grid.Row="0">
 
-            <CollectionView ItemsSource="{Binding TxtTroisIndicateur}" 
+            <CollectionView ItemsSource="{Binding CapteurData.Data}" 
                             HorizontalOptions="Center">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Horizontal" 
@@ -25,27 +30,24 @@
                                     Stroke="#D9D9D9"
                                     StrokeThickness="7"
                                     Margin="5">
-                                <Frame x:Name="frame"
-                                       CornerRadius="40" 
-                                       BackgroundColor="#19CBC0" 
-                                       Padding="10" 
-                                       HeightRequest="70" 
-                                       WidthRequest="70"
-                                       BindingContext="{Binding}">
-                                    <Label Text="{Binding TxtTroisIndicateur}"
-                                           TextColor="White"
-                                           FontFamily="Inter"
-                                           FontSize="15"
-                                           HorizontalOptions="Center"
-                                           VerticalOptions="Center">
-                                        <Label.Triggers>
-                                            <DataTrigger TargetType="Label" 
-                                                         Binding="{Binding IsTriggered}">
-                                                <Setter Property="TextColor" Value="OrangeRed"/>
-                                            </DataTrigger>
-                                        </Label.Triggers>
-                                    </Label>
-                                </Frame>
+                            <Frame x:Name="frame"
+                                   CornerRadius="40" 
+                                   BackgroundColor="#19CBC0" 
+                                   Padding="10" 
+                                   HeightRequest="70" 
+                                   WidthRequest="70"
+                                   BindingContext="{Binding}">
+
+                                <Label Style="{StaticResource IndicateurValue}"
+                                       Text="{Binding Valeur}">
+                                    <Label.Triggers>
+                                        <DataTrigger TargetType="Label" 
+                                                     Binding="{Binding IsTriggered}" Value="1">
+                                            <Setter Property="TextColor" Value="OrangeRed"/>
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                            </Frame>
                             </Border>
                         </DataTemplate>
                 </CollectionView.ItemTemplate>
@@ -54,7 +56,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="1">
-            <CollectionView ItemsSource="{Binding TxtTroisIndicateur}"
+            <CollectionView ItemsSource="{Binding CapteurData.Data}"
                             HorizontalOptions="Center"
                             Margin="0,10,15,0">
             <CollectionView.ItemsLayout>
@@ -63,7 +65,7 @@
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding}"
+                    <Label Text="{Binding Text}"
                            TextColor="White"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
