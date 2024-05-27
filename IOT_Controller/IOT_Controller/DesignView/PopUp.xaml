@@ -5,41 +5,43 @@
              xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
              x:Class="IOT_Controller.DesignView.PopUp">
 
-    <AbsoluteLayout BackgroundColor="#80000000">
         <!-- Semi-transparent background -->
-        <Border AbsoluteLayout.LayoutBounds="0, 370, 395, 400" 
-                AbsoluteLayout.LayoutFlags="None"
+    <Border
                 StrokeShape="RoundRectangle 40,40,0,0"
-                BackgroundColor="White" >
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="45"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
+                BackgroundColor="#FFFFFF" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="160"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
 
-                <Label Grid.Row="0"
+            <Label Grid.Row="0"
                        Text="Appareils disponible"
                        FontFamily="Inter"
                        FontSize="15"
                        Margin="6"
                        HorizontalOptions="Center"/>
 
-                <ScrollView Grid.Row="1"
-                            Orientation="Horizontal" 
-                            HorizontalOptions="Center">
-                    <!-- Boutons -->
-                    <CollectionView ItemsSource="{Binding ButtonList}">
-                        <CollectionView.ItemsLayout>
-                            <GridItemsLayout Orientation="Horizontal" 
+            <HorizontalStackLayout Grid.Row="1"
+                                   HorizontalOptions="Center">
+            <ScrollView Orientation="Horizontal" 
+                        HorizontalOptions="Center">
+                <!-- Boutons -->
+                <CollectionView ItemsSource="{Binding ButtonList}"
+                                >
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Horizontal" 
                                              HorizontalItemSpacing="20"/>
-                        </CollectionView.ItemsLayout>
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <ContentView VerticalOptions="Center">
-                                    <Border BackgroundColor="Black"
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <ContentView VerticalOptions="Center">
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Border BackgroundColor="#3319CBC0"
                                             StrokeShape="RoundRectangle 40"
+                                            Stroke="#0019CBC0"
                                             HeightRequest="70"
                                             WidthRequest="70">
                                         <ImageButton Source="{Binding ButtonImage}"
@@ -48,33 +50,32 @@
                                                      CommandParameter="{Binding ButtonIndex}"
                                                      VerticalOptions="Center"/>
                                     </Border>
-                                </ContentView>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                        <CollectionView.BindingContext>
-                            <local:ContenuPopUp/>
-                        </CollectionView.BindingContext>
-                    </CollectionView>
-                </ScrollView>
+                                    <Label Text="{Binding ButtonState}"
+                                               HorizontalOptions="Center"
+                                               FontSize="12"
+                                               Margin="0,5"/>
+                                </VerticalStackLayout>
+                            </ContentView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    <CollectionView.BindingContext>
+                        <local:ContenuPopUp/>
+                    </CollectionView.BindingContext>
+                </CollectionView>
+            </ScrollView>
+            </HorizontalStackLayout>
 
-                <Frame Grid.Row="2"
-                       Padding="0"
-                       HeightRequest="160"
-                       WidthRequest="360"
-                       BorderColor="Transparent">
-                    <VerticalStackLayout>
-                        <viewModels:TemplateReglageAppareil/>
-                    </VerticalStackLayout>
-                </Frame>
+            <VerticalStackLayout Grid.Row="2">
+                <viewModels:TemplateReglageAppareil/>
+            </VerticalStackLayout>
 
-                <Button Style="{StaticResource BouttonStyle1}"
+            <Button Style="{StaticResource BouttonStyle1}"
                         Grid.Row="3"
                         Text="Fermer"
                         Clicked="FermeturePopup"/>
 
-            </Grid>
-        </Border>
-    </AbsoluteLayout>
+        </Grid>
+    </Border>
 
 </ContentView>
     

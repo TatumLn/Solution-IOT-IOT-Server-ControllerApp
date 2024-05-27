@@ -11,10 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "@ngrok/ngrok": "^1.2.0",
+    "axios": "^1.7.2",
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
-    "mqtt": "^5.5.0",
+    "express-ws": "^5.0.2",
+    "mqtt": "^5.6.2",
     "nodemon": "^3.1.0",
-    "ws": "^8.16.0"
+    "ws": "^8.17.0"
   }
 }

@@ -8,6 +8,7 @@ using System.Collections.ObjectModel;
 using System.Windows.Input;
 using IOT_Controller.ViewsModels;
 
+
 namespace IOT_Controller.ControllersModels
 {
     public class ContenuPopUp : INotifyPropertyChanged
@@ -41,11 +42,9 @@ namespace IOT_Controller.ControllersModels
         public int nbrBtn => (ButtonList.Count)-1;
         public int nbrBtnActive => GetNbrBtnActive();
 
-        private MainViewModel _mainViewModel;
 
         public ContenuPopUp ()
         {
-            _mainViewModel = new MainViewModel();
             ButtonList = new ObservableCollection<BoutonData>();
             AddButtonCommand = new Command(AddButton);
             Index = 1;
@@ -55,10 +54,10 @@ namespace IOT_Controller.ControllersModels
 
         private void InitializeButtons()
         {
-            ButtonList.Add(new BoutonData { ButtonText = "Climatiseur", ButtonIndex = Index++, ButtonImage = "climatiseur_icon.svg"});
-                ButtonList.Add(new BoutonData { ButtonText = "Deshumidificateur", ButtonIndex = Index++, ButtonImage = "deshumidificateur_icon.svg"});
-                ButtonList.Add(new BoutonData { ButtonText = "Lumiere", ButtonIndex = Index++, ButtonImage = "led_icon.svg"});
-                ButtonList.Add(new BoutonData { ButtonText = "Add", ButtonIndex = Index++ });
+            ButtonList.Add(new BoutonData { ButtonText = "Climatiseur", ButtonIndex = Index++, ButtonImage = "icon_climatisation.png", ButtonState = "actif"});
+            ButtonList.Add(new BoutonData { ButtonText = "Deshumidificateur", ButtonIndex = Index++, ButtonImage = "icon_deshumidificateur.png", ButtonState = "inactif" });
+            ButtonList.Add(new BoutonData { ButtonText = "Lumiere", ButtonIndex = Index++, ButtonImage = "icon_lampe.png", ButtonState = "inactif" });
+            ButtonList.Add(new BoutonData { ButtonText = "Add", ButtonIndex = Index++, ButtonImage = "icon_ajouter.png" });
 
                 foreach (var button in ButtonList)
                 {
@@ -66,7 +65,7 @@ namespace IOT_Controller.ControllersModels
                     button.UpdateBackgroundColor();
                 }
 
-                SelectedContent = $"{_mainViewModel.CapteurData.}";
+                SelectedContent = "Default";
             OnPropertyChanged(nameof(nbrBtn));
             OnPropertyChanged(nameof(nbrBtnActive));
         }
@@ -81,7 +80,7 @@ namespace IOT_Controller.ControllersModels
             switch (buttonIndex)
             {
                 case 1:
-                    SelectedContent = $"{_mainViewModel.CapteurData.Temperature}";
+                    SelectedContent = "Clim";
                     break;
                 case 2:
                     SelectedContent = "Deshum";

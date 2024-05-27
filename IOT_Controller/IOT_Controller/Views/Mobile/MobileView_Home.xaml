@@ -17,7 +17,9 @@
         </DataTemplate>
         
         <DataTemplate x:Key="settingPage">
+            <StackLayout >
             <viewModels:SettingPageUI/>
+            </StackLayout>
         </DataTemplate>
         
         <DataTemplate x:Key="default">
@@ -106,10 +108,11 @@
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
                                     <Border StrokeShape="RoundRectangle 40"
-                                                BackgroundColor="#D9D9D9"
-                                                VerticalOptions="Start"
-                                                HeightRequest="35"
-                                                WidthRequest="35">
+                                            Stroke="Transparent"
+                                            BackgroundColor="#66D9D9D9"
+                                            VerticalOptions="Start"
+                                            HeightRequest="35"
+                                            WidthRequest="35">
                                         <ImageButton Source="{Binding}"
                                                      HeightRequest="22"
                                                      VerticalOptions="Center" />
@@ -154,7 +157,8 @@
                 <!--IndicatorTemplate="{StaticResource IndicateurTemplateSelector}"-->
             </IndicatorView>
             <!-- Popup (initialement invisible) -->
-            <viewModels:PopUp x:Name="popup" IsVisible="{Binding IsPopupVisible}"/>
+            <viewModels:PopUp x:Name="popup" IsVisible="{Binding IsPopupVisible}" AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
+                                                                                  AbsoluteLayout.LayoutFlags="All"/>
 
         </AbsoluteLayout>
     </ContentPage.Content>
