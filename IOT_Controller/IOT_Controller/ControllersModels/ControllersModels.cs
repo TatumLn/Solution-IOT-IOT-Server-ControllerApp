@@ -39,6 +39,8 @@ namespace IOT_Controller.ControllersModels
             }
         }
 
+        public ICommand SendDesactivationCommand { get; }
+
         public MainViewModel()
         {
             CapteurData = new CapteurData();
@@ -48,6 +50,7 @@ namespace IOT_Controller.ControllersModels
             _communicationService = new CommunicationService();
             _communicationService.DataReceived += CommunicationService_DataReceived;
             PropertyChanged = delegate { }; // Initialiser l'événement PropertyChanged
+            SendDesactivationCommand = new Command(async () => await _communicationService.SendDesactivationCommand());
 
             // WebSocket
             Task.Run(async () =>
@@ -55,9 +58,13 @@ namespace IOT_Controller.ControllersModels
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Uri uri = new Uri($"ws://{_ipAdress}:3000"); //
 =======
                     Uri uri = new Uri($"ws://192.168.0.200:3000"); //
+>>>>>>> TatumLn
+=======
+                    Uri uri = new Uri($"ws://{_ipAdress}:3000"); //
 >>>>>>> TatumLn
                     await _communicationService.ConnectWebSocket(uri);
                     // Etat de la connexion

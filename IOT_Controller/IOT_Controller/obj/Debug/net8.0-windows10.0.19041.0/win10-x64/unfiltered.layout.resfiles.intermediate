@@ -1,3 +1,5 @@
+Inter-Regular.otf
+Inter-Regular.ttf
 Italiana-Regular.ttf
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
@@ -67,6 +69,10 @@ home.scale-125.png
 home.scale-150.png
 home.scale-200.png
 home.scale-400.png
+icon_ajouter.scale-100.png
+icon_climatisation.scale-100.png
+icon_deshumidificateur.scale-100.png
+icon_lampe.scale-100.png
 iotcontrollersmile.scale-100.png
 iotwhite.scale-100.png
 iotyellow.scale-100.png
@@ -83,6 +89,11 @@ power.scale-200.png
 power.scale-400.png
 sallereunion2.scale-100.jpg
 salon.scale-100.jpg
+setting.scale-100.png
+setting.scale-125.png
+setting.scale-150.png
+setting.scale-200.png
+setting.scale-400.png
 smileyellow.scale-100.png
 splash.scale-100.gif
 wifi.scale-100.png

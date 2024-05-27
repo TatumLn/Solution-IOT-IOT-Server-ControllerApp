@@ -83,9 +83,9 @@ namespace IOT_Controller.ControllersModels
         {
             _data = new ObservableCollection<TroisIndicateur>
             {
-                new TroisIndicateur { Text = "Temperature", Valeur = ($"{Temperature}+ °C")??"0", IsTriggered = ClimActif},
-                new TroisIndicateur { Text = "Luminosite", Valeur = ($"{Luminosite}+ lx")??"0", IsTriggered = LumiereActif},
-                new TroisIndicateur { Text = "Humidite", Valeur = ($"{Humidity}+ %")??"0", IsTriggered = DeshumidActif}
+                new TroisIndicateur { Text = "Temperature", Valeur = ($"{Temperature} °C")??"0", IsTriggered = ClimActif},
+                new TroisIndicateur { Text = "Luminosite", Valeur = ($"{Luminosite} lx")??"0", IsTriggered = LumiereActif},
+                new TroisIndicateur { Text = "Humidite", Valeur = ($"{Humidity} %")??"0", IsTriggered = DeshumidActif}
             };
         }
 

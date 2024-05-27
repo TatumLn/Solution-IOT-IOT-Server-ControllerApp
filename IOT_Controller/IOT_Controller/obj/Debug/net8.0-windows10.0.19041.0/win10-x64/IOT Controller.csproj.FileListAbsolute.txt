@@ -432,3 +432,17 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.190
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundjardin.scale-100.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotNetEnv.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sprache.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Speech.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Inter-Regular.otf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Inter-Regular.ttf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_ajouter.scale-100.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_climatisation.scale-100.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_deshumidificateur.scale-100.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_lampe.scale-100.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-100.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-125.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-150.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-200.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-400.png

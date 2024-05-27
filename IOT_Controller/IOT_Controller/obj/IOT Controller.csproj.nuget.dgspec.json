@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -137,6 +141,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -195,6 +203,10 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -256,6 +268,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -314,7 +330,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

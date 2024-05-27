@@ -434,7 +434,7 @@
     <Style TargetType="Label" x:Key="IndicateurValue">
         <Setter Property="TextColor" Value="#FFFFFF"/>
         <Setter Property="FontFamily" Value="Inter"/>
-        <Setter Property="FontSize" Value="15" />
+        <Setter Property="FontSize" Value="15"/>
         <Setter Property="HorizontalOptions" Value="Center"/>
         <Setter Property="VerticalOptions" Value="Center"/>
 
