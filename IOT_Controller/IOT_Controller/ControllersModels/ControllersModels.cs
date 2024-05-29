@@ -57,7 +57,15 @@ namespace IOT_Controller.ControllersModels
             {
                 try
                 {
+<<<<<<< HEAD
+<<<<<<< HEAD
                     Uri uri = new Uri($"ws://{_ipAdress}:3000"); //
+=======
+                    Uri uri = new Uri($"ws://192.168.0.200:3000"); //
+>>>>>>> TatumLn
+=======
+                    Uri uri = new Uri($"ws://{_ipAdress}:3000"); //
+>>>>>>> TatumLn
                     await _communicationService.ConnectWebSocket(uri);
                     // Etat de la connexion
                     ConnectionStatus = _communicationService.IsConnected ? _communicationService.ConnectingMessage : _communicationService.ErrorMessage;

@@ -448,6 +448,8 @@
         <Setter Property="HeightRequest" Value="40"/>
     </Style>
 
+<<<<<<< HEAD
+=======
     <Style TargetType="Label" x:Key="SettingTitre">
         <Setter Property="TextColor" Value="#FFFFFF"/>
         <Setter Property="HorizontalOptions" Value="Center"/>
@@ -458,4 +460,5 @@
     <Style TargetType="Switch" x:Key="SwitchStyle">
     </Style>
 
+>>>>>>> TatumLn
 </ResourceDictionary>
