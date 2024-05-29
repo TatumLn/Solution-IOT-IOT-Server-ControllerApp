@@ -2,7 +2,6 @@ const { filterData } = require('../API_REST/api_filtreData');
 
 function handleMqttData(topic, message, source, app) {
   const messageString = message.toString();
-  console.log(`Message brut reçu de ${source} (${topic}): ${messageString}`);
 
   try {
     const jsonData = JSON.parse(messageString);

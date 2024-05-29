@@ -1,7 +1,6 @@
 //Initialisation des framework 
 const express = require('express');
 const bodyParser = require('body-parser');
-const axios = require('axios'); 
 const app = express();
 const port = 3000;
 const { router } = require('./API_REST/api_get');

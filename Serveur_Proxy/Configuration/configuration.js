@@ -1,4 +1,6 @@
 const mqtt = require('mqtt');
+//const fs = require('fs');
+//const path = require('path');
 
 let mqttClient = null;
 
@@ -8,8 +10,21 @@ const connectLocalClient = (handleMqttData, app) => {
     mqttClient.end();
   }
 
+// Chemins vers les fichiers de certificats si utilisation de comunication securiser ssl/tls avec le broker
+//const KEY = fs.readFileSync(path.join(__dirname, '../Certificat/mqtt-client-key.pem'));
+//const CERT = fs.readFileSync(path.join(__dirname, '../Certificat/mqtt-client-cert.pem'));
+//const CA = fs.readFileSync(path.join(__dirname, '../Certificat/hivemq-server-cert.pem'));
+
   mqttClient = mqtt.connect('mqtt://localhost:1883', {
-    clientId: 'NodeJSClientLocal'
+    clientId: 'NodeJSClientLocal',
+    username: 'VotreUserName',
+    password: 'VotreMotDePasse',
+    //si utilisation de communication securiser ssl/tls avec le broker
+    //key: KEY,
+    //cert: CERT,
+    //ca: CA,
+    //rejectUnauthorized: true,
+    port: 1883
   });
 
   mqttClient.on('connect', () => {
@@ -24,7 +39,7 @@ const connectLocalClient = (handleMqttData, app) => {
   });
 
   mqttClient.on('message', (topic, message) => {
-    handleMqttData(topic, message, 'local');
+    handleMqttData(topic, message, 'local',app);
   });
 };
 
@@ -53,7 +68,7 @@ const connectRemoteClient = (handleMqttData, app) => {
   });
 
   mqttClient.on('message', (topic, message) => {
-    handleMqttData(topic, message, 'remote');
+    handleMqttData(topic, message, 'remote', app);
   });
 };
 
