@@ -1,7 +1,9 @@
 ﻿using IOT_Controller.API;
 using Newtonsoft.Json.Linq;
+using System.Security.Cryptography.X509Certificates;
 using MQTTnet.Client;
 using System.Collections.ObjectModel;
+using MQTTnet.Certificates;
 
 namespace IOT_Controller.ControllersModels
 {
@@ -9,19 +11,31 @@ namespace IOT_Controller.ControllersModels
     {
 
         protected readonly CommunicationService _communicationService;
-        public ObservableCollection<string> TxtTroisIndicateur { get; set; }
+        protected readonly CertificatMqtt _certificatMqtt;
+        private readonly string[] _topicTroisIndicateur = { "iot/temperature", "iot/luminosite", "iot/humidite" };
+        public ObservableCollection<string> _dataTroisIndicateur { get; set; }
 
         public MainViewModel()
         {
             _communicationService = new CommunicationService();
-            TxtTroisIndicateur = new ObservableCollection<string>
+            _certificatMqtt = new CertificatMqtt();
+            _dataTroisIndicateur = new ObservableCollection<string>
             {
-                "Temperature",
-                "Luminosit�",
-                "Humidit�"
+                "N/A", //Temperature
+                "N/A", //Luminosite
+                "N/A"  //Humidite
             };
+            _communicationService.MqttTopicRecu += OnMqttTopicRecu;
         }
-        public MqttClientOptions CreateMqttClientOptions(string clientId, string brokerAddress, int port, string? username = null, string? password = null)
+
+        [Obsolete]
+        // si avec certificat string? caCertPath = null, string? clientCertPath = null, string? clientCertPassword = null
+        public MqttClientOptions CreateMqttClientOptions
+            (string clientId, 
+            string brokerAddress, 
+            int port, 
+            string? username = null, 
+            string? password = null)
         {
             var optionsBuilder = new MqttClientOptionsBuilder()
                 .WithClientId(clientId)
@@ -33,13 +47,54 @@ namespace IOT_Controller.ControllersModels
                 optionsBuilder.WithCredentials(username, password);
             }
 
+          /*  if (!string.IsNullOrEmpty(caCertPath) || !string.IsNullOrEmpty(clientCertPath))
+            {
+                var tlsOptions = new MqttClientOptionsBuilderTlsParameters
+                {
+                    UseTls = true,
+                    CertificatesProvider = new CertificatMqtt(caCertPath, clientCertPath, clientCertPassword),
+                    AllowUntrustedCertificates = false,
+                    IgnoreCertificateChainErrors = false,
+                    IgnoreCertificateRevocationErrors = false,
+                    SslProtocol = System.Security.Authentication.SslProtocols.Tls12
+
+                };
+                optionsBuilder.WithTls(tlsOptions);
+            } */
+
             return optionsBuilder.Build();
         }
 
-        public async Task Connect(string clientId, string brokerAddress, int port, string? username = null, string? password = null)
+        private void OnMqttTopicRecu(string topic, string payload) 
         {
+            int index = Array.IndexOf(_topicTroisIndicateur, topic);
+            if (index >= 0)
+            {
+                _dataTroisIndicateur[index] = payload;
+            }
+        }
+
+        [Obsolete]
+        // si avec certificat string? caCertPath = null, string? clientCertPath = null, string? clientCertPassword = null
+        public async Task Connect
+            (string clientId, 
+            string brokerAddress, 
+            int port, 
+            string? username = null, 
+            string? password = null)
+        {
+            // si avec certificat  caCertPath, clientCertPath, clientCertPassword
             var options = CreateMqttClientOptions(clientId, brokerAddress, port, username, password);
             await _communicationService.ConnectMqtt(options);
+
+            //
+            if (_communicationService._IsConnected)
+            {
+                foreach (var topic in _topicTroisIndicateur) 
+                {
+                    await _communicationService.SubscribeAsync(topic);
+                }
+            }
         }
 
         public async Task Disconnect()
@@ -47,7 +102,7 @@ namespace IOT_Controller.ControllersModels
             await _communicationService.DisconnectMqtt();
         }
 
-        public bool IsConnected => _communicationService.IsConnected;
+        public bool IsConnected => _communicationService._IsConnected;
         public string? ConnectingMessage => _communicationService.ConnectingMessage;
         public string? ErrorMessage => _communicationService.ErrorMessage;
     }

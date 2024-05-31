@@ -13,7 +13,6 @@ namespace IOT_Controller.Views.Mobile;
 
 public partial class MobileView_Home : ContentPage
 {
-    public double MaxY { get; set; }
     private CarrouselModels _popup;
 
     public MobileView_Home()

@@ -113,9 +113,9 @@
                                             VerticalOptions="Start"
                                             HeightRequest="35"
                                             WidthRequest="35">
-                                        <ImageButton Source="{Binding}"
+                                        <ImageButton Source="{Binding }"
                                                      HeightRequest="22"
-                                                     VerticalOptions="Center" />
+                                                     VerticalOptions="Center"/>
                                     </Border>
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>
