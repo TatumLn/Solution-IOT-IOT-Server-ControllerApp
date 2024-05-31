@@ -23,6 +23,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.dll",
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"MQTTnet.dll",
 		"Newtonsoft.Json.dll",
 		"Sprache.dll",
 		"Xamarin.Android.Glide.dll",

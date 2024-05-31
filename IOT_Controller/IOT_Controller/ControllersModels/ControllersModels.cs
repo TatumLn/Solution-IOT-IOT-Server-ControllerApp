@@ -1,6 +1,7 @@
 ﻿using IOT_Controller.API;
 using Newtonsoft.Json.Linq;
 using MQTTnet.Client;
+using System.Collections.ObjectModel;
 
 namespace IOT_Controller.ControllersModels
 {
@@ -8,10 +9,17 @@ namespace IOT_Controller.ControllersModels
     {
 
         protected readonly CommunicationService _communicationService;
+        public ObservableCollection<string> TxtTroisIndicateur { get; set; }
 
         public MainViewModel()
         {
             _communicationService = new CommunicationService();
+            TxtTroisIndicateur = new ObservableCollection<string>
+            {
+                "Temperature",
+                "Luminosit�",
+                "Humidit�"
+            };
         }
         public MqttClientOptions CreateMqttClientOptions(string clientId, string brokerAddress, int port, string? username = null, string? password = null)
         {

@@ -16,7 +16,7 @@
 
         <StackLayout Grid.Row="0">
 
-            <CollectionView ItemsSource="" 
+            <CollectionView ItemsSource="{Binding TxtTroisIndicateur}" 
                             HorizontalOptions="Center">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Horizontal" 
@@ -39,13 +39,15 @@
                                    BindingContext="{Binding}">
 
                                 <Label Style="{StaticResource IndicateurValue}"
-                                       Text="">
+                                       Text="N/A">
+                                    <!--
                                     <Label.Triggers>
                                         <DataTrigger TargetType="Label" 
-                                                     Binding="" Value="1">
+                                                     Binding="{Binding}" Value="1">
                                             <Setter Property="TextColor" Value="OrangeRed"/>
                                         </DataTrigger>
                                     </Label.Triggers>
+                                   -->
                                 </Label>
                             </Frame>
                             </Border>
@@ -56,7 +58,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="1">
-            <CollectionView ItemsSource=""
+            <CollectionView ItemsSource="{Binding TxtTroisIndicateur}"
                             HorizontalOptions="Center"
                             Margin="0,10,15,0">
             <CollectionView.ItemsLayout>
@@ -65,7 +67,7 @@
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text=""
+                    <Label Text="N/A"
                            TextColor="White"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
