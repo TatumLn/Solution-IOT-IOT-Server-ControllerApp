@@ -12,7 +12,7 @@
 
     <StackLayout>
             <Border StrokeThickness="4" Stroke="Transparent" >
-                <Label Text="{Binding ConnectionStatus}" 
+                <Label x:Name="Status_Erreur"
                        FontSize="Micro"
                        FontAttributes="Bold"
                        TextColor="#FFD700"
