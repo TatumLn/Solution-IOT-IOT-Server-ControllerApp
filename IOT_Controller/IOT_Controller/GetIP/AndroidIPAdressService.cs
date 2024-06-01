@@ -1,25 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Maui;
-using Microsoft.Maui.Controls.Compatibility;
-using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
-using System.Net;
-
-[assembly : Dependency(typeof(IOT_Controller.GetIP.AndroidIPAdressService))]
+﻿#if ANDROID
+using Android.Content;
+using Android.Net.Wifi;
+using Android.App;
 
 namespace IOT_Controller.GetIP
 {
     public class AndroidIPAdressService : IPAdressService
     {
-        //Recuperation de l'ip local sur android
         public string GetLocalIPAdress()
         {
-            _wifiManager wifiManager = (_wifiManager)Android.App.Application.Context.GetSystemService(Android.Content.Context.WifiService);
-            int _ipAdress = wifiManager.ConnectionInfo.IpAdress;
-            return new InetSocketAddress(_ipAdress, 0).Adress.HostAdress;
+            WifiManager wifiManager = (WifiManager)Android.App.Application.Context.GetSystemService(Context.WifiService);
+            var wifiInfo = wifiManager.ConnectionInfo;
+            int ipAddress = wifiInfo.IpAddress;
+            return string.Format("{0}.{1}.{2}.{3}",
+                (ipAddress & 0xff),
+                (ipAddress >> 8 & 0xff),
+                (ipAddress >> 16 & 0xff),
+                (ipAddress >> 24 & 0xff));
         }
     }
 }
+#endif

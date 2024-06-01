@@ -4,10 +4,6 @@
               xmlns:local="clr-namespace:IOT_Controller.ControllersModels"
              x:Class="IOT_Controller.DesignView.TroisCercleIndicateur">
 
-    <ContentView.BindingContext>
-        <local:MainViewModel/>
-    </ContentView.BindingContext>
-
     <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>

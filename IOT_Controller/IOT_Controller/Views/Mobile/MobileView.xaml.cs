@@ -18,7 +18,7 @@ namespace IOT_Controller.Views.Mobile
         {
             //Conexion au broker en local (par defaut)
             string clientId = "ControlAppClient";
-            string brokerAddress = _mqttConnexion.GetBrokerAdress();
+            string brokerAddress = "192.168.0.126";
             int port = 1883;
             string username = "admin-user";
             string password = "admin-password";
