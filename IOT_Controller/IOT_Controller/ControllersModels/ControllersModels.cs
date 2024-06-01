@@ -11,7 +11,7 @@ namespace IOT_Controller.ControllersModels
     public class MainViewModel
     {
         private readonly CommunicationService _mqttService;
-        private static MainViewModel _instance;
+        private static MainViewModel? _instance;
         public static MainViewModel Instance => _instance ??= new MainViewModel();
         //protected readonly CertificatMqtt _certificatMqtt;
         private readonly string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidite"];
@@ -21,12 +21,12 @@ namespace IOT_Controller.ControllersModels
         {
             _mqttService = CommunicationService.Instance;
             //_certificatMqtt = new CertificatMqtt();
-            DataTroisIndicateur = new ObservableCollection<string>
-            {
+            DataTroisIndicateur =
+            [
                 "N/A", //Temperature
                 "N/A", //Luminosite
                 "N/A"  //Humidite
-            };
+            ];
             _mqttService.MqttTopicRecu += OnMqttTopicRecu;
         }
 

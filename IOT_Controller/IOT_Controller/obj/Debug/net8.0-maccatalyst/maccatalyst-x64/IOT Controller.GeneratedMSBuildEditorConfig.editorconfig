@@ -28,12 +28,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.AppShell.xa
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Projet_Licence/IOT_Controller/IOT_Controller/DesignView/MqttStatusConnexion.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.DesignView.MqttStatusConnexion.xaml
-build_metadata.AdditionalFiles.TargetPath = DesignView\MqttStatusConnexion.xaml
-build_metadata.AdditionalFiles.RelativePath = DesignView\MqttStatusConnexion.xaml
-
 [D:/Projet_Licence/IOT_Controller/IOT_Controller/DesignView/PopUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.DesignView.PopUp.xaml

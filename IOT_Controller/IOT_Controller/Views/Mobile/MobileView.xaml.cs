@@ -33,19 +33,15 @@ namespace IOT_Controller.Views.Mobile
             Status_Erreur.Text = _mqttConnexion.IsConnected ? _mqttConnexion.ConnectingMessage : _mqttConnexion.ErrorMessage;
 
             //Naviguer vers la page suivant
-            var PageAccueil = new MobileView_Home();
-                PageAccueil.BindingContext = _mqttConnexion; // Passer le ViewModel existant
+            _ = new MobileView_Home
+            {
+                BindingContext = _mqttConnexion // Passer le ViewModel existant
+            };
             await Navigation.PushAsync(new MobileView_Home());
 
             //
            
             await _mqttConnexion.Disconnect();
-        }
-
-        private async void BtnDeconnexion(object sender, EventArgs e)
-        {
-            await _mqttConnexion.Disconnect();
-            await Navigation.PopAsync();
         }
 
     }   

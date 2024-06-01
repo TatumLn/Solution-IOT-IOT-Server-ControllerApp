@@ -12,14 +12,15 @@ namespace IOT_Controller.API
     public class CommunicationService
     {
         private IMqttClient? _mqttClient;
-        private readonly object _lock = new object();
+        private readonly MqttClientOptions? _mqttOptions;
+        private readonly object _lock = new();
         public bool _IsConnectingOrDisconnecting;
         public bool IsConnected { get; private set; }
         private string? _errorMessage;
         private string? _connectingMessage;
         public event Action<string, string>? MqttTopicRecu;
         //Singleton
-        private static CommunicationService _instance;
+        private static CommunicationService? _instance;
         public static CommunicationService Instance => _instance ??= new CommunicationService();
 
         public CommunicationService()
@@ -165,7 +166,7 @@ namespace IOT_Controller.API
                 try
                 {
                     await Task.Delay(TimeSpan.FromSeconds(5));
-                    _mqttClient.ConnectAsync(_mqttOptions, CancellationToken.None);
+                    await _mqttClient.ConnectAsync(_mqttOptions, CancellationToken.None);
                 }
                 catch (Exception)
                 {

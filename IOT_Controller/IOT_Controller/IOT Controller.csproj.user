@@ -16,9 +16,6 @@
     <PlatformTarget>arm64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="DesignView\MqttStatusConnexion.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="DesignView\PopUp.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
