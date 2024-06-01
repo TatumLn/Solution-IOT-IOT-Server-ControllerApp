@@ -1,1104 +1,3 @@
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\IOT Controller.runtimeconfig.json
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\IOT Controller.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\IOT Controller.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller.apk
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller.aab
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.aab
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.apk
-D:\Projet_Licence\IOT_Controller\IOT Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.apk.idsig
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\build.props
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\adb.props
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.csproj.AssemblyReference.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\mauiimage.inputs
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\mauifont.inputs
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\mauisplash.inputs
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\mauisplash.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\mauifont.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\mauiimage.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\libraryprojectimports.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_BuildLibraryImportsCache.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\case_map.txt
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\__Microsoft.Android.Resource.Designer.cs
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\res.flag
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\92\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\93\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\94\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\95\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\98\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\102\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\103\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\104\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\105\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\106\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\109\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\110\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\111\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\117\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\121\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\126\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\127\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\128\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\129\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\130\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\131\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\132\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\133\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\134\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\135\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\136\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\137\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\138\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\139\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\140\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\141\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\142\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\143\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\144\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\145\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\146\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\154\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\155\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\156\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\157\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\R.txt
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\_Microsoft.Android.Resource.Designer.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\R.cs.flag
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.AssemblyInfoInputs.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.AssemblyInfo.cs
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.csproj.CoreCompileInputs.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\XamlC.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.genruntimeconfig.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.runtimeconfig.json.bin
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\com.companyname.iotcontroller.apk
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\base.zip
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\com.companyname.iotcontroller.aab
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\com.companyname.iotcontroller.apks
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\res\values\colors.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\uploadflags.txt
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resolvedassemblies.hash
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\da\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\de\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\el\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\es\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\fi\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\fr\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\GoogleGson.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\he\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\hi\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\hr\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\hu\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\id\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\IOT Controller.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\IOT Controller.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\it\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Java.Interop.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Java.Interop.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\ja\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Jsr305Binding.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\ko\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.CSharp.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.DependencyInjection.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.Debug.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Logging.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Options.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Compatibility.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Essentials.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Essentials.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Graphics.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Graphics.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.Core.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Registry.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.Export.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.Export.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.Runtime.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.Runtime.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\mscorlib.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\ms\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\nb\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\netstandard.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\nl\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\pl\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\pt-BR\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\pt\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\ro\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\ru\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\sk\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\sv\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.AppContext.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Buffers.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Collections.Concurrent.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Collections.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Collections.Immutable.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Collections.NonGeneric.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Collections.Specialized.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ComponentModel.Annotations.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ComponentModel.DataAnnotations.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ComponentModel.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ComponentModel.EventBasedAsync.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ComponentModel.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ComponentModel.TypeConverter.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Configuration.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Console.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Core.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Data.Common.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Data.DataSetExtensions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Data.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.Contracts.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.Debug.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.DiagnosticSource.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.FileVersionInfo.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.Process.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.StackTrace.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.TextWriterTraceListener.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.Tools.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.TraceSource.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Diagnostics.Tracing.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Drawing.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Drawing.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Dynamic.Runtime.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Formats.Asn1.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Formats.Tar.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Globalization.Calendars.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Globalization.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Globalization.Extensions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.Compression.Brotli.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.Compression.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.Compression.FileSystem.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.Compression.ZipFile.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.FileSystem.AccessControl.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.FileSystem.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.FileSystem.DriveInfo.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.FileSystem.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.FileSystem.Watcher.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.IsolatedStorage.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.MemoryMappedFiles.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.Pipes.AccessControl.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.Pipes.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.IO.UnmanagedMemoryStream.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Linq.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Linq.Expressions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Linq.Parallel.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Linq.Queryable.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Memory.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Http.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Http.Json.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.HttpListener.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Mail.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.NameResolution.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.NetworkInformation.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Ping.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Quic.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Requests.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Security.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.ServicePoint.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.Sockets.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.WebClient.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.WebHeaderCollection.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.WebProxy.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.WebSockets.Client.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Net.WebSockets.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Private.Xml.Linq.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.DispatchProxy.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.Emit.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.Emit.ILGeneration.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.Emit.Lightweight.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.Extensions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.Metadata.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Reflection.TypeExtensions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Resources.Reader.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Resources.ResourceManager.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Resources.Writer.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.CompilerServices.Unsafe.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.CompilerServices.VisualC.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Extensions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Handles.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.InteropServices.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.InteropServices.JavaScript.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Intrinsics.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Loader.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Numerics.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Serialization.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Serialization.Json.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Serialization.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Runtime.Serialization.Xml.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.AccessControl.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Claims.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.Algorithms.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.Cng.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.Csp.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.Encoding.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.OpenSsl.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.Primitives.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.X509Certificates.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Principal.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.Principal.Windows.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Security.SecureString.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ServiceModel.Web.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ServiceProcess.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Text.Encoding.CodePages.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Text.Encoding.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Text.Encoding.Extensions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Text.Encodings.Web.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Text.Json.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Text.RegularExpressions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Channels.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Overlapped.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Tasks.Dataflow.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Tasks.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Tasks.Extensions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Tasks.Parallel.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Thread.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.ThreadPool.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Threading.Timer.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Transactions.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Transactions.Local.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.ValueTuple.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Web.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Web.HttpUtility.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Windows.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.Linq.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.ReaderWriter.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.Serialization.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.XDocument.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.XmlDocument.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.XPath.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Xml.XPath.XDocument.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\th\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\tr\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\uk\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\WindowsBase.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.Annotations.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.GifDecoder.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Activity.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Activity.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Activity.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Activity.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Annotation.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Annotation.Experimental.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Annotation.Experimental.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Annotation.Jvm.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Annotation.Jvm.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Annotation.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.AppCompat.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.AppCompat.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Arch.Core.Common.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Arch.Core.Common.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Arch.Core.Runtime.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Arch.Core.Runtime.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Browser.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Browser.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CardView.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CardView.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Collection.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Collection.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Collection.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Collection.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Concurrent.Futures.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Concurrent.Futures.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ConstraintLayout.Core.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ConstraintLayout.Core.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ConstraintLayout.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ConstraintLayout.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CoordinatorLayout.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CoordinatorLayout.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Core.Core.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Core.Core.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Core.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CursorAdapter.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CursorAdapter.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CustomView.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CustomView.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CustomView.PoolingContainer.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.CustomView.PoolingContainer.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.DocumentFile.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.DocumentFile.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.DrawerLayout.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.DrawerLayout.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.DynamicAnimation.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.DynamicAnimation.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Emoji2.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Emoji2.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Emoji2.ViewsHelper.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Emoji2.ViewsHelper.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ExifInterface.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ExifInterface.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Fragment.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Fragment.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Fragment.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Fragment.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Interpolator.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Interpolator.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Legacy.Support.Core.Utils.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Legacy.Support.Core.Utils.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Common.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Common.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.Core.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Process.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Process.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Runtime.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Runtime.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Runtime.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.Runtime.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.ViewModel.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.ViewModel.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.ViewModel.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.ViewModel.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Loader.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Loader.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.LocalBroadcastManager.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.LocalBroadcastManager.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.Common.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.Common.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.Fragment.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.Fragment.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.Runtime.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.Runtime.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.UI.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Navigation.UI.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Print.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Print.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ProfileInstaller.ProfileInstaller.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ProfileInstaller.ProfileInstaller.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.RecyclerView.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.RecyclerView.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ResourceInspection.Annotation.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ResourceInspection.Annotation.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SavedState.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SavedState.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SavedState.SavedState.Ktx.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SavedState.SavedState.Ktx.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Security.SecurityCrypto.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Security.SecurityCrypto.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SlidingPaneLayout.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SlidingPaneLayout.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Startup.StartupRuntime.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Startup.StartupRuntime.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SwipeRefreshLayout.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.SwipeRefreshLayout.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Tracing.Tracing.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Tracing.Tracing.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Transition.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Transition.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.VectorDrawable.Animated.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.VectorDrawable.Animated.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.VectorDrawable.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.VectorDrawable.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.VersionedParcelable.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.VersionedParcelable.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ViewPager.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ViewPager.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ViewPager2.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.ViewPager2.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Window.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Window.Extensions.Core.Core.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Window.Extensions.Core.Core.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.AndroidX.Window.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Google.Android.Material.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Google.Android.Material.pdb
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Google.Crypto.Tink.Android.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Google.ErrorProne.Annotations.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Google.Guava.ListenableFuture.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Jetbrains.Annotations.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Kotlin.StdLib.Common.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Kotlin.StdLib.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk7.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\zh-Hans\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\typemaps.x86.ll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\AndroidManifest.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\AndroidManifest.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\JavaInteropTypeManager.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\machine.config
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\mono.android.jar
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\static.flag
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\__environment__.txt
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\buildid.txt
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\environment.x86.ll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\appcompat\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\appcompat\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\appcompat\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\appcompat\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\appcompat\resources\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\appcompat\widget\Toolbar_NavigationOnClickEventDispatcher.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\arch\core\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\browser\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\browser\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\cardview\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\constraintlayout\widget\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\coordinatorlayout\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\core\ktx\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\core\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\cursoradapter\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\customview\poolingcontainer\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\customview\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\documentfile\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\drawerlayout\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\dynamicanimation\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\emoji2\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\emoji2\viewsintegration\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\exifinterface\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\fragment\ktx\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\fragment\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\interpolator\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\legacy\coreutils\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\ktx\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\livedata\core\ktx\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\livedata\core\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\livedata\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\process\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\runtime\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\viewmodel\ktx\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\viewmodel\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\lifecycle\viewmodel\savedstate\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\loader\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\localbroadcastmanager\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\navigation\common\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\navigation\fragment\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\navigation\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\navigation\ui\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\print\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\profileinstaller\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\recyclerview\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\savedstate\ktx\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\savedstate\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\security\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\slidingpanelayout\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\startup\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\swiperefreshlayout\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\tracing\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\transition\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\vectordrawable\animated\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\vectordrawable\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\versionedparcelable\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\viewpager2\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\viewpager\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\window\extensions\core\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\androidx\window\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\com\bumptech\glide\gifdecoder\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\com\bumptech\glide\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\com\google\android\material\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\com\google\android\material\snackbar\Snackbar_SnackbarActionClickImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\com\microsoft\maui\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640a1f4d108c17e3f1\ClipboardChangeListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640a8d9a12ddbf2cf2\BatteryBroadcastReceiver.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640a8d9a12ddbf2cf2\DeviceDisplayImplementation_Listener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640a8d9a12ddbf2cf2\EnergySaverBroadcastReceiver.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ContainerView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\CustomFrameLayout.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\RecyclerViewContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ScrollLayoutManager.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellContentFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFlyoutLayout.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFlyoutRecyclerAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFlyoutRecyclerAdapter_ElementViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFlyoutRecyclerAdapter_ShellLinearLayout.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFlyoutRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFlyoutTemplatedContentRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFlyoutTemplatedContentRenderer_HeaderContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFragmentContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellFragmentStateAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellItemRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellItemRendererBase.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellPageContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSearchView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSearchViewAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSearchViewAdapter_CustomFilter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSearchViewAdapter_ObjectWrapper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSearchView_ClipDrawableWrapper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSectionRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSectionRenderer_ViewPagerPageChanged.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellToolbarTracker.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellToolbarTracker_FlyoutIconDrawerDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\ButtonRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\FrameRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\ImageRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\LabelRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6413a2ffd8f229512a\CarouselViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6413a2ffd8f229512a\RecyclerViewScrollListener_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ColorChangeRevealDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ControlsAccessibilityDelegate.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\DragAndDropGestureHandler.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\DragAndDropGestureHandler_CustomLocalStateData.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FormattedStringExtensions_FontSpan.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FormattedStringExtensions_LetterSpacingSpan.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FormattedStringExtensions_LineHeightSpan.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FragmentContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GenericAnimatorListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GenericGlobalLayoutListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GenericMenuClickListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GradientStrokeDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GradientStrokeDrawable_GradientShaderFactory.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\InnerGestureListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\InnerScaleListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\MauiViewPager.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ModalNavigationManager_ModalContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ModalNavigationManager_ModalContainer_ModalFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\MultiPageFragmentStateAdapter_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\PointerGestureHandler.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\TapAndPanGestureDetector.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ToolbarExtensions_ToolbarTitleIconImageView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64396a3fe5f8138e3f\CustomTabsServiceConnectionImpl.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64396a3fe5f8138e3f\KeepAliveService.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc643f2b18b2570eaa5a\PlatformGraphicsView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc644090ca2a03f604ef\MainActivity.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc644090ca2a03f604ef\MainApplication.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\AccessibilityDelegateCompatWrapper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\BorderDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\ContainerView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\ContentViewGroup.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\LayoutViewGroup.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\LocalizedDigitsKeyListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiAccessibilityDelegateCompat.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiAppCompatEditText.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiBoxView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiDatePicker.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiHorizontalScrollView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiMaterialButton.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiPageControl.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiPageControl_TEditClickListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiPicker.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiPickerBase.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiScrollView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiSearchView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiShapeView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiStepper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiSwipeRefreshLayout.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiSwipeView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiTextView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiTimePicker.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiWebChromeClient.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiWebView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiWebViewClient.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\NavigationRootManager_ElementBasedFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\NavigationViewFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\PlatformTouchGraphicsView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\ScopedFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\StackNavigationManager_Callbacks.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\StepperHandlerHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\StepperHandlerManager_StepperListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\SwipeViewPager.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\ViewFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\WebViewExtensions_JavascriptResult.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\WrapperView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CarouselSpacingItemDecoration.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CarouselViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CarouselViewOnScrollListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\CenterSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\DataChangeObserver.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\EdgeSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\EmptyViewAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\EndSingleSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\EndSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\GridLayoutSpanSizeLookup.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\GroupableItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\ItemContentView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\ItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\MauiCarouselRecyclerView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\MauiCarouselRecyclerView_CarouselViewOnGlobalLayoutListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\MauiRecyclerView_3.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\NongreedySnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\NongreedySnapHelper_InitialScrollListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\PositionalSmoothScroller.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\RecyclerViewScrollListener_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\ReorderableItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\ScrollHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\SelectableItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\SelectableViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\SimpleItemTouchHelperCallback.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\SimpleViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\SingleSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\SizedItemContentView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\SpacingItemDecoration.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\StartSingleSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\StartSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\StructuredItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\TemplatedItemViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\TextViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6468b6408a11370c2f\WebAuthenticatorCallbackActivity.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6468b6408a11370c2f\WebAuthenticatorIntermediateActivity.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ActivityIndicatorRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\AHorizontalScrollView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\BorderDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\BoxRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CarouselPageAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CarouselSpacingItemDecoration.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CarouselViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CarouselViewRenderer_CarouselViewOnScrollListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CarouselViewRenderer_CarouselViewwOnGlobalLayoutListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CellRenderer_RendererHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CenterSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CheckBoxRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CheckBoxRendererBase.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CircularProgress.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\CollectionViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\DataChangeObserver.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\DatePickerRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\DatePickerRendererBase_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\DragAndDropGestureHandler.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\DragAndDropGestureHandler_CustomLocalStateData.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EdgeSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EditorRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EditorRendererBase_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EllipseRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EllipseView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EmptyViewAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EndSingleSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EndSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EntryAccessibilityDelegate.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EntryRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\EntryRendererBase_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FlyoutPageContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FlyoutPageRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsAnimationDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsAppCompatActivity.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsEditText.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsEditTextBase.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsImageView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsSeekBar.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsTextView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsVideoView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsWebChromeClient.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\FormsWebViewClient.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\GridLayoutSpanSizeLookup.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\GroupableItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\GroupableItemsViewRenderer_3.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\GroupedListViewAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ImageButtonRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ImageCache_CacheEntry.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ImageCache_FormsLruCache.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ImageRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\IndicatorViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ItemContentView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ItemsViewRenderer_3.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\LabelRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\LineRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\LineView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ListViewAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ListViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ListViewRenderer_Container.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ListViewRenderer_ListViewScrollDetector.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\NativeViewWrapperRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\NongreedySnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\NongreedySnapHelper_InitialScrollListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ObjectJavaBox_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PageContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PageExtensions_EmbeddedFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PageExtensions_EmbeddedSupportFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PageRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PathRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PathView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PickerEditText.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PickerManager_PickerListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PlatformRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\Platform_DefaultRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\Platform_ModalContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PolygonRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PolygonView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PolylineRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PolylineView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\PositionalSmoothScroller.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ProgressBarRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\RadioButtonRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\RectangleRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\RectView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\RefreshViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ScrollHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ScrollViewContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ScrollViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SearchBarRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SelectableItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SelectableItemsViewRenderer_3.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SelectableViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ShapeRenderer_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ShapeView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SimpleViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SingleSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SizedItemContentView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SliderRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SpacingItemDecoration.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\StartSingleSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\StartSnapHelper.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\StepperRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\StepperRendererManager_StepperListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\StructuredItemsViewAdapter_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\StructuredItemsViewRenderer_3.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\SwipeViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\TableViewModelRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\TableViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\TemplatedItemViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\TextCellRenderer_TextCellView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\TextViewHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\TimePickerRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\TimePickerRendererBase_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ViewCellRenderer_ViewCellContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ViewCellRenderer_ViewCellContainer_LongPressGestureListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ViewCellRenderer_ViewCellContainer_TapGestureListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\ViewRenderer_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\VisualElementRenderer_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\VisualElementTracker_AttachTracker.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\WebViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6477f0d89a9cfd64b1\WebViewRenderer_JavascriptResult.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6488302ad6e9e4df1a\ImageLoaderCallback.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6488302ad6e9e4df1a\ImageLoaderCallbackBase_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6488302ad6e9e4df1a\ImageLoaderResultCallback.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6488302ad6e9e4df1a\MauiAppCompatActivity.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6488302ad6e9e4df1a\MauiApplication.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6488302ad6e9e4df1a\MauiApplication_ActivityLifecycleCallbacks.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\ButtonRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\CarouselPageRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\FormsFragmentPagerAdapter_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\FormsViewPager.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\FragmentContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\FrameRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\NavigationPageRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\NavigationPageRenderer_ClickListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\NavigationPageRenderer_Container.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\NavigationPageRenderer_DrawerMultiplexedListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\PickerRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\PickerRendererBase_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\SwitchRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\TabbedPageRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\ViewRenderer_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc6493855b22b6fa0721\TextToSpeechInternalImplementation.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc649ff77a65592e7d55\TabbedPageManager_Listeners.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc649ff77a65592e7d55\TabbedPageManager_TempView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64a096dc44ad241142\PlatformTicker_DurationScaleListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64a25b61d9f8ee364f\FloatArrayEvaluator.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64a25b61d9f8ee364f\RectEvaluator.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64a25b61d9f8ee364f\TransitionUtils.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64a25b61d9f8ee364f\TransitionUtils_MatrixEvaluator.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64b5e713d400f589b7\LinearGradientShaderFactory.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64b5e713d400f589b7\MauiDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64b5e713d400f589b7\RadialGradientShaderFactory.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64ba438d8f48cf7e75\ActivityLifecycleContextListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64ba438d8f48cf7e75\IntermediateActivity.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\BaseCellView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\CellAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\CellRenderer_RendererHolder.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ConditionalFocusLayout.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\EntryCellEditText.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\EntryCellView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\FrameRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\GroupedListViewAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ListViewAdapter.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ListViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ListViewRenderer_Container.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ListViewRenderer_ListViewScrollDetector.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ListViewRenderer_ListViewSwipeRefreshLayoutListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\SwitchCellView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\TableViewModelRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\TableViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\TextCellRenderer_TextCellView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ViewCellRenderer_ViewCellContainer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ViewCellRenderer_ViewCellContainer_LongPressGestureListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ViewCellRenderer_ViewCellContainer_TapGestureListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ViewRenderer.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\ViewRenderer_2.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\VisualElementRenderer_1.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e53d2f592022988e\ConnectivityBroadcastReceiver.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64e53d2f592022988e\ConnectivityImplementation_EssentialsNetworkCallback.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\AccelerometerListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\BarometerListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\ContinuousLocationListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\GyroscopeListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\MagnetometerListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\OrientationSensorListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\SensorListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\SingleLocationListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f728827fec74e9c3\TapWindowTracker_GestureListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64f728827fec74e9c3\Toolbar_Container.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64fcf28c0e24b4cc31\ButtonHandler_ButtonClickListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64fcf28c0e24b4cc31\ButtonHandler_ButtonTouchListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64fcf28c0e24b4cc31\SearchBarHandler_FocusChangeListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64fcf28c0e24b4cc31\SliderHandler_SeekBarChangeListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64fcf28c0e24b4cc31\SwitchHandler_CheckedChangeListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64fcf28c0e24b4cc31\ToolbarHandler_ProcessBackClick.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\microsoft\maui\essentials\fileProvider.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\microsoft\maui\platform\MauiNavHostFragment.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\activity\contextaware\OnContextAvailableListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\app\ActionBar_OnMenuVisibilityListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\app\ActionBar_OnNavigationListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\app\ActionBar_TabListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\ContentFrameLayout_OnAttachListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\MenuItemHoverListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\PopupMenu_OnDismissListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\SearchView_OnCloseListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\SearchView_OnQueryTextListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\SearchView_OnSuggestionListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\ShareActionProvider_OnShareTargetSelectedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\Toolbar_OnMenuItemClickListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\appcompat\widget\ViewStubCompat_OnInflateListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\constraintlayout\motion\widget\MotionLayout_TransitionListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\constraintlayout\widget\SharedValues_SharedValuesListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\os\CancellationSignal_OnCancelListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\ActionProvider_SubUiVisibilityListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\ActionProvider_VisibilityListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\DragStartHelper_OnDragStartListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\inputmethod\InputConnectionCompat_OnCommitContentListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\MenuItemCompat_OnActionExpandListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\OnApplyWindowInsetsListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\OnReceiveContentListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\ViewPropertyAnimatorListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\ViewPropertyAnimatorUpdateListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\view\WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\core\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\customview\poolingcontainer\PoolingContainerListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\drawerlayout\widget\DrawerLayout_DrawerListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\dynamicanimation\animation\DynamicAnimation_OnAnimationEndListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\dynamicanimation\animation\DynamicAnimation_OnAnimationUpdateListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\fragment\app\FragmentManager_OnBackStackChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\fragment\app\FragmentOnAttachListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\fragment\app\FragmentResultListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\fragment\app\strictmode\FragmentStrictMode_OnViolationListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\loader\content\Loader_OnLoadCanceledListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\loader\content\Loader_OnLoadCompleteListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\navigation\NavController_OnDestinationChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\navigation\ui\AppBarConfiguration_OnNavigateUpListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\recyclerview\widget\AsyncListDiffer_ListListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\recyclerview\widget\RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\recyclerview\widget\RecyclerView_OnChildAttachStateChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\recyclerview\widget\RecyclerView_OnItemTouchListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\recyclerview\widget\RecyclerView_RecyclerListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\slidingpanelayout\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\swiperefreshlayout\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\transition\Transition_TransitionListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\viewpager\widget\ViewPager_OnAdapterChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\androidx\viewpager\widget\ViewPager_OnPageChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\android\app\ApplicationRegistration.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\bumptech\glide\load\engine\cache\MemoryCache_ResourceRemovedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\bumptech\glide\manager\ConnectivityMonitor_ConnectivityListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\bumptech\glide\manager\LifecycleListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\bumptech\glide\request\RequestListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\animation\AnimatableView_ListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\appbar\AppBarLayout_LiftOnScrollListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\appbar\AppBarLayout_OnOffsetChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\behavior\HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\behavior\SwipeDismissBehavior_OnDismissListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\button\MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\button\MaterialButton_OnCheckedChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\card\MaterialCardView_OnCheckedChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\carousel\OnMaskChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\checkbox\MaterialCheckBox_OnCheckedStateChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\checkbox\MaterialCheckBox_OnErrorChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\chip\ChipGroup_OnCheckedChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\chip\ChipGroup_OnCheckedStateChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\datepicker\MaterialPickerOnPositiveButtonClickListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\internal\CheckableGroup_OnCheckedStateChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\internal\MaterialCheckable_OnCheckedChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\internal\ViewUtils_OnApplyWindowInsetsListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\navigation\NavigationBarView_OnItemReselectedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\navigation\NavigationBarView_OnItemSelectedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\navigation\NavigationView_OnNavigationItemSelectedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\search\SearchView_TransitionListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\shape\ShapeAppearancePathProvider_PathListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\slider\BaseOnChangeListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\slider\BaseOnSliderTouchListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\tabs\TabLayout_BaseOnTabSelectedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEditTextAttachedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\2E90E89EAD89A570-files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\packaged_resources
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\com\companyname\iotcontroller\R.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86.ll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\typemaps.x86.o
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\environment.x86.o
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86.o
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\marshal_methods.x86.o
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\jni_remap.x86.o
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\classes.dex
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\bin\classes2.dex
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_CompileJava.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_CompileToDalvik.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_ConvertCustomView.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_ConvertResourcesCases.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\splash.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\splash.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\splash.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\splash.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\splash.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\chambre.jpg
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\cuisine.jpg
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\jardin.jpg
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\salon.jpg
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\96\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\99\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\107\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\112\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\115\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\118\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\122\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\124\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\147\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\149\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\151\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\lp\158\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\assets\Xe.AcrylicView.dll
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc644f76a5f928842da6\RealtimeBlurView.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc644f76a5f928842da6\RealtimeBlurView_PreDrawListener.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64ee6a9bdfb275dd56\BorderDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64ee6a9bdfb275dd56\BorderViewGroup.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\android\src\crc64ee6a9bdfb275dd56\CornerFrameLayout.java
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\splash.gif
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotcontrollersmile.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\iotcontrollersmile.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\iotcontrollersmile.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\iotcontrollersmile.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\iotcontrollersmile.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\iotcontrollersmile.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotwhite.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\smileyellow.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\f\Italiana-Regular.ttf
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundsetting.jpg
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\sallereunion2.jpg
-D:\Projet_Licence\IOT_Controller\IOT Controller\obj\Debug\net8.0-android\IOT Controller.sourcelink.json
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\IOT Controller.runtimeconfig.json
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\IOT Controller.dll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\IOT Controller.pdb
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller.apk
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller.aab
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.aab
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.apk
-D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.apk.idsig
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\build.props
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\adb.props
@@ -1106,99 +5,38 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\IOT Con
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\mauiimage.inputs
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\mauifont.inputs
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\mauisplash.inputs
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\mauisplash.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\mauifont.stamp
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\Italiana-Regular.ttf
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bluetooth.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\home.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\notification.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\power.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\wifi.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundsetting.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\chambre.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\cuisine.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotcontrollersmile.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotwhite.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotyellow.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\jardin.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\sallereunion2.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\salon.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\smileyellow.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\splash.gif
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_foreground.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_background.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_foreground.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\mauiimage.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\libraryprojectimports.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_BuildLibraryImportsCache.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\case_map.txt
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\__Microsoft.Android.Resource.Designer.cs
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\res.flag
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\2E90E89EAD89A570-files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\93\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\94\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\95\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\96\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\98\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\97\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\99\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\100\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\103\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\104\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\105\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\106\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\107\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\109\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\108\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\110\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\111\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\112\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\117\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\124\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\126\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\113\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\116\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\118\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\119\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\122\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\123\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\125\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\127\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\128\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\129\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\130\jl\files.cache
@@ -1219,11 +57,14 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\144\
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\145\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\146\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\147\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\149\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\151\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\148\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\150\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\152\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\155\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\156\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\157\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\158\jl\files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\159\jl\files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\R.txt
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\_Microsoft.Android.Resource.Designer.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\R.cs.flag
@@ -1232,6 +73,14 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\IOT Con
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\IOT Controller.AssemblyInfo.cs
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\IOT Controller.csproj.CoreCompileInputs.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\IOT Controller.sourcelink.json
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\IOT Controller.runtimeconfig.json
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\IOT Controller.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\IOT Controller.pdb
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller.apk
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller.aab
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.aab
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.apk
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-android\com.companyname.iotcontroller-Signed.apk.idsig
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\XamlC.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\IOT Controller.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\IOT Controller.pdb
@@ -1246,9 +95,12 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\uploadf
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resolvedassemblies.hash
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Maui.Core.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Maui.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\da\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\de\Microsoft.Maui.Controls.resources.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\DotNetEnv.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\el\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\es\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\fi\Microsoft.Maui.Controls.resources.dll
@@ -1298,6 +150,7 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.pdb
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.Runtime.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Mono.Android.Runtime.pdb
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\MQTTnet.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\mscorlib.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\ms\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\nb\Microsoft.Maui.Controls.resources.dll
@@ -1310,6 +163,7 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\ro\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\ru\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\sk\Microsoft.Maui.Controls.resources.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Sprache.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\sv\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\System.AppContext.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\System.Buffers.dll
@@ -1625,11 +479,11 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Xe.AcrylicView.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\zh-Hans\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\AndroidManifest.xml
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\AndroidManifest.xml
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -1639,6 +493,7 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\static.flag
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\__environment__.txt
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\buildid.txt
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86_64.ll
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1737,12 +592,16 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellSectionRenderer_ViewPagerPageChanged.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellToolbarTracker.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc640ec207abc449b2ca\ShellToolbarTracker_FlyoutIconDrawerDrawable.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc640fd0ddb16fe433d4\TouchBehavior_AccessibilityListener.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\ButtonRenderer.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\FrameRenderer.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\ImageRenderer.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64124e178812aeed4c\LabelRenderer.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc6413a2ffd8f229512a\CarouselViewAdapter_2.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc6413a2ffd8f229512a\RecyclerViewScrollListener_2.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiDrawingView.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiPopup.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiSemanticOrderView.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ColorChangeRevealDrawable.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ControlsAccessibilityDelegate.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\DragAndDropGestureHandler.java
@@ -1766,8 +625,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc643f2b18b2570eaa5a\PlatformGraphicsView.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc644090ca2a03f604ef\MainActivity.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc644090ca2a03f604ef\MainApplication.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc644f76a5f928842da6\RealtimeBlurView.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc644f76a5f928842da6\RealtimeBlurView_PreDrawListener.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\AccessibilityDelegateCompatWrapper.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\BorderDrawable.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\ContainerView.java
@@ -1990,6 +847,7 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\SwitchRenderer.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\TabbedPageRenderer.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc648afdc667cfb0dccb\ViewRenderer_2.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc648fc34c62be8fbbff\Snackbar_SnackbarCallback.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc6493855b22b6fa0721\TextToSpeechInternalImplementation.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc649ff77a65592e7d55\TabbedPageManager_Listeners.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc649ff77a65592e7d55\TabbedPageManager_TempView.java
@@ -2003,6 +861,7 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64b5e713d400f589b7\RadialGradientShaderFactory.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64ba438d8f48cf7e75\ActivityLifecycleContextListener.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64ba438d8f48cf7e75\IntermediateActivity.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64d6358e7bf64fbac4\SpeechToTextImplementation_SpeechRecognitionListener.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\BaseCellView.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\CellAdapter.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\CellRenderer_RendererHolder.java
@@ -2029,9 +888,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64e1fb321c08285b90\VisualElementRenderer_1.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64e53d2f592022988e\ConnectivityBroadcastReceiver.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64e53d2f592022988e\ConnectivityImplementation_EssentialsNetworkCallback.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64ee6a9bdfb275dd56\BorderDrawable.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64ee6a9bdfb275dd56\BorderViewGroup.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64ee6a9bdfb275dd56\CornerFrameLayout.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\AccelerometerListener.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\BarometerListener.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64f62664462a8937a9\ContinuousLocationListener.java
@@ -2140,6 +996,13 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\packaged_resources
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\com\companyname\iotcontroller\R.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\classes.dex
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\classes2.dex
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -2150,51 +1013,86 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundbureau.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable\splash00.gif
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable\splashi.gif
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundjardin.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\DotNetEnv.dll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Sprache.dll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\Inter-Regular.otf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\iotyellow.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\iotyellow.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\iotyellow.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\iotyellow.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\iotyellow.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\Inter-Regular.ttf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\Italiana-Regular.ttf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bluetooth.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bluetooth.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bluetooth.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bluetooth.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bluetooth.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundbureau.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\power.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\power.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\power.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\power.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\power.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\notification.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\notification.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\notification.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\notification.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\notification.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\jardin.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotyellow.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotwhite.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\iotcontrollersmile.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_lampe.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_deshumidificateur.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_climatisation.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_ajouter.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\chambre.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundsetting.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_foreground.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_foreground.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_foreground.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_foreground.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_foreground.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_background.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_background.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\wifi.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\wifi.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\wifi.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\wifi.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\wifi.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\splash.gif
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\smileyellow.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\home.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\home.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\home.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\home.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\home.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\cuisine.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\backgroundjardin.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\setting.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\setting.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\setting.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\setting.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\setting.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\setting.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\setting.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\setting.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\97\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\100\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\101\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\108\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\113\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\114\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\119\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\120\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\123\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\148\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\153\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\159\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\160\jl\files.cache
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Maui.Core.dll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Maui.dll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc640fd0ddb16fe433d4\TouchBehavior_AccessibilityListener.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiDrawingView.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiPopup.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64159f3caeb1269279\MauiSemanticOrderView.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc648fc34c62be8fbbff\Snackbar_SnackbarCallback.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64d6358e7bf64fbac4\SpeechToTextImplementation_SpeechRecognitionListener.java
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86_64.ll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\typemaps.x86_64.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\environment.x86_64.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_ajouter.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_climatisation.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_deshumidificateur.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\icon_lampe.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\MQTTnet.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\salon.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\sallereunion2.jpg
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\2E90E89EAD89A570-files.cache

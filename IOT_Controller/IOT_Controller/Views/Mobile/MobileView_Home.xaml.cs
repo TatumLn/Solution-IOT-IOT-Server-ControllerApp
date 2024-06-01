@@ -13,8 +13,7 @@ namespace IOT_Controller.Views.Mobile;
 
 public partial class MobileView_Home : ContentPage
 {
-    public double MaxY { get; set; }
-    private CarrouselModels _popup;
+    private readonly CarrouselModels _popup;
 
     public MobileView_Home()
 	{
@@ -26,8 +25,7 @@ public partial class MobileView_Home : ContentPage
     private void AfficherPopup(object sender, EventArgs e)
     {
         // Logique pour afficher le popup
-        var viewModel = BindingContext as CarrouselModels;
-        if (viewModel != null)
+        if (BindingContext is CarrouselModels viewModel)
         {
             viewModel.IsPopupVisible = true;
         }
@@ -37,5 +35,11 @@ public partial class MobileView_Home : ContentPage
     {
         _popup.IsPopupVisible = false;
     }
+
+    /*private async void BtnDeconnexion(object sender, EventArgs e)
+    {
+        await _mqttConnexion.Disconnect();
+        await Navigation.PopAsync();
+    }*/
 
 }

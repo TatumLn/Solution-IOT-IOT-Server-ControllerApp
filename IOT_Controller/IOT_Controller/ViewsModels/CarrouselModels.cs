@@ -36,8 +36,6 @@ namespace IOT_Controller.ViewsModels
             }
         }
 
-        public ObservableCollection<string> BtnImgHeader { get; set; }
-
         private int _position;
         public int Position
         {
@@ -66,35 +64,9 @@ namespace IOT_Controller.ViewsModels
             }
         }
 
-        private ContenuPopUp _contenuPopUp;
-        private int _nbrDevice;
-        public int NbrDevice
-        {
-            get { return _nbrDevice; }
-            set
-            {
-                _nbrDevice = value;
-                OnPropertyChanged(nameof(NbrDevice));
-            }
-        }
-
-        private int _nbrBtnActive;
-        public int NbrBtnActive
-        {
-            get { return _nbrBtnActive; }
-            set
-            {
-                _nbrBtnActive = value;
-                OnPropertyChanged(nameof(NbrBtnActive));
-            }
-        }
-
 
         public CarrouselModels()
         {
-            _contenuPopUp = new ContenuPopUp();
-            _contenuPopUp.PropertyChanged += ContenuPopUp_PropertyChanged;
-
             // Initialisation d la liste d'URLs d'images de fond
             BackgroundImages = new List<string>
             {
@@ -107,40 +79,8 @@ namespace IOT_Controller.ViewsModels
             // Initialisation de la page sélectionnée à 0 (première page)
             Position = 0;
 
-            // Initialisation de l'image des boutons
-            BtnImgHeader = new ObservableCollection<string>
-            {
-                "notification.svg",
-                "power.svg"
-            };
-
             //Initialisation du Popup
             IsPopupVisible = false;
-            //Mise a jour 
-            UpdateNbrDevice();
-            UpdateNbrBtnActive();
-        }
-
-        private void ContenuPopUp_PropertyChanged(object? sender, PropertyChangedEventArgs e)
-        {
-            if (e.PropertyName == nameof(ContenuPopUp.nbrBtn))
-            {
-                UpdateNbrDevice();
-            }
-            if (e.PropertyName == nameof(ContenuPopUp.nbrBtnActive))
-            {
-                UpdateNbrBtnActive();
-            }
-        }
-
-        private void UpdateNbrDevice()
-        {
-            NbrDevice = _contenuPopUp.nbrBtn;
-        }
-
-        private void UpdateNbrBtnActive()
-        {
-            NbrBtnActive = _contenuPopUp.nbrBtnActive;
         }
 
         public bool IsLast

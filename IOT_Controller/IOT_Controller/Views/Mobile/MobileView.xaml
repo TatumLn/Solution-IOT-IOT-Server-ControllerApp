@@ -56,7 +56,7 @@
                     Margin="20" 
                     WidthRequest="100" 
                     CornerRadius="10"
-                    Clicked="OnButtonClicked"/>
+                    Clicked="BtnConnexion"/>
     </StackLayout>
 
 </ContentPage>

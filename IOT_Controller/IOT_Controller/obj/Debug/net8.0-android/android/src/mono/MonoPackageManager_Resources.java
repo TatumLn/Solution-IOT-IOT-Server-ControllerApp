@@ -3,7 +3,6 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "IOT Controller.dll" comes first in this list. */
 		"IOT Controller.dll",
-		"Xe.AcrylicView.dll",
 		"CommunityToolkit.Maui.dll",
 		"CommunityToolkit.Maui.Core.dll",
 		"DotNetEnv.dll",
