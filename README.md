@@ -12,6 +12,7 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
 - [.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/)
 - [Node.js](https://nodejs.org/)
 - [HiveMQ Community Broker](https://github.com/hivemq/hivemq-community-edition?tab=readme-ov-file)
+- [hivemq-file-rbac-extension](https://www.hivemq.com/products/extensions/file-rbac-extension/)
 - [HiveMQ Cloud](https://www.hivemq.com/products/mqtt-cloud-broker/)
 - [Wokwi le circuit simulé](https://wokwi.com/projects/397247996796338177)
 
@@ -36,11 +37,11 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
 
 4. Configurez les paramètres dans `conf/conf.xml` pour votre serveur HiveMQ et autres configurations nécessaires.
 
-5. Telecharger et extraire le fichier ex
+5. Extraire le fichier hivemq-file-rbac-extension telecharger precedement.
 
-6. Modifier ou ajouter un credential
+6. Modifier ou ajouter un credential.
 
-7. Lancer le broker HiveMQ `bin/run.bat`
+7. Lancer le broker HiveMQ `bin/run.bat`.
 
 8. Exécutez le serveur Node.js :
     ```bash
@@ -48,6 +49,10 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
     ```
 
 9. Lancez l'application .NET MAUI depuis Visual Studio.
+
+#### Design
+
+- [Figma](https://www.figma.com/design/ILxpUJx6WR8OLF8cWRIHnM/Projet-IOT?node-id=97-39&t=WiddqhgcuF6iJE0G-1)
 
 ## Usage
 
