@@ -1,6 +1,6 @@
 const mqtt = require('mqtt');
-//const fs = require('fs');
-//const path = require('path');
+const fs = require('fs');
+const path = require('path');
 
 let mqttClient = null;
 
@@ -10,28 +10,27 @@ const connectLocalClient = (handleMqttData, app) => {
     mqttClient.end();
   }
 
-// Chemins vers les fichiers de certificats si utilisation de comunication securiser ssl/tls avec le broker
-//const KEY = fs.readFileSync(path.join(__dirname, '../Certificat/mqtt-client-key.pem'));
-//const CERT = fs.readFileSync(path.join(__dirname, '../Certificat/mqtt-client-cert.pem'));
-//const CA = fs.readFileSync(path.join(__dirname, '../Certificat/hivemq-server-cert.pem'));
+  // Chemins vers les fichiers de certificats
+  const KEY = fs.readFileSync(path.join(__dirname, '../Certificat/<MettreIciVotreKeyClient.pem>'));
+  const CERT = fs.readFileSync(path.join(__dirname, '../Certificat/<MettreIciVotreCertClient.pem>'));
+  const CA = fs.readFileSync(path.join(__dirname, '../Certificat/<MettreIciVotreCertCA.pem>'));
 
-  mqttClient = mqtt.connect('mqtt://localhost:1883', {
+  mqttClient = mqtt.connect('mqtt://localhost', {
     clientId: 'NodeJSClientLocal',
     username: 'VotreUserName',
     password: 'VotreMotDePasse',
-    //si utilisation de communication securiser ssl/tls avec le broker
-    //key: KEY,
-    //cert: CERT,
-    //ca: CA,
-    //rejectUnauthorized: true,
-    port: 1883
+    key: KEY,
+    cert: CERT,
+    ca: CA,
+    rejectUnauthorized: true,
+    port: 8883
   });
 
   mqttClient.on('connect', () => {
     console.log('Connection a votre HiveMQ broker MQTT local reussi!');
-    mqttClient.subscribe('iot/solution', (err) => {
+    mqttClient.subscribe('<NomdeVotreTopic>', (err) => {
       if (!err) {
-        console.log('Souscription au topic: iot/solution réussie!');
+        console.log('Souscription au topic: <NomVotreTopic> réussie!');
       } else {
         console.error('Erreur à la souscription au topic:', err);
       }
@@ -39,8 +38,11 @@ const connectLocalClient = (handleMqttData, app) => {
   });
 
   mqttClient.on('message', (topic, message) => {
-    handleMqttData(topic, message, 'local',app);
+    handleMqttData(topic, message, 'local', app);
   });
+
+    // Stocker le client MQTT dans `app`
+    app.set('mqttClient', mqttClient);
 };
 
 //Control distance (Remote)
@@ -49,18 +51,18 @@ const connectRemoteClient = (handleMqttData, app) => {
     mqttClient.end();
   }
 
-  mqttClient = mqtt.connect('mqtts://votreidcloud.hivemq.cloud', {
+  mqttClient = mqtt.connect('mqtts://<AdressdeVotreHiveMQCloud>', {
     clientId: 'NodeJSClientRemote',
-    username: 'VotreUsername',
+    username: 'VotreUserName',
     password: 'VotreMotdePasse',
     port: 8883
   });
 
   mqttClient.on('connect', () => {
     console.log('Connection à votre Cluster HiveMQ Cloud reussi!');
-    mqttClient.subscribe('iot/solution', (err) => {
+    mqttClient.subscribe('<NomdeVotreTopic>', (err) => {
       if (!err) {
-        console.log('Souscription au topic: iot/solution réussie!');
+        console.log('Souscription au topic: <NomdeVotreTopic> réussie!');
       } else {
         console.error('Erreur à la souscription au topic:', err);
       }
@@ -70,6 +72,9 @@ const connectRemoteClient = (handleMqttData, app) => {
   mqttClient.on('message', (topic, message) => {
     handleMqttData(topic, message, 'remote', app);
   });
+
+    // Stocker le client MQTT dans `app`
+    app.set('mqttClient', mqttClient);
 };
 
 module.exports = { connectLocalClient, connectRemoteClient };

@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
 const { router } = require('./API_REST/api_get');
-const { setupWebSocket, clients } = require('./Websocket/websocket');
 const { connectLocalClient, connectRemoteClient } = require('./Configuration/configuration');
 const { handleMqttData } = require('./MqttHandler/mqttdata');
 
@@ -19,9 +18,6 @@ app.use('/api', router);
 
 // Stocker les données MQTT dans une variable globale
 app.set('mqttData', []);
-
-// Configurer WebSocket
-setupWebSocket(app);
 
 // Gérer le basculement des modes
 app.post('/api/setMode', (req, res) => {
