@@ -12,7 +12,7 @@ namespace IOT_Controller.ControllersModels
 
         public BaseContentPage()
         {
-            _mqttConnexion = new MainViewModel.Instance;
+            _mqttConnexion = MainViewModel.Instance;
             BindingContext = _mqttConnexion;
         }
     }

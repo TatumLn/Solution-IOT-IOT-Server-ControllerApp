@@ -11,15 +11,16 @@ namespace IOT_Controller.API
 {
     public class CommunicationService
     {
-        private static MqttService _instance; //Singleton
         private IMqttClient? _mqttClient;
         private readonly object _lock = new object();
         public bool _IsConnectingOrDisconnecting;
-        public bool _IsConnected { get; private set; }
+        public bool IsConnected { get; private set; }
         private string? _errorMessage;
         private string? _connectingMessage;
         public event Action<string, string>? MqttTopicRecu;
-        public static MqttService Instance => _instance ?? (_instance = new MqttService());
+        //Singleton
+        private static CommunicationService _instance;
+        public static CommunicationService Instance => _instance ??= new CommunicationService();
 
         public CommunicationService()
         {
@@ -55,7 +56,7 @@ namespace IOT_Controller.API
                 {
                     _IsConnectingOrDisconnecting = false;
                 }
-                _IsConnected = true;
+                IsConnected = true;
                 ConnectingMessage = "Connexion au broker MQTT reussie!";
                 await Task.CompletedTask;
             };
@@ -66,7 +67,7 @@ namespace IOT_Controller.API
                 {
                     _IsConnectingOrDisconnecting |= false;
                 }
-                _IsConnected = false;
+                IsConnected = false;
                 ConnectingMessage = "Deconnection au brokerMQTT reussie!";
                 await Task.CompletedTask;
 
@@ -104,7 +105,7 @@ namespace IOT_Controller.API
                     _IsConnectingOrDisconnecting = false;
                 }
                 ErrorMessage = "Erreur de connexion au broker MQTT : " + ex.Message;
-                _IsConnected = false;
+                IsConnected = false;
             }
         }
 
@@ -122,7 +123,7 @@ namespace IOT_Controller.API
             try
             {
                 await _mqttClient.DisconnectAsync();
-                _IsConnected = false;
+                IsConnected = false;
             }
             catch (Exception ex)
             {
@@ -159,7 +160,7 @@ namespace IOT_Controller.API
         //
         private async Task ReconnectAsync()
         {
-            while (!_IsConnected)
+            while (!IsConnected)
             {
                 try
                 {

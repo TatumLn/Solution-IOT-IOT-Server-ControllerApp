@@ -10,17 +10,16 @@ namespace IOT_Controller.ControllersModels
 {
     public class MainViewModel
     {
-
-        protected readonly CommunicationService _communicationService;
+        private readonly CommunicationService _mqttService;
+        private static MainViewModel _instance;
+        public static MainViewModel Instance => _instance ??= new MainViewModel();
         //protected readonly CertificatMqtt _certificatMqtt;
         private readonly string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidite"];
-        private readonly MqttService _mqttService;
         public ObservableCollection<string> DataTroisIndicateur { get; set; }
 
         public MainViewModel()
         {
-            _communicationService = new CommunicationService();
-            _mqttService = MqttService.Instance;
+            _mqttService = CommunicationService.Instance;
             //_certificatMqtt = new CertificatMqtt();
             DataTroisIndicateur = new ObservableCollection<string>
             {
@@ -28,7 +27,7 @@ namespace IOT_Controller.ControllersModels
                 "N/A", //Luminosite
                 "N/A"  //Humidite
             };
-            _communicationService.MqttTopicRecu += OnMqttTopicRecu;
+            _mqttService.MqttTopicRecu += OnMqttTopicRecu;
         }
 
         [Obsolete]
@@ -88,21 +87,21 @@ namespace IOT_Controller.ControllersModels
         {
             // si avec certificat  caCertPath, clientCertPath, clientCertPassword
             var options = CreateMqttClientOptions(clientId, brokerAddress, port, username, password);
-            await _communicationService.ConnectMqtt(options);
+            await _mqttService.ConnectMqtt(options);
 
             //
-            if (_communicationService._IsConnected)
+            if (_mqttService.IsConnected)
             {
                 foreach (var topic in _topicTroisIndicateur) 
                 {
-                    await _communicationService.SubscribeAsync(topic);
+                    await _mqttService.SubscribeAsync(topic);
                 }
             }
         }
 
         public async Task Disconnect()
         {
-            await _communicationService.DisconnectMqtt();
+            await _mqttService.DisconnectMqtt();
         }
 
         //Recuperation de l'ip local du reseau sans fil
@@ -111,8 +110,8 @@ namespace IOT_Controller.ControllersModels
             return DependencyService.Get<IPAdressService>().GetLocalIPAdress();
         }
 
-        public bool IsConnected => _communicationService._IsConnected;
-        public string? ConnectingMessage => _communicationService.ConnectingMessage;
-        public string? ErrorMessage => _communicationService.ErrorMessage;
+        public bool IsConnected => _mqttService.IsConnected;
+        public string? ConnectingMessage => _mqttService.ConnectingMessage;
+        public string? ErrorMessage => _mqttService.ErrorMessage;
     }
 }
