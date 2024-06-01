@@ -10,11 +10,11 @@ using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;
 
-[assembly: Dependency(typeof(IOT_Controller.GetIP.iOSIPAdressService))]
+[assembly: Dependency(typeof(IOT_Controller.GetIP.IOSIPAdressService))]
 
 namespace IOT_Controller.GetIP
 {
-    public class iOSIPAdressService : IPAdressService
+    public class IOSIPAdressService : IPAdressService
     {
         //Recuperation de l'ip local sur IOS
         public string GetLocalIPAdress()

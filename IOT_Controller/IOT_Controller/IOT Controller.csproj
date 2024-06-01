@@ -82,6 +82,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Include="Platforms\Android\values\colors.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.0" />
 		<PackageReference Include="DotNetEnv" Version="3.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.21" />
@@ -92,6 +96,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="DesignView\Header.xaml.cs">
+	    <DependentUpon>Header.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="DesignView\PopUp.xaml.cs">
 	    <DependentUpon>PopUp.xaml</DependentUpon>
 	  </Compile>
@@ -113,6 +120,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="DesignView\Header.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="DesignView\PopUp.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -137,6 +147,10 @@
 	  <MauiXaml Update="Views\Mobile\MobileView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Platforms\Android\Resources\" />
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionIOTControllerHideInfoBar="True" /></VisualStudio></ProjectExtensions>

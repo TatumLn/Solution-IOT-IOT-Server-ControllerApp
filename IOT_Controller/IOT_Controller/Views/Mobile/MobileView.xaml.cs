@@ -1,16 +1,14 @@
-using IOT_Controller.ControllersModels;
+using IOT_Controller.API;
+using IOT_Controller.ViewsModels;
 
 namespace IOT_Controller.Views.Mobile
-{ 
+{
 
-    public partial class MobileView : ContentPage
+    public partial class MobileView : BaseContentPage
     {
-        private readonly MainViewModel _mqttConnexion;
         public MobileView()
 	    {
-		    InitializeComponent();
-            _mqttConnexion = new MainViewModel();
-            BindingContext = _mqttConnexion;
+            InitializeComponent();
         }
 
         [Obsolete]
@@ -18,7 +16,7 @@ namespace IOT_Controller.Views.Mobile
         {
             //Conexion au broker en local (par defaut)
             string clientId = "ControlAppClient";
-            string brokerAddress = "<VotreIP>";
+            string brokerAddress = " 192.168.0.126";
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";

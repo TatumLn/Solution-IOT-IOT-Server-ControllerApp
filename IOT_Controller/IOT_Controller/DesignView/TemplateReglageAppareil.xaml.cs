@@ -1,21 +1,11 @@
-using IOT_Controller.ControllersModels;
+using IOT_Controller.ViewsModels;
 
 namespace IOT_Controller.DesignView;
 
-public partial class TemplateReglageAppareil : ContentView
+public partial class TemplateReglageAppareil : BaseContentView
 {
     public TemplateReglageAppareil() 
     {
         InitializeComponent();
-    }
-
-    private void DiminuerTemp()
-    {
-       
-    }
-
-    private void AugmenterTemp()
-    {
-
     }
 }

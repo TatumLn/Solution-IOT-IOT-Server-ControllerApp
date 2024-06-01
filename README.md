@@ -40,7 +40,7 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
 
 6. Modifier ou ajouter un credential
 
-7. Lancer le HiveMQ `bin/run.bat`
+7. Lancer le broker HiveMQ `bin/run.bat`
 
 8. Exécutez le serveur Node.js :
     ```bash

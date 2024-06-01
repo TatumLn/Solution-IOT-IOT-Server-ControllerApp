@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
-             xmlns:views="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
-             x:Class="IOT_Controller.Views.Mobile.MobileView_Home">
+<local:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
+                       xmlns:views="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
+                       x:Class="IOT_Controller.Views.Mobile.MobileView_Home">
 
-    <ContentPage.BindingContext>
+    <local:BaseContentPage.BindingContext>
         <local:CarrouselModels/>
-    </ContentPage.BindingContext>
+    </local:BaseContentPage.BindingContext>
 
     <ContentPage.Resources>
         <!--Modele-->
@@ -17,9 +17,9 @@
         </DataTemplate>
         
         <DataTemplate x:Key="settingPage">
-            <StackLayout >
+            <VerticalStackLayout>
             <viewModels:SettingPageUI/>
-            </StackLayout>
+            </VerticalStackLayout>
         </DataTemplate>
         
         <DataTemplate x:Key="default">
@@ -64,64 +64,12 @@
                     <RowDefinition Height="30"/>
                     
                 </Grid.RowDefinitions>
-                
-                <Grid x:Name="HeaderFrame" 
-                       Grid.Row="0">
-                    
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
 
-                    <StackLayout Grid.Column="0"
-                                 Margin="0,20,0,0">
-                        <Label TextColor="White"
-                               FontFamily="Inter"
-                               FontSize="15"
-                               Margin="10,8"
-                               HorizontalOptions="Start"
-                               VerticalOptions="Start">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span Text="{Binding NbrDevice}" 
-                                          TextColor="OrangeRed"/>
-                                    <Span Text=" Appareil : " 
-                                          TextColor="White"/>
-                                    <Span Text="{Binding NbrBtnActive}"
-                                          TextColor="OrangeRed"/>
-                                    <Span Text=" Actif" 
-                                          TextColor="White"/>
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal"
-                                 Grid.Column="1"
-                                 Margin="80,20,11,0"
-                                 HorizontalOptions="EndAndExpand"
-                                 Spacing="12">
-                        <CollectionView ItemsSource="{Binding BtnImgHeader}">
-                            <CollectionView.ItemsLayout>
-                                <GridItemsLayout Orientation="Horizontal"
-                                                     HorizontalItemSpacing="5"/>
-                            </CollectionView.ItemsLayout>
-                            <CollectionView.ItemTemplate>
-                                <DataTemplate>
-                                    <Border StrokeShape="RoundRectangle 40"
-                                            Stroke="Transparent"
-                                            BackgroundColor="#66D9D9D9"
-                                            VerticalOptions="Start"
-                                            HeightRequest="35"
-                                            WidthRequest="35">
-                                        <ImageButton Source="{Binding }"
-                                                     HeightRequest="22"
-                                                     VerticalOptions="Center"/>
-                                    </Border>
-                                </DataTemplate>
-                            </CollectionView.ItemTemplate>
-                        </CollectionView>
-                    </StackLayout>
-                </Grid>
+                <StackLayout x:Name="HeaderFrame"
+                             Grid.Row="0">
+                    <viewModels:Header/>
+                </StackLayout>
+                
                 <Label x:Name="monLabel"
                        Grid.Row="1" 
                        Text="{Binding PositionText}"
@@ -148,14 +96,15 @@
             <IndicatorView x:Name="indicateur"
                            AbsoluteLayout.LayoutFlags="None"
                            AbsoluteLayout.LayoutBounds="160,700,100,15"
-                               IndicatorColor="#1E1E1E47"
-                               SelectedIndicatorColor="#EAFD0E"
-                               IndicatorSize="10"
-                               ItemsSource="{Binding BackgroundImages}"
-                               Position="{Binding Position}"
-                               VerticalOptions="FillAndExpand">
+                           IndicatorColor="#1E1E1E47"
+                           SelectedIndicatorColor="#EAFD0E"
+                           IndicatorSize="10"
+                           ItemsSource="{Binding BackgroundImages}"
+                           Position="{Binding Position}"
+                           VerticalOptions="FillAndExpand">
                 <!--IndicatorTemplate="{StaticResource IndicateurTemplateSelector}"-->
             </IndicatorView>
+            
             <!-- Popup (initialement invisible) -->
             <viewModels:PopUp x:Name="popup" IsVisible="{Binding IsPopupVisible}" AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
                                                                                   AbsoluteLayout.LayoutFlags="All"/>
@@ -163,5 +112,5 @@
         </AbsoluteLayout>
     </ContentPage.Content>
 
-</ContentPage>
+</local:BaseContentPage>
     
