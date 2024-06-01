@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-01T12:14:39.569</Modified>
+      <Modified>2024-06-01T14:23:14.628</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-01T12:14:39.113</Modified>
+      <Modified>2024-06-01T14:23:14.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IOT Controller.runtimeconfig.json">
       <PackagePath>IOT Controller.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-01T12:14:38.718</Modified>
+      <Modified>2024-06-01T14:23:13.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IOT Controller.dll">
       <PackagePath>IOT Controller.dll</PackagePath>
-      <Modified>2024-06-01T12:14:36.942</Modified>
+      <Modified>2024-06-01T14:23:10.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>IOT Controller.exe</PackagePath>
-      <Modified>2024-06-01T12:14:37.334</Modified>
+      <Modified>2024-06-01T14:23:10.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -484,7 +484,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IOT Controller.deps.json">
       <PackagePath>IOT Controller.deps.json</PackagePath>
-      <Modified>2024-06-01T12:14:38.698</Modified>
+      <Modified>2024-06-01T14:23:13.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Silente\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
