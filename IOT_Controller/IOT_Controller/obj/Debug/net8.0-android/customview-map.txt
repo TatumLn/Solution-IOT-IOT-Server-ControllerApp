@@ -21,7 +21,7 @@ bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 cache-path;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 color;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\158\jl\res\values\colors.xml
-color;obj\Debug\net8.0-android\res\values\colors.xml
+color;obj\Debug\net8.0-android\res\platforms\android\values\colors.xml
 color;obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 com.google.android.material.appbar.AppBarLayout;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\156\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\156\jl\res\layout\shellcontent.xml
@@ -54,7 +54,7 @@ resources;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-andro
 resources;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\158\jl\res\values\attr.xml
 resources;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\158\jl\res\values\colors.xml
 resources;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\158\jl\res\values\styles.xml
-resources;obj\Debug\net8.0-android\res\values\colors.xml
+resources;obj\Debug\net8.0-android\res\platforms\android\values\colors.xml
 resources;obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml
 set;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\156\jl\res\anim\enterfromleft.xml
 set;D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\lp\156\jl\res\anim\enterfromright.xml

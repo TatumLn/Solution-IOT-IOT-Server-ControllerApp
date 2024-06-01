@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:IOT_Controller.ControllersModels"
-             xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
-             x:Class="IOT_Controller.DesignView.PopUp">
+<local:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
+                       xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
+                       x:Class="IOT_Controller.DesignView.PopUp">
+    
+    <local:BaseContentView.BindingContext>
+        <local:BoutonData/>
+    </local:BaseContentView.BindingContext>
 
-        <!-- Semi-transparent background -->
+    <!-- Semi-transparent background -->
     <Border
                 StrokeShape="RoundRectangle 40,40,0,0"
                 BackgroundColor="#FFFFFF" >
@@ -77,5 +81,5 @@
         </Grid>
     </Border>
 
-</ContentView>
+</local:BaseContentView>
     

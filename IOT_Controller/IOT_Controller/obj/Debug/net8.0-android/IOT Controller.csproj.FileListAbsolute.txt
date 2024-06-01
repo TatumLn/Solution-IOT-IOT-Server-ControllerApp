@@ -90,7 +90,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\base.zip
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\com.companyname.iotcontroller.aab
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\bin\com.companyname.iotcontroller.apks
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\res\values\colors.xml
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\uploadflags.txt
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resolvedassemblies.hash
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
@@ -1096,3 +1095,4 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizet
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\r\drawable\sallereunion2.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\resizetizer\2E90E89EAD89A570-files.cache
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\res\platforms\android\values\colors.xml

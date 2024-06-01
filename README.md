@@ -25,7 +25,7 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
 
 2. Installez les dépendances pour le projet Node.js :
     ```bash
-    cd NodeServer
+    cd Serveur_Proxy
     npm install
     ```
 
@@ -36,12 +36,18 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
 
 4. Configurez les paramètres dans `conf/conf.xml` pour votre serveur HiveMQ et autres configurations nécessaires.
 
-5. Exécutez le serveur Node.js :
+5. Telecharger et extraire le fichier ex
+
+6. Modifier ou ajouter un credential
+
+7. Lancer le broker HiveMQ `bin/run.bat`
+
+8. Exécutez le serveur Node.js :
     ```bash
     node server.js
     ```
 
-6. Lancez l'application .NET MAUI depuis Visual Studio.
+9. Lancez l'application .NET MAUI depuis Visual Studio.
 
 ## Usage
 
@@ -60,4 +66,4 @@ Pour contribuer :
 
 ## Contact
 
-Pour toute question, veuillez contacter(mailto:zafiniainahermaprosper@gmail.com).
+Pour toute question, veuillez contacter(mailto: zafiniainahermaprosper@gmail.com).
