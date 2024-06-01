@@ -50,7 +50,7 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
 
 9. Lancez l'application .NET MAUI depuis Visual Studio.
 
-#### Design
+## Design
 
 - [Figma](https://www.figma.com/design/ILxpUJx6WR8OLF8cWRIHnM/Projet-IOT?node-id=97-39&t=WiddqhgcuF6iJE0G-1)
 
