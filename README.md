@@ -31,7 +31,7 @@ SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .N
 
 3. Ouvrez le projet dans Visual Studio :
     ```bash
-    start IOT_Controller.sln
+    start IOT Controller.sln
     ```
 
 4. Configurez les paramètres dans `conf/conf.xml` pour votre serveur HiveMQ et autres configurations nécessaires.
