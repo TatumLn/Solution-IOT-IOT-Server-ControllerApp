@@ -1,25 +1,26 @@
-# IOT Controller
+# SolutionIOT(IOT-IOTServer-ControllerApp)
 
 ## Description
 
-IOT Controller est une application de contrôle domotique utilisant .NET MAUI et MQTT pour gérer les appareils connectés. Ce projet implémente des circuits IoT simulés avec Wokwi et ESP32, avec transmission de données via HiveMQ.
+SolutionIOT(IOT-IOTServer-ControllerApp) est une solution domotique utilisant .NET MAUI pour la creation de l'application de control et MQTT pour gérer les appareils connectés ainsi que NodeJS pour la structuration des donnees. Ce projet implémente des circuits IoT simulés avec Wokwi et ESP32, avec transmission de données via HiveMQ.
 
 ## Installation
 
 ### Prérequis
 
-- [.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/)
 - [Visual Studio](https://visualstudio.microsoft.com/)
+- [.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/)
 - [Node.js](https://nodejs.org/)
-- [HiveMQ Community Broker](https://www.hivemq.com/products/community/)
-- [Wokwi](https://wokwi.com/)
+- [HiveMQ Community Broker](https://github.com/hivemq/hivemq-community-edition?tab=readme-ov-file)
+- [HiveMQ Cloud](https://www.hivemq.com/products/mqtt-cloud-broker/)
+- [Wokwi le circuit simulé](https://wokwi.com/projects/397247996796338177)
 
 ### Étapes d'installation
 
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/votre-utilisateur/IOT_Controller.git
-    cd IOT_Controller
+    git clone https://github.com/TatumLn/Solution-IOT-IOT-Server-ControllerApp.git
+    cd Solution-IOT-IOT-Server-ControllerApp
     ```
 
 2. Installez les dépendances pour le projet Node.js :
@@ -30,10 +31,10 @@ IOT Controller est une application de contrôle domotique utilisant .NET MAUI et
 
 3. Ouvrez le projet dans Visual Studio :
     ```bash
-    start IOT_Controller.sln
+    start IOT Controller.sln
     ```
 
-4. Configurez les paramètres dans `appsettings.json` pour votre serveur HiveMQ et autres configurations nécessaires.
+4. Configurez les paramètres dans `conf/conf.xml` pour votre serveur HiveMQ et autres configurations nécessaires.
 
 5. Exécutez le serveur Node.js :
     ```bash
@@ -57,10 +58,6 @@ Pour contribuer :
 4. Poussez vers la branche (`git push origin feature/NouvelleFonctionnalite`).
 5. Ouvrez une Pull Request.
 
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
-
 ## Contact
 
-Pour toute question, veuillez contacter [votre-email@example.com](mailto:votre-email@example.com).
+Pour toute question, veuillez contacter(mailto:zafiniainahermaprosper@gmail.com).
