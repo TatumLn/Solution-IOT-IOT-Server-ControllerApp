@@ -9,6 +9,7 @@
 #Ignorer les dependances externes
 /node_modules
 /packages
+/obj
 
 #Ignorer les fichiers de sauvegarde et les fichiers temporaires
 *.bak
