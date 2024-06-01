@@ -650,3 +650,7 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\mac
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\climatiseur_icon@2x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\climatiseur_icon.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\Inter-Regular.ttf
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_lampe.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_deshumidificateur.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_climatisation.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_ajouter.png

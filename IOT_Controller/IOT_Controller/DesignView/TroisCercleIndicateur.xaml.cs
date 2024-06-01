@@ -5,7 +5,7 @@ using IOT_Controller.ControllersModels;
 
 namespace IOT_Controller.DesignView;
 
-public partial class TroisCercleIndicateur : ContentView
+public partial class TroisCercleIndicateur : BaseContentView
 {
 
     public TroisCercleIndicateur() 

@@ -4,6 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using MQTTnet.Client;
 using System.Collections.ObjectModel;
 using MQTTnet.Certificates;
+using IOT_Controller.GetIP;
 
 namespace IOT_Controller.ControllersModels
 {
@@ -11,15 +12,17 @@ namespace IOT_Controller.ControllersModels
     {
 
         protected readonly CommunicationService _communicationService;
-        protected readonly CertificatMqtt _certificatMqtt;
-        private readonly string[] _topicTroisIndicateur = { "iot/temperature", "iot/luminosite", "iot/humidite" };
-        public ObservableCollection<string> _dataTroisIndicateur { get; set; }
+        //protected readonly CertificatMqtt _certificatMqtt;
+        private readonly string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidite"];
+        private readonly MqttService _mqttService;
+        public ObservableCollection<string> DataTroisIndicateur { get; set; }
 
         public MainViewModel()
         {
             _communicationService = new CommunicationService();
-            _certificatMqtt = new CertificatMqtt();
-            _dataTroisIndicateur = new ObservableCollection<string>
+            _mqttService = MqttService.Instance;
+            //_certificatMqtt = new CertificatMqtt();
+            DataTroisIndicateur = new ObservableCollection<string>
             {
                 "N/A", //Temperature
                 "N/A", //Luminosite
@@ -70,7 +73,7 @@ namespace IOT_Controller.ControllersModels
             int index = Array.IndexOf(_topicTroisIndicateur, topic);
             if (index >= 0)
             {
-                _dataTroisIndicateur[index] = payload;
+                DataTroisIndicateur[index] = payload;
             }
         }
 
@@ -100,6 +103,12 @@ namespace IOT_Controller.ControllersModels
         public async Task Disconnect()
         {
             await _communicationService.DisconnectMqtt();
+        }
+
+        //Recuperation de l'ip local du reseau sans fil
+        public string GetBrokerAdress()
+        {
+            return DependencyService.Get<IPAdressService>().GetLocalIPAdress();
         }
 
         public bool IsConnected => _communicationService._IsConnected;

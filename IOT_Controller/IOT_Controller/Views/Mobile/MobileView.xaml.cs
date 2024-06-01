@@ -14,11 +14,11 @@ namespace IOT_Controller.Views.Mobile
         }
 
         [Obsolete]
-        private async void OnButtonClicked(object sender, EventArgs e)
+        private async void BtnConnexion(object sender, EventArgs e)
         {
             //Conexion au broker en local (par defaut)
             string clientId = "ControlAppClient";
-            string brokerAddress = "192.168.0.126";
+            string brokerAddress = _mqttConnexion.GetBrokerAdress();
             int port = 1883;
             string username = "admin-user";
             string password = "admin-password";
@@ -38,7 +38,14 @@ namespace IOT_Controller.Views.Mobile
             await Navigation.PushAsync(new MobileView_Home());
 
             //
+           
             await _mqttConnexion.Disconnect();
+        }
+
+        private async void BtnDeconnexion(object sender, EventArgs e)
+        {
+            await _mqttConnexion.Disconnect();
+            await Navigation.PopAsync();
         }
 
     }   
