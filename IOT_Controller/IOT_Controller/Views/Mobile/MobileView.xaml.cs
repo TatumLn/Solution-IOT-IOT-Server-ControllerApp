@@ -16,11 +16,9 @@ namespace IOT_Controller.Views.Mobile
         {
             //Conexion au broker en local (par defaut)
             string clientId = "ControlAppClient";
-<<<<<<< HEAD
             string brokerAddress = " <AdressBroker>";
-=======
+
             string brokerAddress = "192.168.3.148";
->>>>>>> TatumLn
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";
