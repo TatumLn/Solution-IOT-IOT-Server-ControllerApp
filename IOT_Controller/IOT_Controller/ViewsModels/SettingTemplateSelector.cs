@@ -13,8 +13,7 @@ namespace IOT_Controller.ViewsModels
 
         protected override DataTemplate? OnSelectTemplate(object item, BindableObject container)
         {
-            var carousel = container as CarouselView;
-            if (carousel == null)
+            if (container is not CarouselView carousel)
                 return DefaultTemplate;
 
             var position = carousel.ItemsSource.Cast<object>().ToList().IndexOf(item);

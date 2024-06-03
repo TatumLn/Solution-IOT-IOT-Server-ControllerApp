@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewModels="clr-namespace:IOT_Controller.ControllersModels"
-             x:Class="IOT_Controller.Views.Desktop.DesktopView"
-             BackgroundColor="#19CBC0"
-             NavigationPage.HasNavigationBar="False">
-    
+<local:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
+                       x:Class="IOT_Controller.Views.Desktop.DesktopView"
+                       BackgroundColor="#19CBC0"
+                       NavigationPage.HasNavigationBar="False">
+
+    <ScrollView>
     <Grid Padding="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -42,15 +43,13 @@
                    TextColor="White" 
                    FontSize="Micro" 
                    HorizontalOptions="Center"/>
-            <Entry Placeholder="ID de votre IOT" 
-                   TextColor="#1E1E1E" 
-                   BackgroundColor="White" 
+            <Entry Style="{StaticResource EntryInputConnexion}"
+                   Placeholder="ID de votre IOT" 
                    Margin="0,0,0,10" 
                    WidthRequest="300"/>
-            <Entry Placeholder="Mot de passe" 
+            <Entry Style="{StaticResource EntryInputConnexion}"
+                   Placeholder="Mot de passe" 
                    IsPassword="True" 
-                   TextColor="#1E1E1E" 
-                   BackgroundColor="White" 
                    Margin="0,0,0,10" 
                    WidthRequest="300"/>
             <Button Text="VALIDER" 
@@ -59,7 +58,9 @@
                     BackgroundColor="#FFD700" 
                     WidthRequest="150" 
                     CornerRadius="10"
-                    Clicked="OnButtonClicked"/>
+                    Clicked="BtnConnexion"/>
         </StackLayout>
     </Grid>
-</ContentPage>
+    </ScrollView>
+    
+</local:BaseContentPage>

@@ -28,16 +28,16 @@
                 <Label Style="{StaticResource SettingTitre}"
                        Text="Parametre N1"/>
             
-                <Entry x:Name="Entry"
-                   Placeholder="Nouveau ID de votre IOT" 
-                   TextColor="White" 
-                   WidthRequest="300"
-                   HorizontalOptions="Center"/>
-                <Entry Placeholder="Nouveau Mot de passe" 
-                   TextColor="White" 
-                   WidthRequest="{Binding Source={x:Reference Entry}, Path=WidthRequest}"
-                   IsPassword="True"
-                   HorizontalOptions="Center"/>
+                <Entry Style="{StaticResource EntryInputConnexion}"
+                       x:Name="Entry"
+                       Placeholder="Nouveau ID de votre IOT" 
+                       WidthRequest="300"
+                       HorizontalOptions="Center"/>
+                <Entry Style="{StaticResource EntryInputConnexion}"
+                       Placeholder="Nouveau Mot de passe" 
+                       WidthRequest="{Binding Source={x:Reference Entry}, Path=WidthRequest}"
+                       IsPassword="True"
+                       HorizontalOptions="Center"/>
                         
                 <Button Style="{StaticResource BouttonStyle1}"
                     Text="Valider"/>

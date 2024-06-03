@@ -22,9 +22,6 @@
     <MauiXaml Update="DesignView\PopUp.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="DesignView\TemplateReglageAppareil.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="DesignView\TroisCercleIndicateur.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

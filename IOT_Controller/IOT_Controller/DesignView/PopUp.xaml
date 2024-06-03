@@ -2,17 +2,17 @@
 <local:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                        xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
-                       xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
+                       xmlns:viewModels="clr-namespace:IOT_Controller.API"
                        x:Class="IOT_Controller.DesignView.PopUp">
     
     <local:BaseContentView.BindingContext>
-        <local:BoutonData/>
+        <local:PopUpViewModel/>
     </local:BaseContentView.BindingContext>
-
+    
     <!-- Semi-transparent background -->
-    <Border
-                StrokeShape="RoundRectangle 40,40,0,0"
-                BackgroundColor="#FFFFFF" >
+    <Border StrokeShape="RoundRectangle 40,40,0,0"
+            BackgroundColor="#FFFFFF">
+        
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="45"/>
@@ -33,50 +33,109 @@
             <ScrollView Orientation="Horizontal" 
                         HorizontalOptions="Center">
                 <!-- Boutons -->
-                <CollectionView ItemsSource="{Binding ButtonList}"
-                                >
+                <CollectionView ItemsSource="{Binding ButtonList}">
                     <CollectionView.ItemsLayout>
                         <GridItemsLayout Orientation="Horizontal" 
-                                             HorizontalItemSpacing="20"/>
+                                         HorizontalItemSpacing="20"/>
                     </CollectionView.ItemsLayout>
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <ContentView VerticalOptions="Center">
-                                <VerticalStackLayout VerticalOptions="Center">
-                                    <Border BackgroundColor="#3319CBC0"
-                                            StrokeShape="RoundRectangle 40"
-                                            Stroke="#0019CBC0"
-                                            HeightRequest="70"
-                                            WidthRequest="70">
-                                        <ImageButton Source="{Binding ButtonImage}"
-                                                     HeightRequest="45"
-                                                     Command="{Binding ButtonCommand}" 
-                                                     CommandParameter="{Binding ButtonIndex}"
-                                                     VerticalOptions="Center"/>
-                                    </Border>
-                                    <Label Text="{Binding ButtonState}"
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView VerticalOptions="Center">
+                                    <VerticalStackLayout VerticalOptions="Center">
+                                        <Border BackgroundColor="{Binding BorderBackgroundColor}"
+                                                StrokeShape="RoundRectangle 40"
+                                                Stroke="#0019CBC0"
+                                                HeightRequest="70"
+                                                WidthRequest="70">
+                                            <ImageButton Source="{Binding ButtonImage}"
+                                                         HeightRequest="45"
+                                                         Command="{Binding ButtonCommand}" 
+                                                         CommandParameter="{Binding ButtonIndex}"
+                                                          VerticalOptions="Center"/>
+                                        </Border>
+                                        <Label Text="{Binding ButtonState}"
                                                HorizontalOptions="Center"
                                                FontSize="12"
                                                Margin="0,5"/>
-                                </VerticalStackLayout>
-                            </ContentView>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                    <CollectionView.BindingContext>
-                        <local:ContenuPopUp/>
-                    </CollectionView.BindingContext>
-                </CollectionView>
+                                    </VerticalStackLayout>
+                                </ContentView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
             </ScrollView>
             </HorizontalStackLayout>
 
             <VerticalStackLayout Grid.Row="2">
-                <viewModels:TemplateReglageAppareil/>
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="1">
+
+                        <Grid WidthRequest="125" 
+               HeightRequest="125" 
+               HorizontalOptions="Center">
+
+                            <Border HeightRequest="{Binding Source={x:Reference Elle}, Path=HeightRequest}"
+                     WidthRequest="{Binding Source={x:Reference Elle}, Path=WidthRequest}"
+                     StrokeShape="RoundRectangle 55"
+                     Stroke="#19CBC0"
+                     StrokeThickness="5">
+
+                            </Border>
+                            <!-- Background circle -->
+                            <Ellipse x:Name="Elle"
+                      Fill="#3319CBC0"
+                      WidthRequest="120"
+                      HeightRequest="120"
+                      HorizontalOptions="Center"
+                      VerticalOptions="Start" />
+                            <!-- Temperature label Source={RelativeSource AncestorType={x:Type local:PopUpViewModel}} -->
+                            <Label Text="{Binding SelectedContent}"
+                    TextColor="White"
+                    FontSize="24"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                                <Label.BindingContext>
+                                    <local:PopUpViewModel/>
+                                </Label.BindingContext>
+                            </Label>
+
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Diminuer button -->
+                    <Button Text="-"
+             BackgroundColor="#19CBC0"
+             Command="{Binding Commands.Diminuer}"
+             WidthRequest="40"
+             HeightRequest="40"
+             CornerRadius="20"
+             VerticalOptions="Center"
+             HorizontalOptions="End">
+                    </Button>
+
+                    <!-- Augmenter button -->
+                    <Button Grid.Column="2"
+             Text="+"
+             BackgroundColor="#19CBC0"
+             Command="{Binding Commands.Augmenter}"
+             WidthRequest="40"
+             HeightRequest="40"
+             CornerRadius="20"
+             VerticalOptions="Center"
+             HorizontalOptions="Start">
+                    </Button>
+                </Grid>
             </VerticalStackLayout>
 
             <Button Style="{StaticResource BouttonStyle1}"
-                        Grid.Row="3"
-                        Text="Fermer"
-                        Clicked="FermeturePopup"/>
+                    Grid.Row="3"
+                    Text="Fermer"/>
 
         </Grid>
     </Border>

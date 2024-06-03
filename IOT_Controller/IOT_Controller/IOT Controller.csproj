@@ -102,9 +102,6 @@
 	  <Compile Update="DesignView\PopUp.xaml.cs">
 	    <DependentUpon>PopUp.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="DesignView\TemplateReglageAppareil.xaml.cs">
-	    <DependentUpon>TemplateReglageAppareil.xaml</DependentUpon>
-	  </Compile>
 	  <Compile Update="DesignView\TroisCercleIndicateur.xaml.cs">
 	    <DependentUpon>TroisCercleIndicateur.xaml</DependentUpon>
 	  </Compile>
@@ -124,9 +121,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="DesignView\PopUp.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="DesignView\TemplateReglageAppareil.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="DesignView\TroisCercleIndicateur.xaml">

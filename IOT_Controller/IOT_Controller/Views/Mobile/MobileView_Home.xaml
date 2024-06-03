@@ -4,7 +4,8 @@
                        xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
                        xmlns:views="http://schemas.microsoft.com/winfx/2009/xaml"
                        xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
-                       x:Class="IOT_Controller.Views.Mobile.MobileView_Home">
+                       x:Class="IOT_Controller.Views.Mobile.MobileView_Home"
+                       NavigationPage.HasNavigationBar="False">
 
     <local:BaseContentPage.BindingContext>
         <local:CarrouselModels/>
@@ -17,9 +18,10 @@
         </DataTemplate>
         
         <DataTemplate x:Key="settingPage">
-            <VerticalStackLayout>
-            <viewModels:SettingPageUI/>
-            </VerticalStackLayout>
+            <AbsoluteLayout>
+                <viewModels:SettingPageUI AbsoluteLayout.LayoutFlags="All"
+                                          AbsoluteLayout.LayoutBounds="0,0,1,1"/>
+            </AbsoluteLayout>
         </DataTemplate>
         
         <DataTemplate x:Key="default">
@@ -67,6 +69,8 @@
 
                 <StackLayout x:Name="HeaderFrame"
                              Grid.Row="0">
+                    <Label BackgroundColor="Fuchsia"
+                           Text="{Binding IsPopupVisible}"/>
                     <viewModels:Header/>
                 </StackLayout>
                 
@@ -80,9 +84,9 @@
                        VerticalOptions="FillAndExpand"/>
 
                 <StackLayout x:Name="Circle"
-                      Grid.Row="2"
-                      HorizontalOptions="Center"
-                      VerticalOptions="FillAndExpand">
+                             Grid.Row="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="FillAndExpand">
                     <viewModels:TroisCercleIndicateur/>
                 </StackLayout>
 
@@ -91,23 +95,28 @@
                         Text="Ajuster"
                         VerticalOptions="FillAndExpand"
                         Clicked="AfficherPopup"/>
+
             </Grid>
 
-            <IndicatorView x:Name="indicateur"
-                           AbsoluteLayout.LayoutFlags="None"
-                           AbsoluteLayout.LayoutBounds="160,700,100,15"
-                           IndicatorColor="#1E1E1E47"
-                           SelectedIndicatorColor="#EAFD0E"
-                           IndicatorSize="10"
-                           ItemsSource="{Binding BackgroundImages}"
-                           Position="{Binding Position}"
-                           VerticalOptions="FillAndExpand">
-                <!--IndicatorTemplate="{StaticResource IndicateurTemplateSelector}"-->
-            </IndicatorView>
+            <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,0.04"
+                         AbsoluteLayout.LayoutFlags="All">
+                <IndicatorView x:Name="indicateur"
+                               IndicatorColor="#1E1E1E47"
+                               SelectedIndicatorColor="#EAFD0E"
+                               IndicatorSize="10"
+                               ItemsSource="{Binding BackgroundImages}"
+                               Position="{Binding Position}"
+                               HorizontalOptions="Center"
+                               VerticalOptions="FillAndExpand">
+                    <!--IndicatorTemplate="{StaticResource IndicateurTemplateSelector}"-->
+                </IndicatorView>
+            </StackLayout>
+
+
             
             <!-- Popup (initialement invisible) -->
-            <viewModels:PopUp x:Name="popup" IsVisible="{Binding IsPopupVisible}" AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
-                                                                                  AbsoluteLayout.LayoutFlags="All"/>
+            <viewModels:PopUp x:Name="popup" IsVisible="False" AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
+                                                               AbsoluteLayout.LayoutFlags="All"/>
 
         </AbsoluteLayout>
     </ContentPage.Content>
