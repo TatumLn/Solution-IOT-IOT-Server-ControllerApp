@@ -8,16 +8,10 @@ namespace IOT_Controller.DesignView;
 
 public partial class PopUp : BaseContentView
 {
-    public event EventHandler? Fermer;
 
     public PopUp()
     {
         InitializeComponent();
-    }
-
-    private void FermeturePopup(object sender, EventArgs e)
-    {
-        Fermer?.Invoke(this, EventArgs.Empty);
     }
 
 }

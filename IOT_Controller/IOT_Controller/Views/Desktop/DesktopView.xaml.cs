@@ -1,18 +1,16 @@
 using IOT_Controller.API;
+using IOT_Controller.ViewsModels;
 
 namespace IOT_Controller.Views.Desktop;
 
-public partial class DesktopView : ContentPage
+public partial class DesktopView : BaseContentPage
 {
-    private MainViewModel _viewModel;
     public DesktopView()
 	{
 		InitializeComponent();
-        _viewModel = new MainViewModel();
-        BindingContext = _viewModel;
     }
 
-    async void OnButtonClicked(object sender, EventArgs e)
+    async void BtnConnexion(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new DesktopView_Home());
     }

@@ -175,5 +175,11 @@ namespace IOT_Controller.API
             }
         }
 
+        public async Task<string> GetMqttMessageAsync(string topic)
+        {
+            await Task.Delay(100);
+            return "1";
+        }
+
     }
 }

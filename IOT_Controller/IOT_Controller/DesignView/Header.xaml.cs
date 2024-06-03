@@ -7,6 +7,7 @@ namespace IOT_Controller.DesignView
         public Header()
         {
             InitializeComponent();
+            BindingContext = new HeaderViewModel();
         }
 
     }

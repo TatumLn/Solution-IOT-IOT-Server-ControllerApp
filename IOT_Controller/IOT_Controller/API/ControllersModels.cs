@@ -4,21 +4,26 @@ using MQTTnet.Client;
 using System.Collections.ObjectModel;
 using MQTTnet.Certificates;
 using IOT_Controller.GetIP;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System;
+using System.Text.Json;
 
 namespace IOT_Controller.API
 {
-    public class MainViewModel
+    public class MainViewModel : INotifyPropertyChanged
     {
         private readonly CommunicationService _mqttService;
         private static MainViewModel? _instance;
         public static MainViewModel Instance => _instance ??= new MainViewModel();
-        //protected readonly CertificatMqtt _certificatMqtt;
-        private readonly string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidite"];
         public ObservableCollection<string> DataTroisIndicateur { get; set; }
+        //protected readonly CertificatMqtt _certificatMqtt;
+        public string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidity"];
 
         public MainViewModel()
         {
             _mqttService = CommunicationService.Instance;
+            Commands = new CommandeModels(_mqttService);
             //_certificatMqtt = new CertificatMqtt();
             DataTroisIndicateur =
             [
@@ -71,8 +76,25 @@ namespace IOT_Controller.API
             int index = Array.IndexOf(_topicTroisIndicateur, topic);
             if (index >= 0)
             {
-                DataTroisIndicateur[index] = payload;
+                try
+                {
+                    var jsonData = JsonDocument.Parse(payload);
+                    if (jsonData.RootElement.TryGetProperty("value", out var valueElement))
+                    {
+                        DataTroisIndicateur[index] = valueElement.ToString();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    DataTroisIndicateur[index] = $"{ex.Message}";
+                }
             }
+        }
+
+        public async Task<string> DataTopicStateAsync(string topic)
+        {
+            var payload = await _mqttService.GetMqttMessageAsync(topic);
+            return payload ?? "0";
         }
 
         [Obsolete]
@@ -84,18 +106,30 @@ namespace IOT_Controller.API
             string? username = null,
             string? password = null)
         {
+            IsLoading = true;
             // si avec certificat  caCertPath, clientCertPath, clientCertPassword
             var options = CreateMqttClientOptions(clientId, brokerAddress, port, username, password);
+            LoadingMessage = "Initialisation de la connexion au broker MQTT...";
+            await Task.Delay(500);
             await _mqttService.ConnectMqtt(options);
 
             //
             if (_mqttService.IsConnected)
             {
+                LoadingMessage = "Connexion reussie. Abonnement aux topics ...";
                 foreach (var topic in _topicTroisIndicateur)
                 {
                     await _mqttService.SubscribeAsync(topic);
                 }
+                LoadingMessage = "Abonnement reussie. Pret.";
+                await Task.Delay(1000);
             }
+            else
+            {
+                LoadingMessage = " Echec de la connexion au broker MQTT...";
+                await Task.Delay(2000);
+            }
+            IsLoading = false;
         }
 
         public async Task Disconnect()
@@ -109,8 +143,38 @@ namespace IOT_Controller.API
             return DependencyService.Get<IPAdressService>().GetLocalIPAdress();
         }
 
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+        public CommandeModels Commands { get; }
         public bool IsConnected => _mqttService.IsConnected;
         public string? ConnectingMessage => _mqttService.ConnectingMessage;
         public string? ErrorMessage => _mqttService.ErrorMessage;
+        private string? _loadingMessage;
+        private bool? _isLoading;
+
+        public string? LoadingMessage
+        {
+            get { return _loadingMessage; }
+            set 
+            { 
+                _loadingMessage = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool? IsLoading
+        {
+            get { return _isLoading; }
+            set 
+            {
+                _isLoading = value;
+                OnPropertyChanged();
+            }
+        }
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

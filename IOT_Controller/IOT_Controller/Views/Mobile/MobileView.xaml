@@ -14,6 +14,7 @@
     <StackLayout>
             <Border StrokeThickness="4" Stroke="Transparent" >
                 <Label x:Name="Status_Erreur"
+                       Text="{Binding LoadingMessage}"
                        FontSize="Micro"
                        FontAttributes="Bold"
                        TextColor="#FFD700"
@@ -44,7 +45,7 @@
                        Placeholder="Mot de passe"
                        IsPassword="True"/>
             </Frame>
-        
+
         <Button Text="VALIDER" 
                 TextColor="#1E1E1E" 
                 FontAttributes="Bold"
@@ -54,6 +55,16 @@
                 CornerRadius="10"
                 Clicked="BtnConnexion"/>
         
+        <ActivityIndicator IsRunning="{Binding IsLoading}"
+                           Color="#FFD700"
+                           IsVisible="{Binding IsLoading}"
+                           HeightRequest="50"/>
+        <Label Text="{Binding LoadingMessage}"
+               TextColor="#FFD700"
+               IsVisible="{Binding IsLoading}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
     </StackLayout>
 
 </local:BaseContentPage>

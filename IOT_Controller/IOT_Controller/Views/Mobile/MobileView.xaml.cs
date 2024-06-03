@@ -16,7 +16,7 @@ namespace IOT_Controller.Views.Mobile
         {
             //Conexion au broker en local (par defaut)
             string clientId = "ControlAppClient";
-            string brokerAddress = " 192.168.0.126";
+            string brokerAddress = "192.168.3.148";
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";
@@ -29,13 +29,8 @@ namespace IOT_Controller.Views.Mobile
 
             // si avec certificat caCertPath, clientCertPath, clientCertPassword
             await _mqttConnexion.Connect(clientId, brokerAddress, port, username, password);
-            Status_Erreur.Text = _mqttConnexion.IsConnected ? _mqttConnexion.ConnectingMessage : _mqttConnexion.ErrorMessage;
 
             //Naviguer vers la page suivant
-            _ = new MobileView_Home
-            {
-                BindingContext = _mqttConnexion // Passer le ViewModel existant
-            };
             await Navigation.PushAsync(new MobileView_Home());
 
             //

@@ -4,10 +4,6 @@
                        xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
                        x:Class="IOT_Controller.DesignView.Header">
 
-    <local:BaseContentView.BindingContext>
-        <local:HeaderData/>
-    </local:BaseContentView.BindingContext>
-
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -25,11 +21,11 @@
                                VerticalOptions="Start">
                 <Label.FormattedText>
                     <FormattedString>
-                        <Span Text="{Binding NbrDevice}" 
+                        <Span Text="{Binding NbrDevice, Source={RelativeSource AncestorType={x:Type local:HeaderViewModel}}}" 
                                           TextColor="OrangeRed"/>
                         <Span Text=" Appareil : " 
                                           TextColor="White"/>
-                        <Span Text="{Binding NbrBtnActive}"
+                        <Span Text="{Binding NbrBtnActive, Source={RelativeSource AncestorType={x:Type local:HeaderViewModel}}}"
                                           TextColor="OrangeRed"/>
                         <Span Text=" Actif" 
                                           TextColor="White"/>
@@ -42,7 +38,7 @@
                                  Margin="80,20,11,0"
                                  HorizontalOptions="EndAndExpand"
                                  Spacing="12">
-            <CollectionView ItemsSource="{Binding BtnImgHeader}">
+            <CollectionView ItemsSource="{Binding BtnImgHeader, Source ={RelativeSource AncestorType={x:Type local:HeaderViewModel}}}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Horizontal"
                                                      HorizontalItemSpacing="5"/>
@@ -55,7 +51,7 @@
                                             VerticalOptions="Start"
                                             HeightRequest="35"
                                             WidthRequest="35">
-                            <ImageButton Source="{Binding }"
+                            <ImageButton Source="{Binding .}"
                                                      HeightRequest="22"
                                                      VerticalOptions="Center"/>
                         </Border>

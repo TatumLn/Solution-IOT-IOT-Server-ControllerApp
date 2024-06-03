@@ -42,12 +42,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.DesignView.
 build_metadata.AdditionalFiles.TargetPath = DesignView\SettingPageUI.xaml
 build_metadata.AdditionalFiles.RelativePath = DesignView\SettingPageUI.xaml
 
-[D:/Projet_Licence/IOT_Controller/IOT_Controller/DesignView/TemplateReglageAppareil.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.DesignView.TemplateReglageAppareil.xaml
-build_metadata.AdditionalFiles.TargetPath = DesignView\TemplateReglageAppareil.xaml
-build_metadata.AdditionalFiles.RelativePath = DesignView\TemplateReglageAppareil.xaml
-
 [D:/Projet_Licence/IOT_Controller/IOT_Controller/DesignView/TroisCercleIndicateur.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IOT_Controller.DesignView.TroisCercleIndicateur.xaml
