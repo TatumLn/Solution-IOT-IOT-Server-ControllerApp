@@ -12,9 +12,8 @@ using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
 
 namespace IOT_Controller.ViewsModels
 {
-    public class CarrouselModels : INotifyPropertyChanged
+    public class CarrouselModels : BaseViewModel
     {
-        public event PropertyChangedEventHandler? PropertyChanged;
         private readonly string[] _pageTexts = ["Reunion", "Bureau", "Jardinage", ""];
 
         public string PositionText
@@ -29,7 +28,7 @@ namespace IOT_Controller.ViewsModels
             set
             {
                 _backgroundImages = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BackgroundImages)));
+                OnPropertyChanged(nameof(BackgroundImages));
                 OnPropertyChanged(nameof(IsLast));
             }
         }
@@ -51,18 +50,6 @@ namespace IOT_Controller.ViewsModels
             }
         }
 
-        private bool _isPopupVisible;
-        public bool IsPopupVisible
-        {
-            get => _isPopupVisible;
-            set
-            {
-                _isPopupVisible = value;
-                OnPropertyChanged(nameof(IsPopupVisible));
-            }
-        }
-
-
         public CarrouselModels()
         {
             // Initialisation d la liste d'URLs d'images de fond
@@ -76,9 +63,6 @@ namespace IOT_Controller.ViewsModels
 
             // Initialisation de la page sélectionnée à 0 (première page)
             Position = 0;
-
-            //Initialisation du Popup
-            IsPopupVisible = false;
         }
 
         public bool IsLast
@@ -89,11 +73,6 @@ namespace IOT_Controller.ViewsModels
         public bool IsDefaultPage
         {
             get { return Position != BackgroundImages.Count - 1; }
-        }
-
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

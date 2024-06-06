@@ -16,5 +16,7 @@ namespace IOT_Controller.ViewsModels
             _mqttConnexion = MainViewModel.Instance;
             BindingContext = _mqttConnexion;
         }
+
+
     }
 }

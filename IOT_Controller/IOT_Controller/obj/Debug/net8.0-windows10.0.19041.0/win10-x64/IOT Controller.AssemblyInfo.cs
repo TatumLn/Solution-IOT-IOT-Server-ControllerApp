@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fb7669b70c595415befa63bb22be58057eb24ef0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+36b711a8172120dac544eb62ed31523aa2792f64")]
 [assembly: System.Reflection.AssemblyProductAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IOT Controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -60,9 +60,6 @@
 	  <None Remove="Resources\Images\backgroundbureau.jpg" />
 	  <None Remove="Resources\Images\backgroundjardin.jpg" />
 	  <None Remove="Resources\Images\backgroundsetting.jpg" />
-	  <None Remove="Resources\Images\bluetooth.svg" />
-	  <None Remove="Resources\Images\chambre.jpg" />
-	  <None Remove="Resources\Images\cuisine.jpg" />
 	  <None Remove="Resources\Images\icon_ajouter.png" />
 	  <None Remove="Resources\Images\icon_climatisation.png" />
 	  <None Remove="Resources\Images\icon_deshumidificateur.png" />
@@ -71,14 +68,11 @@
 	  <None Remove="Resources\Images\iotcontrollersmile.png" />
 	  <None Remove="Resources\Images\iotwhite.png" />
 	  <None Remove="Resources\Images\iotyellow.png" />
-	  <None Remove="Resources\Images\jardin.jpg" />
 	  <None Remove="Resources\Images\notification.svg" />
 	  <None Remove="Resources\Images\power.svg" />
 	  <None Remove="Resources\Images\sallereunion2.jpg" />
-	  <None Remove="Resources\Images\salon.jpg" />
 	  <None Remove="Resources\Images\smileyellow.png" />
 	  <None Remove="Resources\Images\splash.gif" />
-	  <None Remove="Resources\Images\wifi.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -86,13 +80,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Acr.UserDialogs" Version="9.0.0" />
 		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.0" />
-		<PackageReference Include="DotNetEnv" Version="3.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.21" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.21" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="MQTTnet" Version="4.3.6.1152" />
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
