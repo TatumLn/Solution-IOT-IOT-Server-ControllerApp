@@ -51,10 +51,10 @@ const connectRemoteClient = (handleMqttData, app) => {
     mqttClient.end();
   }
 
-  mqttClient = mqtt.connect('mqtts://prosper-dafq7h.a01.euc1.aws.hivemq.cloud', {
+  mqttClient = mqtt.connect('mqtts://<VotreHiveMQCloud>', {
     clientId: 'NodeJSClientRemote',
-    username: 'ProsperCluster',
-    password: 'Jqb?5PCHeF7S4*Gr9m.$p',
+    username: '<VotreUserName>',
+    password: '<VotreMotdepasse>',
     port: 8883
   });
 
