@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace IOT_Controller.ViewsModels
 {
-    public class BoutonViewModel : INotifyPropertyChanged
+    public class BoutonViewModel : BaseViewModel
     {
         public string? ButtonText { get; set; }
         public ICommand? ButtonCommand { get; set; }
@@ -59,11 +59,5 @@ namespace IOT_Controller.ViewsModels
             ButtonState = state == "1" ? "actif" : "inactif";
         }
 
-        public event PropertyChangedEventHandler? PropertyChanged;
-
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
     }
 }

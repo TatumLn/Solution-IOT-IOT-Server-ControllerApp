@@ -1,14 +1,21 @@
 using IOT_Controller.API;
 using IOT_Controller.ViewsModels;
+using IOT_Controller.GetipGetnotification;
 
 namespace IOT_Controller.Views.Mobile
 {
 
     public partial class MobileView : BaseContentPage
     {
+        private readonly IPAdressService ip;
+
+
         public MobileView()
 	    {
+            
             InitializeComponent();
+            ip = DependencyService.Get<IPAdressService>();
+            Status_Erreur.Text = ip.GetLocalIPAdress().ToString();
         }
 
         [Obsolete]
@@ -16,7 +23,7 @@ namespace IOT_Controller.Views.Mobile
         {
             //Conexion au broker en local (par defaut)
             string clientId = "ControlAppClient";
-            string brokerAddress = "192.168.3.148";
+            string brokerAddress = ip.GetLocalIPAdress();
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";

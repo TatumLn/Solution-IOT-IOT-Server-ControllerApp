@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<local:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                       xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
-                       xmlns:viewModels="clr-namespace:IOT_Controller.API"
-                       x:Class="IOT_Controller.DesignView.TroisCercleIndicateur">
-
-    <local:BaseContentView.BindingContext>
-        <viewModels:MainViewModel/>
-    </local:BaseContentView.BindingContext>
+<viewModels:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
+                            x:Class="IOT_Controller.DesignView.TroisCercleIndicateur">
 
     <Grid>
             <Grid.RowDefinitions>
@@ -59,7 +54,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="1">
-            <CollectionView ItemsSource="{Binding DataTroisIndicateur}"
+            <CollectionView ItemsSource="{Binding NomTroisIndicateur}"
                             HorizontalOptions="Center"
                             Margin="0,10,15,0">
             <CollectionView.ItemsLayout>
@@ -68,7 +63,7 @@
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding DataTroisIndicateur}"
+                    <Label Text="{Binding .}"
                            TextColor="White"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
@@ -77,5 +72,5 @@
         
         </Grid>
 
-</local:BaseContentView>
+</viewModels:BaseContentView>
     

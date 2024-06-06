@@ -14,7 +14,13 @@ namespace IOT_Controller.ViewsModels
         public BaseContentView()
         {
             _mqttConnexion = MainViewModel.Instance;
+            _mqttConnexion.MqttService.MqttTopicRecu += OnMqttTopicRecu;
             BindingContext = _mqttConnexion;
+        }
+
+        protected virtual void OnMqttTopicRecu(string topic, string payload)
+        {
+            // Implémentation par défaut (si nécessaire)
         }
     }
 }

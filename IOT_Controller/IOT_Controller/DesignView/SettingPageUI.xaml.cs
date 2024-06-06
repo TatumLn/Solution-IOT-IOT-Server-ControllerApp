@@ -7,5 +7,6 @@ public partial class SettingPageUI : BaseContentView
     public SettingPageUI()
 	{
         InitializeComponent();
+        this.BindingContext = this;
     }
 }
