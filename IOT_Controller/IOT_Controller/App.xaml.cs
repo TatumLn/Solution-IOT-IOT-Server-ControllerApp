@@ -1,6 +1,7 @@
 ﻿using IOT_Controller.Views.Mobile;
 using IOT_Controller.Views.Desktop;
 using IOT_Controller.GetipGetnotification;
+using static IOT_Controller.GetipGetnotification.INotificationServices;
 
 namespace IOT_Controller
 {
@@ -12,13 +13,13 @@ namespace IOT_Controller
 
 #if ANDROID
             DependencyService.Register<IPAdressService, AndroidIPAdressService>();
-            //DependencyService.Register<INotificationServices, AndroidNotificationService>();
+            DependencyService.Register<INotificationServices, AndroidNotificationService>();
 #elif IOS
             DependencyService.Register<IPAdressService, IOSIPAdressService>();
-            //DependencyService.Register<INotificationServices, IOSNotificationService>();
+            DependencyService.Register<INotificationServices, iOSNotificationService>();
 #else
             DependencyService.Register<IPAdressService, WindowsIPAdressService>();
-             //DependencyService.Register<INotificationServices, WindowsNotificationService>();
+            DependencyService.Register<INotificationServices, WindowsNotificationService>();
 #endif
 
 

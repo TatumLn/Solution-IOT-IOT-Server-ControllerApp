@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json.Linq;
+﻿
 using System.Security.Cryptography.X509Certificates;
 using MQTTnet.Client;
 using System.Collections.ObjectModel;
@@ -93,7 +93,7 @@ namespace IOT_Controller.API
             else
             {
                 LoadingMessage = " Echec de la connexion au broker MQTT...";
-                await Task.Delay(2000);
+                await Task.Delay(1000);
             }
             IsLoading = false;
         }
@@ -118,6 +118,7 @@ namespace IOT_Controller.API
             { 
                 _loadingMessage = value;
                 OnPropertyChanged();
+                LoadingMessageChanged?.Invoke(this, EventArgs.Empty);
             }
         }
 
@@ -130,5 +131,7 @@ namespace IOT_Controller.API
                 OnPropertyChanged();
             }
         }
+
+        public event EventHandler? LoadingMessageChanged;
     }
 }
