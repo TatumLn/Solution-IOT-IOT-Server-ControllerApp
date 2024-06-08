@@ -77,7 +77,6 @@ namespace IOT_Controller.API
             string? username = null,
             string? password = null)
         {
-            IsLoading = true;
             // si avec certificat  caCertPath, clientCertPath, clientCertPassword
             var options = CreateMqttClientOptions(clientId, brokerAddress, port, username, password);
             LoadingMessage = "Initialisation de la connexion au broker MQTT...";
@@ -89,13 +88,13 @@ namespace IOT_Controller.API
             {
                 LoadingMessage = "Connexion reussie...";
                 await Task.Delay(1000);
+                LoadingMessage = "Chargement de la page home...";
             }
             else
             {
                 LoadingMessage = " Echec de la connexion au broker MQTT...";
                 await Task.Delay(1000);
             }
-            IsLoading = false;
         }
 
         public async Task Disconnect()
@@ -108,9 +107,8 @@ namespace IOT_Controller.API
         public bool IsConnected => _mqttService.IsConnected;
         public string? ConnectingMessage => _mqttService.ConnectingMessage;
         public string? ErrorMessage => _mqttService.ErrorMessage;
-        private string? _loadingMessage;
-        private bool? _isLoading;
 
+        private string? _loadingMessage;
         public string? LoadingMessage
         {
             get { return _loadingMessage; }
@@ -119,16 +117,6 @@ namespace IOT_Controller.API
                 _loadingMessage = value;
                 OnPropertyChanged();
                 LoadingMessageChanged?.Invoke(this, EventArgs.Empty);
-            }
-        }
-
-        public bool? IsLoading
-        {
-            get { return _isLoading; }
-            set 
-            {
-                _isLoading = value;
-                OnPropertyChanged();
             }
         }
 

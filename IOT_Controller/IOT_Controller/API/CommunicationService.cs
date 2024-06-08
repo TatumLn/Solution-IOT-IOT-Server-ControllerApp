@@ -177,8 +177,15 @@ namespace IOT_Controller.API
 
         public async Task<string> GetMqttMessageAsync(string topic)
         {
-            await Task.Delay(100);
-            return "1";
+            if (_mqttClient != null && _mqttClient.IsConnected)
+            {
+                var completionSource = new TaskCompletionSource<string?>();
+
+                await _mqttClient.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic(topic).Build());
+                // Attendez que la tâche de complétion soit terminée et retournez le payload
+                return await completionSource.Task?? "";
+            }
+            return "N/A";
         }
 
     }

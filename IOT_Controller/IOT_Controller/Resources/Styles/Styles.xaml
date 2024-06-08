@@ -451,7 +451,7 @@
         <Setter Property="VerticalOptions" Value="Center"/>
     </Style>
 
-    <Style TargetType="Button" x:Key="BouttonStyle1">
+    <Style TargetType="Button" x:Key="BouttonStyleContentPage">
         <Setter Property="TextColor" Value="#8C8888"/>
         <Setter Property="BackgroundColor" Value="#EAFD0E"/>
         <Setter Property="BorderColor" Value="#D9D9D9"/>
@@ -466,7 +466,17 @@
         <Setter Property="FontFamily" Value="Inter"/>
     </Style>
 
+    <Style TargetType="Button" x:Key="BoutonStyleAugmenter/Diminuer">
+        <Setter Property="BackgroundColor" Value="#19CBC0"/>
+        <Setter Property="WidthRequest" Value="40"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="CornerRadius" Value="20"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
     <Style TargetType="Switch" x:Key="SwitchStyle">
+        <Setter Property="IsToggled" Value="False"/>
+        <Setter Property="ThumbColor" Value="#5BED16"/>
     </Style>
         
 </ResourceDictionary>

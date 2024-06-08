@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<local:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<viewModels:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                       xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
+                       xmlns:local="clr-namespace:IOT_Controller.DesignView"
                        xmlns:views="http://schemas.microsoft.com/winfx/2009/xaml"
-                       xmlns:viewModels="clr-namespace:IOT_Controller.DesignView"
+                       xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
                        x:Class="IOT_Controller.Views.Mobile.MobileView_Home"
                        NavigationPage.HasNavigationBar="False">
-
-    <local:BaseContentPage.BindingContext>
-        <local:CarrouselModels/>
-    </local:BaseContentPage.BindingContext>
+    
+    <viewModels:BaseContentPage.BindingContext>
+        <viewModels:CarrouselModels/>
+    </viewModels:BaseContentPage.BindingContext>
 
     <ContentPage.Resources>
         <!--Modele-->
@@ -19,8 +19,8 @@
         
         <DataTemplate x:Key="settingPage">
             <AbsoluteLayout>
-                <viewModels:SettingPageUI AbsoluteLayout.LayoutFlags="All"
-                                          AbsoluteLayout.LayoutBounds="0,0,1,1"/>
+                <local:SettingPageUI AbsoluteLayout.LayoutFlags="All"
+                                     AbsoluteLayout.LayoutBounds="0,0,1,1"/>
             </AbsoluteLayout>
         </DataTemplate>
         
@@ -34,10 +34,10 @@
 
         <!--Selecteur de modele-->
         <!-- Selecteur de modèle de données -->
-        <local:SettingTemplateSelector x:Key="CarouselTemplateSelector"
+        <viewModels:SettingTemplateSelector x:Key="CarouselTemplateSelector"
                                             DefaultTemplate="{StaticResource DefaultTemplate}"
                                             LastPageTemplate="{StaticResource settingPage}" />
-        <local:SettingIndicatorSelector x:Key="IndicateurTemplateSelector" 
+        <viewModels:SettingIndicatorSelector x:Key="IndicateurTemplateSelector" 
                                          DefaultIndicateur="{StaticResource default}"
                                          LastIndicateur="{StaticResource settingIndicateur}"/>
     </ContentPage.Resources>
@@ -59,39 +59,34 @@
                 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="85"/>
-                    <RowDefinition Height="150"/>
-                    <RowDefinition Height="10"/>
-                    <RowDefinition Height="90"/>
-                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                     
                 </Grid.RowDefinitions>
 
                 <StackLayout x:Name="HeaderFrame"
                              Grid.Row="0">
-                    <Label BackgroundColor="Fuchsia"
-                           Text="{Binding IsPopupVisible}"/>
-                    <viewModels:Header/>
+                    <local:Header/>
                 </StackLayout>
-                
-                <Label x:Name="monLabel"
-                       Grid.Row="1" 
-                       Text="{Binding PositionText}"
-                       FontFamily="Italiana" 
-                       FontSize="60" 
-                       TextColor="#8C8888" 
-                       HorizontalOptions="Center" 
-                       VerticalOptions="FillAndExpand"/>
+               
 
                 <StackLayout x:Name="Circle"
                              Grid.Row="2"
                              HorizontalOptions="Center"
-                             VerticalOptions="FillAndExpand">
-                    <viewModels:TroisCercleIndicateur/>
+                             VerticalOptions="FillAndExpand"
+                             Spacing="30">
+                <Label x:Name="monLabel"
+                       Text="{Binding PositionText}"
+                       FontFamily="Italiana" 
+                       FontSize="60" 
+                       TextColor="#FFFFFF" 
+                       HorizontalOptions="Center" />
+                    <local:TroisCercleIndicateur/>
                 </StackLayout>
 
-                <Button Style="{StaticResource BouttonStyle1}"
-                        Grid.Row="4"
+                <Button Style="{StaticResource BouttonStyleContentPage}"
+                        Grid.Row="3"
                         Text="Ajuster"
                         VerticalOptions="FillAndExpand"
                         Clicked="AfficherPopup"/>
@@ -115,11 +110,13 @@
 
             
             <!-- Popup (initialement invisible) -->
-            <viewModels:PopUp x:Name="popup" IsVisible="False" AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
-                                                               AbsoluteLayout.LayoutFlags="All"/>
+            <local:PopUp x:Name="popup" 
+                              IsVisible="False"
+                              AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
+                              AbsoluteLayout.LayoutFlags="All"/>
 
         </AbsoluteLayout>
     </ContentPage.Content>
 
-</local:BaseContentPage>
+</viewModels:BaseContentPage>
     

@@ -12,15 +12,8 @@
     </local:BaseContentPage.BindingContext>
 
     <StackLayout>
-            <Border StrokeThickness="4" Stroke="Transparent" >
-                <Label x:Name="Status_Erreur"
-                       Text="{Binding LoadingMessage}"
-                       FontSize="Micro"
-                       FontAttributes="Bold"
-                       TextColor="#FFD700"
-                       HorizontalOptions="Center"/>
-            </Border>
-            <Label Text="Bienvenue!" 
+        
+        <Label Text="Bienvenue!" 
                    TextColor="White" 
                    FontSize="Medium" 
                    FontAttributes="Bold"
@@ -28,21 +21,23 @@
                    HorizontalTextAlignment="Center"/>
             <Image Source="iotyellow.png"
                    Margin="20"/>
-            <Label Text="Identifier votre IOT" 
+            <!-- Source=""
+                   Margin="20"/>-->
+        <Label Text="Identifier votre IOT" 
                    TextColor="White" 
                    FontSize="Small" 
                    FontAttributes="Bold"
                    HorizontalOptions="Center"/>
-        
+
             <Frame Style="{StaticResource FrameInputConnexion}"
                    Margin="20">
                 <Entry Style="{StaticResource EntryInputConnexion}"
-                       Placeholder="ID de votre IOT"/>
+                       Placeholder="Enter votre ID "/>
             </Frame>
         
             <Frame Style="{StaticResource FrameInputConnexion}">
                 <Entry Style="{StaticResource EntryInputConnexion}"
-                       Placeholder="Mot de passe"
+                       Placeholder="Entrer votre mot de passe"
                        IsPassword="True"/>
             </Frame>
 
@@ -54,16 +49,6 @@
                 WidthRequest="100" 
                 CornerRadius="10"
                 Clicked="BtnConnexion"/>
-        
-        <ActivityIndicator IsRunning="{Binding IsLoading}"
-                           Color="#FFD700"
-                           IsVisible="{Binding IsLoading}"
-                           HeightRequest="50"/>
-        <Label Text="{Binding LoadingMessage}"
-               TextColor="#FFD700"
-               IsVisible="{Binding IsLoading}"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
 
     </StackLayout>
 

@@ -17,18 +17,16 @@ namespace IOT_Controller.Views.Mobile
             ip = DependencyService.Get<IPAdressService>();
             notification = DependencyService.Get<INotificationServices>();
             _mqttConnexion.LoadingMessageChanged += OnLoadingMessageChanged;
-            Status_Erreur.Text = ip.GetLocalIPAdress().ToString();
         }
 
         private void OnLoadingMessageChanged(object sender, EventArgs e)
         {
-            notification.ShowLoading(_mqttConnexion.LoadingMessage?? "No message");
+            notification.ShowLoading(_mqttConnexion.LoadingMessage?? "...");
         }
 
         [Obsolete]
         private async void BtnConnexion(object sender, EventArgs e)
         {
-            await notification.ShowLoading(_mqttConnexion.LoadingMessage??"Connexion");
             //Conexion au broker en local (par defaut)
             string clientId = "ControlAppClient";
             string brokerAddress = ip.GetLocalIPAdress();
@@ -45,8 +43,6 @@ namespace IOT_Controller.Views.Mobile
             // si avec certificat caCertPath, clientCertPath, clientCertPassword
             await _mqttConnexion.Connect(clientId, brokerAddress, port, username, password);
 
-            notification.HideLoading();
-
             if (_mqttConnexion.IsConnected)
             {
                 notification.ShowNotification("Connexion réussie");
@@ -59,6 +55,7 @@ namespace IOT_Controller.Views.Mobile
             }
 
             //
+            notification.HideLoading();
             await _mqttConnexion.Disconnect();
         }
 

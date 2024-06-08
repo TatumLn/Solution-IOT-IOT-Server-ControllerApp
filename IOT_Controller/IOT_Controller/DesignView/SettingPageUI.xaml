@@ -47,7 +47,25 @@
                      Margin="30">
                 <Label  Style="{StaticResource SettingTitre}"
                         Text="Parametre N2"/>
-                <Switch Style="{StaticResource SwitchStyle}" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label 
+                            Grid.Column="0"
+                            Text="Passer en mode remote"
+                           TextColor="#FFFFFF"
+                           VerticalOptions="Center"/>
+                    
+                    <Switch Style="{StaticResource SwitchStyle}" 
+                            Grid.Column="1"
+                            BindingContext="{}"
+                            HorizontalOptions="Start"/>
+
+                </Grid>
+
                 <Switch Style="{StaticResource SwitchStyle}" />
         </StackLayout>
         

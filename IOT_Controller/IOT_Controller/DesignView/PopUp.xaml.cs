@@ -104,10 +104,14 @@ public partial class PopUp : BaseContentView
         // Logique pour ajouter un nouveau bouton
     }
 
+    private void FermerPopUp(object sender, EventArgs e)
+    {
+        //IsVisible = false;
+    }
+
     protected override void OnMqttTopicRecu(string topic, string payload)
     {
         base.OnMqttTopicRecu(topic, payload);
         // Gérer le message MQTT reçu ici
     }
-
 }
