@@ -17,29 +17,33 @@ namespace IOT_Controller.Views.Mobile
             ip = DependencyService.Get<IPAdressService>();
             notification = DependencyService.Get<INotificationServices>();
             _mqttConnexion.LoadingMessageChanged += OnLoadingMessageChanged;
-            Status_Erreur.Text = ip.GetLocalIPAdress().ToString();
         }
 
-        private void OnLoadingMessageChanged(object sender, EventArgs e)
+        private void OnLoadingMessageChanged(object? sender, EventArgs e)
         {
-            notification.ShowLoading(_mqttConnexion.LoadingMessage?? "No message");
+            notification.ShowLoading(_mqttConnexion.LoadingMessage?? "...");
         }
 
         [Obsolete]
         private async void BtnConnexion(object sender, EventArgs e)
         {
-            await notification.ShowLoading(_mqttConnexion.LoadingMessage??"Connexion");
+            
             //Conexion au broker en local (par defaut)
+<<<<<<< HEAD
             string clientId = "ControlAppClient";
 <<<<<<< HEAD
             string brokerAddress = " <AdressBroker>";
 =======
             string brokerAddress = ip.GetLocalIPAdress();
 >>>>>>> TatumLn
+=======
+            string brokerAddress = "192.168.0.126";//ip.GetLocalIPAdress();
+>>>>>>> Tatumln
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";
             string password = "admin-password";
+            string clientId = $"{username}";
 
             /* Chemins des certificats si avec certificat
             string caCertPath = "D:\\Projet_Licence\\IOT_Controller\\IOT_Controller\\Certificats\\hivemq-server-cert.pem"; 
@@ -48,8 +52,6 @@ namespace IOT_Controller.Views.Mobile
 
             // si avec certificat caCertPath, clientCertPath, clientCertPassword
             await _mqttConnexion.Connect(clientId, brokerAddress, port, username, password);
-
-            notification.HideLoading();
 
             if (_mqttConnexion.IsConnected)
             {
@@ -63,6 +65,7 @@ namespace IOT_Controller.Views.Mobile
             }
 
             //
+            notification.HideLoading();
             await _mqttConnexion.Disconnect();
         }
 

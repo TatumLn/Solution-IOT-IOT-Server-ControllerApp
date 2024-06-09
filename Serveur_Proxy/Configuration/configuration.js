@@ -15,7 +15,7 @@ const connectLocalClient = (handleMqttData, app) => {
   //const CERT = fs.readFileSync(path.join(__dirname, '../Certificat/mqtt-client-cert.pem'));
   //const CA = fs.readFileSync(path.join(__dirname, '../Certificat/hivemq-server-cert.pem'));
 
-  mqttClient = mqtt.connect('mqtt://192.168.0.10', {
+  mqttClient = mqtt.connect('mqtt://<VotreAdresseIPLocal>', {
     clientId: 'NodeJSClientLocal',
     username: 'admin-user',
     password: 'admin-password',
@@ -51,10 +51,17 @@ const connectRemoteClient = (handleMqttData, app) => {
     mqttClient.end();
   }
 
+<<<<<<< HEAD
   mqttClient = mqtt.connect('mqtts://<VotreHiveMQCloud>', {
     clientId: 'NodeJSClientRemote',
     username: '<VotreUserName>',
     password: '<VotreMotdepasse>',
+=======
+  mqttClient = mqtt.connect('<VotreAdressBrokerCloud>', {
+    clientId: 'NodeJSClientRemote',
+    username: '<VotreUserName>',
+    password: '<VotreMotdePasse>',
+>>>>>>> Tatumln
     port: 8883
   });
 

@@ -16,8 +16,6 @@ namespace IOT_Controller.API
         private readonly object _lock = new();
         public bool _IsConnectingOrDisconnecting;
         public bool IsConnected { get; private set; }
-        private string? _errorMessage;
-        private string? _connectingMessage;
         public event Action<string, string>? MqttTopicRecu;
         //Singleton
         private static CommunicationService? _instance;
@@ -26,24 +24,6 @@ namespace IOT_Controller.API
         public CommunicationService()
         {
             InitializeMqttClient();
-        }
-
-        public string? ConnectingMessage
-        {
-            get { return _connectingMessage; }
-            private set
-            {
-                _connectingMessage = value;
-            }
-        }
-
-        public string? ErrorMessage
-        {
-            get { return _errorMessage; }
-            private set
-            {
-                _errorMessage = value;
-            }
         }
 
         private void InitializeMqttClient()
@@ -58,7 +38,6 @@ namespace IOT_Controller.API
                     _IsConnectingOrDisconnecting = false;
                 }
                 IsConnected = true;
-                ConnectingMessage = "Connexion au broker MQTT reussie!";
                 await Task.CompletedTask;
             };
 
@@ -69,7 +48,6 @@ namespace IOT_Controller.API
                     _IsConnectingOrDisconnecting |= false;
                 }
                 IsConnected = false;
-                ConnectingMessage = "Deconnection au brokerMQTT reussie!";
                 await Task.CompletedTask;
 
                 //Tentative de reconnexion si l'utilisateur ne s'est pas deconnecte volontairement
@@ -90,7 +68,6 @@ namespace IOT_Controller.API
             {
                 if (_IsConnectingOrDisconnecting)
                 {
-                    ErrorMessage = "Une Operation de connexion ou de deconnexion est deja en cours";
                     return;
                 }
                 _IsConnectingOrDisconnecting = true;
@@ -99,13 +76,12 @@ namespace IOT_Controller.API
             {
                 await _mqttClient.ConnectAsync(options, CancellationToken.None);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 lock (_lock) 
                 {
                     _IsConnectingOrDisconnecting = false;
                 }
-                ErrorMessage = "Erreur de connexion au broker MQTT : " + ex.Message;
                 IsConnected = false;
             }
         }
@@ -116,7 +92,6 @@ namespace IOT_Controller.API
             {
                 if (!_IsConnectingOrDisconnecting) 
                 {
-                    ErrorMessage = "Une Operation de connexion ou de deconnexion est deja en cours.";
                     return;
                 }
                 _IsConnectingOrDisconnecting = true;
@@ -126,13 +101,12 @@ namespace IOT_Controller.API
                 await _mqttClient.DisconnectAsync();
                 IsConnected = false;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 lock (_lock)
                 {
                     _IsConnectingOrDisconnecting = false;
                 }
-                ErrorMessage = "Erreur de déconnexion du broker MQTT : " + ex.Message;
             }
         }
 

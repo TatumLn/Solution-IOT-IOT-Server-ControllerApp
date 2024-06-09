@@ -9,7 +9,7 @@ namespace IOT_Controller
 
     public class MainActivity : MauiAppCompatActivity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle? savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             UserDialogs.Init(this);
