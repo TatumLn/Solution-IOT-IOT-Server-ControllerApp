@@ -105,9 +105,6 @@ namespace IOT_Controller.API
 
         public CommandeModels Commands { get; }
         public bool IsConnected => _mqttService.IsConnected;
-        public string? ConnectingMessage => _mqttService.ConnectingMessage;
-        public string? ErrorMessage => _mqttService.ErrorMessage;
-
         private string? _loadingMessage;
         public string? LoadingMessage
         {

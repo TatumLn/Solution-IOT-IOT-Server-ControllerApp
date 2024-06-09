@@ -19,7 +19,7 @@ namespace IOT_Controller.Views.Mobile
             _mqttConnexion.LoadingMessageChanged += OnLoadingMessageChanged;
         }
 
-        private void OnLoadingMessageChanged(object sender, EventArgs e)
+        private void OnLoadingMessageChanged(object? sender, EventArgs e)
         {
             notification.ShowLoading(_mqttConnexion.LoadingMessage?? "...");
         }
@@ -27,13 +27,14 @@ namespace IOT_Controller.Views.Mobile
         [Obsolete]
         private async void BtnConnexion(object sender, EventArgs e)
         {
+            
             //Conexion au broker en local (par defaut)
-            string clientId = "ControlAppClient";
-            string brokerAddress = ip.GetLocalIPAdress();
+            string brokerAddress = "192.168.0.126";//ip.GetLocalIPAdress();
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";
             string password = "admin-password";
+            string clientId = $"{username}";
 
             /* Chemins des certificats si avec certificat
             string caCertPath = "D:\\Projet_Licence\\IOT_Controller\\IOT_Controller\\Certificats\\hivemq-server-cert.pem"; 

@@ -24,7 +24,7 @@ public partial class MobileView_Home : BaseContentPage
         popup.IsVisible = true;
     }
 
-    private void OnPopupPropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+    private void OnPopupPropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
     {
         if (e.PropertyName == nameof(popup.IsVisible))
         {
@@ -43,7 +43,7 @@ public partial class MobileView_Home : BaseContentPage
                 // Restaurer les hauteurs d'origine lorsque le popup est caché
                 //monGrid.RowDefinitions[0].Height = GridLength.Auto;
                 //monGrid.RowDefinitions[1].Height = GridLength.Auto;
-                monGrid.RowDefinitions[1].Height = GridLength.Star;
+                monGrid.RowDefinitions[0].Height = GridLength.Star;
                 monGrid.RowDefinitions[1].Height = GridLength.Star;
             }
         }

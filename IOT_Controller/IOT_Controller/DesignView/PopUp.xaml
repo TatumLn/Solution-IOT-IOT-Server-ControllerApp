@@ -6,15 +6,16 @@
 
     <!-- Semi-transparent background -->
     <Border StrokeShape="RoundRectangle 40,40,0,0"
+            Stroke="White"
             BackgroundColor="#FFFFFF">
         
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="45"/>
                 <RowDefinition Height="100"/>
+                <RowDefinition Height="45"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="20"/>
-                <RowDefinition Height="50"/>
+                <RowDefinition Height="80"/>
             </Grid.RowDefinitions>
 
             <Label Style="{StaticResource IndicateurValue}"
@@ -25,6 +26,7 @@
 
             <HorizontalStackLayout Grid.Row="1"
                                    HorizontalOptions="Center">
+                
                 <ScrollView Orientation="Horizontal">
                     <!-- Boutons -->
                     <CollectionView ItemsSource="{Binding ButtonList}">
@@ -71,110 +73,82 @@
                 </ScrollView>
             </HorizontalStackLayout>
 
-            <StackLayout Grid.Row="2">
-                <Grid>
+            <Grid Grid.Row="2"
+                  BackgroundColor="White"
+                  Margin="0,12,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="90"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="90"/>
-                    </Grid.ColumnDefinitions>
+                <Label Style="{StaticResource IndicateurValue}"
+                       Grid.Column="0"
+                       Text="Climatiseur"
+                       TextColor="#B0ADAD"
+                       FontAttributes="Bold"
+                       Margin="25,0,0,0"
+                       HorizontalOptions="Start"/>
 
-                    <StackLayout Grid.Column="0" 
-                                 Padding="20">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <!-- -->
-                            <Label Grid.Row="0"
-                                   Style="{StaticResource IndicateurValue}"
-                                   Text="Air"
-                                   TextColor="#B0ADAD"
-                                   FontSize="13"
-                                   FontAttributes="Bold"
-                                   Margin="0,14"/>
-                            <Label Grid.Row="1"
-                                   Style="{StaticResource IndicateurValue}"
-                                   Text="."
-                                   TextColor="#B0ADAD"
-                                   FontSize="15"/>
+                <StackLayout Orientation="Horizontal"
+                             Grid.Column="1"
+                             HorizontalOptions="End">
+                    <Label Text="Activer" 
+                            TextColor="#B0ADAD"
+                           FontSize="12"
+                           VerticalOptions="Center" />
+                    <Switch x:Name="mySwitch" />
+                </StackLayout>
+                
+            </Grid>
 
-                        </Grid>
-                    </StackLayout>
 
-                    <HorizontalStackLayout Grid.Column="1"
-                                           Margin="0,28">
-
-                        <!-- Diminuer button -->
-                            <Button Style="{StaticResource BoutonStyleAugmenter/Diminuer}"
-                                    Text="-"
-                                    Command="{Binding Commands.Diminuer}"/>
-
-                        <Border HeightRequest="{Binding Source={x:Reference Elle}, Path=HeightRequest}"
-                                WidthRequest="{Binding Source={x:Reference Elle}, Path=WidthRequest}"
-                                StrokeShape="RoundRectangle 55"
-                                Stroke="#19CBC0"
-                                StrokeThickness="4">
-
-                           <Grid Margin="5">
-                            <!-- Background circle -->
-                            <Ellipse Fill="#3319CBC0"
-                                     HeightRequest="100"
-                                     WidthRequest="100"/>
-
-                                                <!-- Temperature label -->
-                            <Label Style="{StaticResource IndicateurValue}"
-                                   Text="{Binding SelectedContent}"
-                                   TextColor="#B0ADAD"
-                                   FontSize="40"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Center" />
-                           </Grid>
-
-                        </Border>
-
-                        <!-- Augmenter button -->
-                            <Button Style="{StaticResource BoutonStyleAugmenter/Diminuer}"
-                                    Text="+"
-                                    Command="{Binding Commands.Augmenter}"/>
-
-                    </HorizontalStackLayout>
-
-                    <StackLayout Grid.Column="2"
-                                 Padding="20">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-
-                            <Switch Style="{StaticResource SwitchStyle}" 
-                                    Grid.Row="0"/>
-                            <Label Style="{StaticResource IndicateurValue}"
-                                   Grid.Row="1"
-                                   Text="Activer"
-                                   TextColor="#B0ADAD"
-                                   FontSize="12"/>
-
-                        </Grid>
-                    </StackLayout>
-                </Grid>
+            <StackLayout Grid.Row="3"
+                         BackgroundColor="White">
+                <HorizontalStackLayout HorizontalOptions="Center"
+                                       Spacing="20"
+                                       Margin="0,15,0,0">
+                <Border BackgroundColor="GreenYellow"
+                        StrokeShape="RoundRectangle 40"
+                        Stroke="#0019CBC0"
+                        HeightRequest="60"
+                        WidthRequest="60">
+                    <ImageButton BackgroundColor="#FFD700"
+                             Clicked="FermerPopUp"/>
+                </Border>
+                <Label Text="{Binding SelectedContent}"
+                       HorizontalOptions="Center"
+                       FontSize="25"/>
+                <Border BackgroundColor="GreenYellow"
+                        StrokeShape="RoundRectangle 40"
+                        Stroke="#0019CBC0"
+                        HeightRequest="60"
+                        WidthRequest="60">
+                    <ImageButton BackgroundColor="#FFD700" />
+                </Border>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Label Text="19"/>
+                    <Slider Margin="0,10,0,0"     
+                        ThumbColor="GreenYellow"
+                        MinimumTrackColor="GreenYellow"
+                            
+                        WidthRequest="200"/>
+                    <Label Text="28"/>
+                </HorizontalStackLayout>
             </StackLayout>
 
-            <StackLayout Grid.Row="3">
-                <Label  
-                        Text="footer"
-                        HorizontalOptions="Center"/>
-            </StackLayout>
+            <Border Grid.Row="4"
+                    WidthRequest="130"
+                    StrokeShape="RoundRectangle 55"
+                    Stroke="White"
+                    StrokeThickness="4">
+            <StackLayout x:Name="Stack"
+                         Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         BackgroundColor="Beige">
 
-            <Button Style="{StaticResource BouttonStyleContentPage}"
-                    Grid.Row="5"
-                    Text="Fermer"
-                    Clicked="FermerPopUp"/>
+            </StackLayout>
+            </Border>
 
         </Grid>
     </Border>

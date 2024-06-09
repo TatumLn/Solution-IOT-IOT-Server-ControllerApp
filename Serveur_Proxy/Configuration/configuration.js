@@ -15,7 +15,7 @@ const connectLocalClient = (handleMqttData, app) => {
   //const CERT = fs.readFileSync(path.join(__dirname, '../Certificat/mqtt-client-cert.pem'));
   //const CA = fs.readFileSync(path.join(__dirname, '../Certificat/hivemq-server-cert.pem'));
 
-  mqttClient = mqtt.connect('mqtt://192.168.0.10', {
+  mqttClient = mqtt.connect('mqtt://<VotreAdresseIPLocal>', {
     clientId: 'NodeJSClientLocal',
     username: 'admin-user',
     password: 'admin-password',
@@ -51,10 +51,10 @@ const connectRemoteClient = (handleMqttData, app) => {
     mqttClient.end();
   }
 
-  mqttClient = mqtt.connect('mqtts://prosper-dafq7h.a01.euc1.aws.hivemq.cloud', {
+  mqttClient = mqtt.connect('<VotreAdressBrokerCloud>', {
     clientId: 'NodeJSClientRemote',
-    username: 'ProsperCluster',
-    password: 'Jqb?5PCHeF7S4*Gr9m.$p',
+    username: '<VotreUserName>',
+    password: '<VotreMotdePasse>',
     port: 8883
   });
 
