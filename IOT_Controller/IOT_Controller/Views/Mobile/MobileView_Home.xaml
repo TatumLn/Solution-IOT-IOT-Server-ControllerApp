@@ -112,7 +112,7 @@
             <!-- Popup (initialement invisible) -->
             <local:PopUp x:Name="popup" 
                               IsVisible="False"
-                              AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
+                              AbsoluteLayout.LayoutBounds="0, 1, 1, 0.4" 
                               AbsoluteLayout.LayoutFlags="All"/>
 
         </AbsoluteLayout>
