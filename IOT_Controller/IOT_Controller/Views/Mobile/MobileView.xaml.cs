@@ -1,27 +1,22 @@
 using IOT_Controller.API;
 using IOT_Controller.ViewsModels;
 using IOT_Controller.GetipGetnotification;
+//using static UIKit.UIGestureRecognizer;
 
 namespace IOT_Controller.Views.Mobile
 {
 
     public partial class MobileView : BaseContentPage
     {
-        private readonly IPAdressService ip;
-        private readonly INotificationServices notification;
-
-
         public MobileView()
 	    {           
             InitializeComponent();
-            ip = DependencyService.Get<IPAdressService>();
-            notification = DependencyService.Get<INotificationServices>();
             _mqttConnexion.LoadingMessageChanged += OnLoadingMessageChanged;
         }
 
         private void OnLoadingMessageChanged(object? sender, EventArgs e)
         {
-            notification.ShowLoading(_mqttConnexion.LoadingMessage?? "...");
+            notification.ShowLoading(_mqttConnexion.LoadingMessage ?? "...");
         }
 
         [Obsolete]
@@ -29,16 +24,7 @@ namespace IOT_Controller.Views.Mobile
         {
             
             //Conexion au broker en local (par defaut)
-<<<<<<< HEAD
-            string clientId = "ControlAppClient";
-<<<<<<< HEAD
-            string brokerAddress = " <AdressBroker>";
-=======
-            string brokerAddress = ip.GetLocalIPAdress();
->>>>>>> TatumLn
-=======
-            string brokerAddress = "192.168.0.126";//ip.GetLocalIPAdress();
->>>>>>> Tatumln
+            string brokerAddress = "192.168.0.163";//ip.GetLocalIPAdress();
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";
@@ -55,15 +41,14 @@ namespace IOT_Controller.Views.Mobile
 
             if (_mqttConnexion.IsConnected)
             {
-                notification.ShowNotification("Connexion réussie");
-                await Navigation.PushAsync(new MobileView_Home());
+                //Authentification réussie, génération et envoi du token à Home Assistant
+                        await Navigation.PushAsync(new MobileView_Home());
+              
             }
-            else
+            else 
             {
-                notification.ShowNotification("Échec de la connexion");
-                await Navigation.PushAsync(new MobileView_Home());
+                notification.ShowNotification($"Votre broker est en hors ligne");
             }
-
             //
             notification.HideLoading();
             await _mqttConnexion.Disconnect();

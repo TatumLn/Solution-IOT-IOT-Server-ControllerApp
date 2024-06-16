@@ -1090,3 +1090,10 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64b76f6e8b2d8c8db1\LoginAppCompatDialogFragment.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64b76f6e8b2d8c8db1\PromptAppCompatDialogFragment.java
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\src\crc64b76f6e8b2d8c8db1\TimeAppCompatDialogFragment.java
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Abstractions.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Logging.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Tokens.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\System.IdentityModel.Tokens.Jwt.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\nsoftware.IPWorksSSH.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-android\android\assets\nsoftware.IPWorksSSH.System.dll

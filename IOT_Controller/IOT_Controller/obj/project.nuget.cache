@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kcVioFjoHlHImYlFWxhnsUhVG8eUuyaBIhs4o+BB7szJ8+eQBnHcJ75T9+nJBDeXcFexGNA+XT19E/ZbSemZqA==",
+  "dgSpecHash": "GsZrncOm0f1ekF52110vzV55L4zNHtDpx+mzJAmUMNvMbHjoEuXdGeAjDwRePSwLmrXfGN8wn/f1UkSXBzqC0Q==",
   "success": true,
   "projectFilePath": "D:\\Projet_Licence\\IOT_Controller\\IOT_Controller\\IOT Controller.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,10 @@
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.graphics.win2d\\1.2.0\\microsoft.graphics.win2d.1.2.0.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.6.0\\microsoft.identitymodel.abstractions.7.6.0.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.6.0\\microsoft.identitymodel.jsonwebtokens.7.6.0.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\microsoft.identitymodel.logging\\7.6.0\\microsoft.identitymodel.logging.7.6.0.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.6.0\\microsoft.identitymodel.tokens.7.6.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.maui.controls\\8.0.21\\microsoft.maui.controls.8.0.21.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.21\\microsoft.maui.controls.build.tasks.8.0.21.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.21\\microsoft.maui.controls.compatibility.8.0.21.nupkg.sha512",
@@ -34,6 +38,8 @@
     "D:\\Programme\\SDK Visual Studio\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240311000\\microsoft.windowsappsdk.1.5.240311000.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\mqttnet\\4.3.6.1152\\mqttnet.4.3.6.1152.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\nsoftware.ipworksssh\\24.0.8917\\nsoftware.ipworksssh.24.0.8917.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.6.0\\system.identitymodel.tokens.jwt.7.6.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\system.speech\\8.0.0\\system.speech.8.0.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",

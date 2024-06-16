@@ -49,6 +49,7 @@ public partial class PopUp : BaseContentView
         // Initialisation des boutons
         Task.Run(() => InitializeButtons());
         this.BindingContext = this;
+        InitializeGesture();
     }
 
     private async void InitializeButtons()
@@ -71,6 +72,17 @@ public partial class PopUp : BaseContentView
 
         OnPropertyChanged(nameof(NbrBtn));
         OnPropertyChanged(nameof(NbrBtnActive));
+    }
+
+    private void InitializeGesture()
+    {
+        var _taperHorsPopUp = new TapGestureRecognizer();
+        _taperHorsPopUp.Tapped += (s, e) => { IsVisible = false; };
+        this.GestureRecognizers.Add(_taperHorsPopUp);
+        //
+        var _swipeVersleBas = new SwipeGestureRecognizer { Direction = SwipeDirection.Down };
+        _swipeVersleBas.Swiped += (s, e) => { IsVisible = false; };
+        this.GestureRecognizers.Add(_swipeVersleBas);
     }
 
     private async Task UpdateSelectedContentAsync(int buttonIndex)
@@ -104,9 +116,18 @@ public partial class PopUp : BaseContentView
         // Logique pour ajouter un nouveau bouton
     }
 
-    private void FermerPopUp(object sender, EventArgs e)
+    private void SwitcherVersHomeassistant(object sender, EventArgs e)
     {
-        //IsVisible = false;
+        var _uri = "homeassistant://navigate";
+        try
+        {
+            Launcher.OpenAsync(new Uri(_uri));
+        }
+        catch (Exception ex) 
+        {
+            //si l'application n;est pas encore installer
+            notification.ShowNotification($"Home assistant n'est pas installer sur votre appareil veuillez l'installer {ex.Message}");
+        }
     }
 
     protected override void OnMqttTopicRecu(string topic, string payload)

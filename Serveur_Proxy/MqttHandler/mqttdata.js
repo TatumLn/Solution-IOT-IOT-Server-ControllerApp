@@ -52,7 +52,7 @@ function publishValeur(jsonData, app) {
   filteredData.forEach(({ nom, valeur }) => {
     const topicName = `iot/${nom}`;
     const payload = JSON.stringify({nom, valeur});
-    mqttClient.publish(topicName, payload, (err) => {
+    mqttClient.publish(topicName, payload, {retain: true}, (err) => {
       if (err) {
         console.error(`Erreur lors de la publication sur le topic ${topicName}:`, err);
       } else {
@@ -67,7 +67,7 @@ function publishValeurMAJ(nom, valeur, app) {
   const mqttClient = app.get('mqttClient');
   const topicName = `iot/${nom}`;
   const payload = JSON.stringify({ nom, valeur });
-  mqttClient.publish(topicName, payload, (err) => {
+  mqttClient.publish(topicName, payload,{retain: true}, (err) => {
     if (err) {
       console.error(`Erreur lors de la publication sur le topic ${topicName}:`, err);
     } else {

@@ -2,14 +2,15 @@
 <viewModels:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                             xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
-                            x:Class="IOT_Controller.DesignView.PopUp">
+                            x:Class="IOT_Controller.DesignView.PopUp"
+                            IsVisible="False">
 
     <!-- Semi-transparent background -->
     <Border StrokeShape="RoundRectangle 40,40,0,0"
             Stroke="White"
             BackgroundColor="#FFFFFF">
         
-        <Grid>
+        <Grid RowSpacing="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="45"/>
                 <RowDefinition Height="100"/>
@@ -26,7 +27,7 @@
 
             <HorizontalStackLayout Grid.Row="1"
                                    HorizontalOptions="Center">
-                
+
                 <ScrollView Orientation="Horizontal">
                     <!-- Boutons -->
                     <CollectionView ItemsSource="{Binding ButtonList}">
@@ -53,13 +54,13 @@
                                                      VerticalOptions="Center"
                                                      Spacing="5"
                                                      Margin="15,2,0,0">
-                                        <Label Style="{StaticResource IndicateurValue}"
+                                            <Label Style="{StaticResource IndicateurValue}"
                                                Text="actif"
                                                TextColor="#B0ADAD"
                                                HorizontalOptions="Center"
                                                FontSize="12"
                                                Margin="0,5"/>
-                                        <BoxView BackgroundColor="Transparent"
+                                            <BoxView BackgroundColor="Transparent"
                                                  WidthRequest="8" 
                                                  HeightRequest="8" 
                                                  CornerRadius="5" 
@@ -73,82 +74,11 @@
                 </ScrollView>
             </HorizontalStackLayout>
 
-            <Grid Grid.Row="2"
-                  BackgroundColor="White"
-                  Margin="0,12,0,0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <Label Style="{StaticResource IndicateurValue}"
-                       Grid.Column="0"
-                       Text="Climatiseur"
-                       TextColor="#B0ADAD"
-                       FontAttributes="Bold"
-                       Margin="25,0,0,0"
-                       HorizontalOptions="Start"/>
-
-                <StackLayout Orientation="Horizontal"
-                             Grid.Column="1"
-                             HorizontalOptions="End">
-                    <Label Text="Activer" 
-                            TextColor="#B0ADAD"
-                           FontSize="12"
-                           VerticalOptions="Center" />
-                    <Switch x:Name="mySwitch" />
-                </StackLayout>
-                
-            </Grid>
-
-
-            <StackLayout Grid.Row="3"
-                         BackgroundColor="White">
-                <HorizontalStackLayout HorizontalOptions="Center"
-                                       Spacing="20"
-                                       Margin="0,15,0,0">
-                <Border BackgroundColor="GreenYellow"
-                        StrokeShape="RoundRectangle 40"
-                        Stroke="#0019CBC0"
-                        HeightRequest="60"
-                        WidthRequest="60">
-                    <ImageButton BackgroundColor="#FFD700"
-                             Clicked="FermerPopUp"/>
-                </Border>
-                <Label Text="{Binding SelectedContent}"
-                       HorizontalOptions="Center"
-                       FontSize="25"/>
-                <Border BackgroundColor="GreenYellow"
-                        StrokeShape="RoundRectangle 40"
-                        Stroke="#0019CBC0"
-                        HeightRequest="60"
-                        WidthRequest="60">
-                    <ImageButton BackgroundColor="#FFD700" />
-                </Border>
-                </HorizontalStackLayout>
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Label Text="19"/>
-                    <Slider Margin="0,10,0,0"     
-                        ThumbColor="GreenYellow"
-                        MinimumTrackColor="GreenYellow"
-                            
-                        WidthRequest="200"/>
-                    <Label Text="28"/>
-                </HorizontalStackLayout>
-            </StackLayout>
-
-            <Border Grid.Row="4"
-                    WidthRequest="130"
-                    StrokeShape="RoundRectangle 55"
-                    Stroke="White"
-                    StrokeThickness="4">
-            <StackLayout x:Name="Stack"
-                         Orientation="Horizontal"
-                         HorizontalOptions="Center"
-                         BackgroundColor="Beige">
-
-            </StackLayout>
-            </Border>
+            <Button Style="{StaticResource BouttonStyleContentPage}"
+                    Grid.Row="4"
+                    Text="Switcher vers Home Assistant"
+                    WidthRequest="220"
+                    Clicked="SwitcherVersHomeassistant"/>
 
         </Grid>
     </Border>

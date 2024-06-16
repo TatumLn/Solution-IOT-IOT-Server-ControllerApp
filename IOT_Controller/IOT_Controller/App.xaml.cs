@@ -25,11 +25,9 @@ namespace IOT_Controller
 
 #if ANDROID || IOS
             MainPage = new NavigationPage(new MobileView());
-            #else
+#else
                         MainPage = new NavigationPage(new DesktopView());
-            #endif
+#endif
         }
-
-
     }
 }

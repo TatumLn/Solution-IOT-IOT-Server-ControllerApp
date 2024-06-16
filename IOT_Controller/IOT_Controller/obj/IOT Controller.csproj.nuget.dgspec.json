@@ -95,6 +95,14 @@
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [
@@ -150,6 +158,14 @@
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [
@@ -205,6 +221,14 @@
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [
@@ -255,6 +279,14 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.21, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [

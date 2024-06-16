@@ -12,7 +12,11 @@
     </local:BaseContentPage.BindingContext>
 
     <StackLayout>
-        
+        <Label x:Name="Erreur_Status"
+               TextColor="White"
+               FontSize="12"
+               FontAttributes="Bold"/>
+
         <Label Text="Bienvenue!" 
                    TextColor="White" 
                    FontSize="Medium" 
@@ -28,6 +32,12 @@
                    FontSize="Small" 
                    FontAttributes="Bold"
                    HorizontalOptions="Center"/>
+        
+        <Frame Style="{StaticResource FrameInputConnexion}"
+                   Margin="20">
+            <Entry Style="{StaticResource EntryInputConnexion}"
+                       Placeholder="Enter votre Departement "/>
+        </Frame>
 
         <Frame Style="{StaticResource FrameInputConnexion}"
                    Margin="20">
