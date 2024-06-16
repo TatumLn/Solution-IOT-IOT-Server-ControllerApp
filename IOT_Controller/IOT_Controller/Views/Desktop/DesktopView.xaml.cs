@@ -1,20 +1,27 @@
-using IOT_Controller.ViewModels;
+using IOT_Controller.API;
+using IOT_Controller.ViewsModels;
+using IOT_Controller.GetipGetnotification;
 
 namespace IOT_Controller.Views.Desktop;
 
-public partial class DesktopView : ContentPage
+public partial class DesktopView : BaseContentPage
 {
-    private MainViewModel _viewModel;
+    private readonly INotificationServices notification;
     public DesktopView()
 	{
 		InitializeComponent();
-        _viewModel = new MainViewModel();
-        BindingContext = _viewModel;
+        notification = DependencyService.Get<INotificationServices>();
+        _mqttConnexion.LoadingMessageChanged += OnLoadingMessageChanged;
     }
 
-    async void OnButtonClicked(object sender, EventArgs e)
+    private void OnLoadingMessageChanged(object? sender, EventArgs e)
     {
-        await Navigation.PushAsync(new DesktopView_Home());
+        notification.ShowLoading(_mqttConnexion.LoadingMessage ?? "...");
+    }
+
+    async void BtnConnexion(object sender, EventArgs e)
+    {
+        //await Navigation.PushAsync(new DesktopView_Home());
     }
 
 }

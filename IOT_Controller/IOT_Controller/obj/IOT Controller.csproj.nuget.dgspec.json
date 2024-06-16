@@ -66,13 +66,17 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
-            "AcrylicView.Maui": {
+            "Acr.UserDialogs": {
               "target": "Package",
-              "version": "[2.1.3, )"
+              "version": "[9.0.0, )"
             },
-            "DotNetEnv": {
+            "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -92,9 +96,13 @@
               "version": "[8.0.4, )",
               "autoReferenced": true
             },
-            "Newtonsoft.Json": {
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [
@@ -121,13 +129,17 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
-            "AcrylicView.Maui": {
+            "Acr.UserDialogs": {
               "target": "Package",
-              "version": "[2.1.3, )"
+              "version": "[9.0.0, )"
             },
-            "DotNetEnv": {
+            "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -147,9 +159,13 @@
               "version": "[8.0.4, )",
               "autoReferenced": true
             },
-            "Newtonsoft.Json": {
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [
@@ -176,13 +192,17 @@
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
-            "AcrylicView.Maui": {
+            "Acr.UserDialogs": {
               "target": "Package",
-              "version": "[2.1.3, )"
+              "version": "[9.0.0, )"
             },
-            "DotNetEnv": {
+            "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -202,9 +222,13 @@
               "version": "[8.0.4, )",
               "autoReferenced": true
             },
-            "Newtonsoft.Json": {
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [
@@ -232,13 +256,17 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
-            "AcrylicView.Maui": {
+            "Acr.UserDialogs": {
               "target": "Package",
-              "version": "[2.1.3, )"
+              "version": "[9.0.0, )"
             },
-            "DotNetEnv": {
+            "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.6.1152, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -252,9 +280,13 @@
               "target": "Package",
               "version": "[8.0.21, )"
             },
-            "Newtonsoft.Json": {
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[7.6.0, )"
+            },
+            "nsoftware.IPWorksSSH": {
+              "target": "Package",
+              "version": "[24.0.8917, )"
             }
           },
           "imports": [

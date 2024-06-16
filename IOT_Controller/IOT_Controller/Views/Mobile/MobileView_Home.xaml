@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:IOT_Controller.CarousselModels"
-             xmlns:views="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewModels="clr-namespace:IOT_Controller.ViewModels"
-             x:Class="IOT_Controller.Views.Mobile.MobileView_Home">
-
-    <ContentPage.BindingContext>
-        <local:CarrouselModels/>
-    </ContentPage.BindingContext>
+<viewModels:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:local="clr-namespace:IOT_Controller.DesignView"
+                       xmlns:views="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
+                       x:Class="IOT_Controller.Views.Mobile.MobileView_Home"
+                       NavigationPage.HasNavigationBar="False">
+    
+    <viewModels:BaseContentPage.BindingContext>
+        <viewModels:CarrouselModels/>
+    </viewModels:BaseContentPage.BindingContext>
 
     <ContentPage.Resources>
         <!--Modele-->
+        <DataTemplate x:Key="DefaultTemplate">
+            <Image Source="{Binding}" Aspect="AspectFill" />
+        </DataTemplate>
+        
+        <DataTemplate x:Key="settingPage">
+            <AbsoluteLayout>
+                <local:SettingPageUI AbsoluteLayout.LayoutFlags="All"
+                                     AbsoluteLayout.LayoutBounds="0,0,1,1"/>
+            </AbsoluteLayout>
+        </DataTemplate>
+        
         <DataTemplate x:Key="default">
             <Frame WidthRequest="10" HeightRequest="10" BackgroundColor="#D9D9D9" CornerRadius="5"/>
         </DataTemplate>
-        <DataTemplate x:Key="last">
+
+        <DataTemplate x:Key="settingIndicateur">
             <Image Source="setting.svg" WidthRequest="10" HeightRequest="10"/>
         </DataTemplate>
+
         <!--Selecteur de modele-->
-        <local:IndicatorTemplateSelector x:Key="indicatorTemplateSelector" 
-                                         DefaultIndicator="{StaticResource default}"
-                                         LastIndicator="{StaticResource last}"/>
+        <!-- Selecteur de modèle de données -->
+        <viewModels:SettingTemplateSelector x:Key="CarouselTemplateSelector"
+                                            DefaultTemplate="{StaticResource DefaultTemplate}"
+                                            LastPageTemplate="{StaticResource settingPage}" />
+        <viewModels:SettingIndicatorSelector x:Key="IndicateurTemplateSelector" 
+                                         DefaultIndicateur="{StaticResource default}"
+                                         LastIndicateur="{StaticResource settingIndicateur}"/>
     </ContentPage.Resources>
 
     <ContentPage.Content>
@@ -30,229 +48,74 @@
             AbsoluteLayout.LayoutFlags="All"
             AbsoluteLayout.LayoutBounds="0,0,1,1"
             ItemsSource="{Binding BackgroundImages}"
+            ItemTemplate="{StaticResource CarouselTemplateSelector}"
             Position="{Binding Position}">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <Image Source="{Binding}" 
-                           Aspect="AspectFill" />
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
             </CarouselView>
+
             <Grid x:Name="monGrid" 
+                  IsVisible="{Binding IsDefaultPage}"
                   AbsoluteLayout.LayoutFlags="All"
                   AbsoluteLayout.LayoutBounds="0,0,1,1">
+                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="85"/>
-                    <RowDefinition Height="150"/>
-                    <RowDefinition Height="10"/>
-                    <RowDefinition Height="90"/>
-                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    
                 </Grid.RowDefinitions>
-                <Frame x:Name="HeaderFrame" 
-                       Grid.Row="0" 
-                       BackgroundColor="Transparent"
-                       BorderColor="Transparent">
-                    <StackLayout Orientation="Horizontal"
-                                 Margin="80,20,0,0"
-                                 HorizontalOptions="EndAndExpand"
-                                 Spacing="12">
-                        <Button BackgroundColor="#D9D9D9"
-                            CornerRadius="50"
-                            HeightRequest="40"
-                            WidthRequest="40"         
-                            VerticalOptions="Start"/>
-                        <Button BackgroundColor="#D9D9D9"
-                            CornerRadius="50"
-                            HeightRequest="40"
-                            WidthRequest="40"                       
-                            VerticalOptions="Start"/>
-                    </StackLayout>
-                </Frame>
+
+                <StackLayout x:Name="HeaderFrame"
+                             Grid.Row="0">
+                    <local:Header/>
+                </StackLayout>
+               
+
+                <StackLayout x:Name="Circle"
+                             Grid.Row="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="FillAndExpand"
+                             Spacing="30">
                 <Label x:Name="monLabel"
-                       Grid.Row="1" 
                        Text="{Binding PositionText}"
                        FontFamily="Italiana" 
                        FontSize="60" 
-                       TextColor="#8C8888" 
-                       HorizontalOptions="Center" 
-                       VerticalOptions="FillAndExpand"/>
-                <StackLayout x:Name="Circle"
-                             Grid.Row="2" 
-                             Orientation="Horizontal" 
-                             HorizontalOptions="Center"
-                             VerticalOptions="FillAndExpand"
-                             Spacing="20">
-
-                    <Border HeightRequest="{Binding HeightRequest, Source={x:Reference Un}}"
-                            WidthRequest="{Binding HeightRequest, Source={x:Reference Un}}"
-                            StrokeShape="RoundRectangle 30"
-                            Stroke="#D9D9D9"
-                            StrokeThickness="7">
-                        <Frame x:Name="Un"
-                               CornerRadius="30" 
-                               BackgroundColor="#19CBC0"             
-                               Padding="10" 
-                               HeightRequest="60" 
-                               WidthRequest="60">
-                            <Label Text="{Binding Temperature}" 
-                                   TextColor="White"
-                                   FontFamily="Inter"
-                                   FontSize="15"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Center">
-                                <Label.BindingContext>
-                                    <viewModels:MainViewModel/>
-                                </Label.BindingContext>
-                            </Label>
-                        </Frame>
-                    </Border>
-
-                    <Border HeightRequest="{Binding HeightRequest, Source={x:Reference Deux}}"
-                            WidthRequest="{Binding HeightRequest, Source={x:Reference Deux}}"
-                            StrokeShape="RoundRectangle 30"
-                            Stroke="#D9D9D9"
-                            StrokeThickness="7">
-                        <Frame x:Name="Deux"
-                                CornerRadius="30" 
-                               BackgroundColor="#19CBC0" 
-                               BorderColor="#D9D9D9" 
-                               Padding="10" 
-                               HeightRequest="60" 
-                               WidthRequest="60">
-                            <Label Text="{Binding Luminosite}" 
-                                   TextColor="White" 
-                                   FontFamily="Inter"
-                                   FontSize="15"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Center">
-                                <Label.BindingContext>
-                                    <viewModels:MainViewModel/>
-                                </Label.BindingContext>
-                            </Label>
-                        </Frame>
-                    </Border>
-
-                    <Border HeightRequest="{Binding HeightRequest, Source={x:Reference Trois}}"
-                            WidthRequest="{Binding HeightRequest, Source={x:Reference Trois}}"
-                            StrokeShape="RoundRectangle 30"
-                            Stroke="#D9D9D9"
-                            StrokeThickness="7">
-                        <Frame x:Name="Trois"
-                           CornerRadius="30" 
-                           BackgroundColor="#19CBC0" 
-                           Padding="10" 
-                           HeightRequest="60" 
-                           WidthRequest="60">
-                            <Label Text="{Binding Humidity}" 
-                               TextColor="White" 
-                               FontFamily="Inter"
-                               FontSize="15"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center">
-                                <Label.BindingContext>
-                                    <viewModels:MainViewModel/>
-                                </Label.BindingContext>
-                            </Label>
-                        </Frame>
-                    </Border>
+                       TextColor="#FFFFFF" 
+                       HorizontalOptions="Center" />
+                    <local:TroisCercleIndicateur/>
                 </StackLayout>
 
-                <Button Grid.Row="4"
-                            Text="{Binding IsLast}"
-                            CornerRadius="15" 
-                            BackgroundColor="#EAFD0E" 
-                            BorderColor="#D9D9D9" 
-                            WidthRequest="80"
-                            HeightRequest="40"
-                            VerticalOptions="FillAndExpand"
-                            Clicked="AfficherPlus"/>
+                <Button Style="{StaticResource BouttonStyleContentPage}"
+                        Grid.Row="3"
+                        Text="Ajuster"
+                        VerticalOptions="FillAndExpand"
+                        Clicked="AfficherPopup"/>
 
-                <IndicatorView Grid.Row="5"
-                               x:Name="indicateur"
-                               IndicatorColor="#D9D9D9"
-                               SelectedIndicatorColor="#EAFD0E"
-                               IndicatorSize="12"
-                               ItemsSource="{Binding BackgroundImages}"
-                               HorizontalOptions="Center"
-                               VerticalOptions="FillAndExpand"
-                               Position="{Binding Position}">
-                    <!--IndicatorTemplate="{StaticResource indicatorTemplateSelector}"-->
-                </IndicatorView>
             </Grid>
 
-            <!-- Nouvelle page avec IsVisible à false -->
+            <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,0.04"
+                         AbsoluteLayout.LayoutFlags="All">
+                <IndicatorView x:Name="indicateur"
+                               IndicatorColor="#1E1E1E47"
+                               SelectedIndicatorColor="#EAFD0E"
+                               IndicatorSize="10"
+                               ItemsSource="{Binding BackgroundImages}"
+                               Position="{Binding Position}"
+                               HorizontalOptions="Center"
+                               VerticalOptions="FillAndExpand">
+                    <!--IndicatorTemplate="{StaticResource IndicateurTemplateSelector}"-->
+                </IndicatorView>
+            </StackLayout>
+
+
+            
             <!-- Popup (initialement invisible) -->
-            <Border x:Name="PopUpFrame" 
-             IsVisible="False"
-             BackgroundColor="White"
-             StrokeShape="RoundRectangle 20,20,0,0"
-             AbsoluteLayout.LayoutFlags="None"
-             AbsoluteLayout.LayoutBounds="0,200, 395, 310">
-                <!-- Contenu de votre popup -->
-                <Frame>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="80"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="45"/>
-                        </Grid.RowDefinitions>
-                        
-                        <ScrollView Orientation="Horizontal" 
-                                    Margin="6"
-                                    HorizontalOptions="Center">
-                            <StackLayout Grid.Row="0"
-                                         Orientation = "Horizontal"
-                                         Spacing="20">
-                                <StackLayout.BindingContext>
-                                    <viewModels:MainViewModel/>
-                                </StackLayout.BindingContext>
-                                <!-- Boutons par defaut -->
-                                <Button x:Name="Clim" Text="{Binding ClimActif}" CornerRadius="15" BackgroundColor="#19CBC0">
-                                    <Button.Triggers>
-                                        <DataTrigger TargetType="Button" Binding="{Binding ClimActif}" Value="1">
-                                            <Setter Property="BackgroundColor" Value="Black"/>
-                                        </DataTrigger>
-                                    </Button.Triggers>
-                                </Button>
-                                <Button x:Name="Deshum" Text="{Binding DeshumidActif}" CornerRadius="15" BackgroundColor="#19CBC0">
-                                    <Button.Triggers>
-                                        <DataTrigger TargetType="Button" Binding="{Binding DeshumidActif}" Value="1">
-                                            <Setter Property="BackgroundColor" Value="Black"/>
-                                        </DataTrigger>
-                                    </Button.Triggers>
-                                </Button>
-                                <Button x:Name="Lum" Text="{Binding LumiereActif}" CornerRadius="15" BackgroundColor="#19CBC0">
-                                    <Button.Triggers>
-                                        <DataTrigger TargetType="Button" Binding="{Binding LumiereActif}" Value="1">
-                                            <Setter Property="BackgroundColor" Value="Black"/>
-                                        </DataTrigger>
-                                    </Button.Triggers>
-                                </Button>
-                                <Button Text="Btn +" CornerRadius="15" BackgroundColor="#19CBC0"/>
-                            </StackLayout>
-                        </ScrollView>
-                        
-                        <StackLayout Grid.Row="1">
-                            <Frame  HeightRequest = "140"
-                                    WidthRequest = "360">
-                                <!-- Contenu initial du Frame -->
-                                <Label Text="Sélectionnez un bouton pour afficher le contenu de réglage" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
-                            </Frame>
-                        </StackLayout>
-                        
-                        <Button Grid.Row="2"
-                                BackgroundColor = "#EAFD0E"
-                                WidthRequest = "80"
-                                HeightRequest = "40"
-                                CornerRadius = "15"
-                                Clicked="AfficherMoins"/>
-                    </Grid>
-                </Frame>
-            </Border>
+            <local:PopUp x:Name="popup"
+                         AbsoluteLayout.LayoutBounds="0, 1, 1, 0.4" 
+                         AbsoluteLayout.LayoutFlags="All"/>
 
         </AbsoluteLayout>
     </ContentPage.Content>
 
-</ContentPage>
+</viewModels:BaseContentPage>
     

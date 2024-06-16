@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
-using Xe.AcrylicView;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 
 namespace IOT_Controller
 {
@@ -10,7 +10,7 @@ namespace IOT_Controller
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-                .UseAcrylicView()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

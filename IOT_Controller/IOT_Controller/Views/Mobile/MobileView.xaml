@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewModels="clr-namespace:IOT_Controller.ViewModels"
-             x:Class="IOT_Controller.Views.Mobile.MobileView"
-             BackgroundColor="#19CBC0"
-             NavigationPage.HasNavigationBar="False">
+<local:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
+                       xmlns:viewModels="clr-namespace:IOT_Controller.API"
+                       x:Class="IOT_Controller.Views.Mobile.MobileView"
+                       BackgroundColor="#19CBC0"
+                       NavigationPage.HasNavigationBar="False">
     
-    <ContentPage.BindingContext>
+    <local:BaseContentPage.BindingContext>
         <viewModels:MainViewModel/>
-    </ContentPage.BindingContext>
+    </local:BaseContentPage.BindingContext>
 
     <StackLayout>
-            <Border StrokeThickness="4" Stroke="Transparent" >
-                <Label Text="{Binding ConnectionStatus}" 
-                       FontSize="Micro"
-                       FontAttributes="Bold"
-                       TextColor="#FFD700"
-                       HorizontalOptions="Center"/>
-            </Border>
-            <Label Text="Bienvenue!" 
+        <Label x:Name="Erreur_Status"
+               TextColor="White"
+               FontSize="12"
+               FontAttributes="Bold"/>
+
+        <Label Text="Bienvenue!" 
                    TextColor="White" 
                    FontSize="Medium" 
                    FontAttributes="Bold"
@@ -26,38 +25,42 @@
                    HorizontalTextAlignment="Center"/>
             <Image Source="iotyellow.png"
                    Margin="20"/>
-            <Label Text="Identifier votre IOT" 
+            <!-- Source=""
+                   Margin="20"/>-->
+        <Label Text="Identifier votre IOT" 
                    TextColor="White" 
                    FontSize="Small" 
                    FontAttributes="Bold"
                    HorizontalOptions="Center"/>
-            <Frame BackgroundColor="White" 
-                   CornerRadius="10" 
-                   Padding="0" 
-                   WidthRequest="250" 
+        
+        <Frame Style="{StaticResource FrameInputConnexion}"
                    Margin="20">
-                <Entry Placeholder="ID de votre IOT" 
-                       TextColor="#1E1E1E" 
-                       BackgroundColor="Transparent"/>
+            <Entry Style="{StaticResource EntryInputConnexion}"
+                       Placeholder="Enter votre Departement "/>
+        </Frame>
+
+        <Frame Style="{StaticResource FrameInputConnexion}"
+                   Margin="20">
+                <Entry Style="{StaticResource EntryInputConnexion}"
+                       Placeholder="Enter votre ID "/>
             </Frame>
-            <Frame BackgroundColor="White" 
-                   CornerRadius="10" 
-                   Padding="0" 
-                   WidthRequest="250">
-                <Entry Placeholder="Mot de passe" 
-                       TextColor="#1E1E1E" 
-                       BackgroundColor="Transparent" 
+        
+            <Frame Style="{StaticResource FrameInputConnexion}">
+                <Entry Style="{StaticResource EntryInputConnexion}"
+                       Placeholder="Entrer votre mot de passe"
                        IsPassword="True"/>
             </Frame>
+
         <Button Text="VALIDER" 
-                    TextColor="#1E1E1E" 
-                    FontAttributes="Bold"
-                    BackgroundColor="#FFD700" 
-                    Margin="20" 
-                    WidthRequest="100" 
-                    CornerRadius="10"
-                    Clicked="OnButtonClicked"/>
+                TextColor="#1E1E1E" 
+                FontAttributes="Bold"
+                BackgroundColor="#FFD700" 
+                Margin="20" 
+                WidthRequest="100" 
+                CornerRadius="10"
+                Clicked="BtnConnexion"/>
+
     </StackLayout>
 
-</ContentPage>
+</local:BaseContentPage>
     

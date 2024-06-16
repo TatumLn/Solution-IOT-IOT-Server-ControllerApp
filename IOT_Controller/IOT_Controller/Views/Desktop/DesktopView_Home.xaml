@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<local:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:IOT_Controller.CarousselModels"
-             x:Class="IOT_Controller.Views.Desktop.DesktopView_Home"
-             xmlns:acrylic="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView">
+             xmlns:local="clr-namespace:IOT_Controller.ViewsModels"
+             x:Class="IOT_Controller.Views.Desktop.DesktopView_Home">
+
+    <local:BaseContentPage.BindingContext>
+        <local:CarrouselModels/>
+    </local:BaseContentPage.BindingContext>
 
     <AbsoluteLayout>
         <CarouselView   
@@ -20,4 +23,4 @@
     </AbsoluteLayout>
 
 
-</ContentPage>
+</local:BaseContentPage>

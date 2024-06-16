@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<viewModels:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
+                            x:Class="IOT_Controller.DesignView.PopUp"
+                            IsVisible="False">
+
+    <!-- Semi-transparent background -->
+    <Border StrokeShape="RoundRectangle 40,40,0,0"
+            Stroke="White"
+            BackgroundColor="#FFFFFF">
+        
+        <Grid RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="80"/>
+            </Grid.RowDefinitions>
+
+            <Label Style="{StaticResource IndicateurValue}"
+                   Grid.Row="0"
+                   Text="Appareils disponible"
+                   FontSize="Small"
+                   TextColor="#B0ADAD"/>
+
+            <HorizontalStackLayout Grid.Row="1"
+                                   HorizontalOptions="Center">
+
+                <ScrollView Orientation="Horizontal">
+                    <!-- Boutons -->
+                    <CollectionView ItemsSource="{Binding ButtonList}">
+                        <CollectionView.ItemsLayout>
+                            <GridItemsLayout Orientation="Horizontal" 
+                                             HorizontalItemSpacing="20"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView VerticalOptions="Center">
+                                    <VerticalStackLayout VerticalOptions="Center">
+                                        <Border BackgroundColor="{Binding BorderBackgroundColor}"
+                                                StrokeShape="RoundRectangle 40"
+                                                Stroke="#0019CBC0"
+                                                HeightRequest="70"
+                                                WidthRequest="70">
+                                            <ImageButton Source="{Binding ButtonImage}"
+                                                         HeightRequest="45"
+                                                         Command="{Binding ButtonCommand}" 
+                                                         CommandParameter="{Binding ButtonIndex}"
+                                                         VerticalOptions="Center"/>
+                                        </Border>
+                                        <StackLayout Orientation="Horizontal"
+                                                     VerticalOptions="Center"
+                                                     Spacing="5"
+                                                     Margin="15,2,0,0">
+                                            <Label Style="{StaticResource IndicateurValue}"
+                                               Text="actif"
+                                               TextColor="#B0ADAD"
+                                               HorizontalOptions="Center"
+                                               FontSize="12"
+                                               Margin="0,5"/>
+                                            <BoxView BackgroundColor="Transparent"
+                                                 WidthRequest="8" 
+                                                 HeightRequest="8" 
+                                                 CornerRadius="5" 
+                                                 Color="#5BED16"/>
+                                        </StackLayout>
+                                    </VerticalStackLayout>
+                                </ContentView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ScrollView>
+            </HorizontalStackLayout>
+
+            <Button Style="{StaticResource BouttonStyleContentPage}"
+                    Grid.Row="4"
+                    Text="Switcher vers Home Assistant"
+                    WidthRequest="220"
+                    Clicked="SwitcherVersHomeassistant"/>
+
+        </Grid>
+    </Border>
+
+</viewModels:BaseContentView>
+    
