@@ -50,18 +50,11 @@ const connectRemoteClient = (handleMqttData, app) => {
   if (mqttClient) {
     mqttClient.end();
   }
-
-<<<<<<< HEAD
-  mqttClient = mqtt.connect('mqtts://<VotreHiveMQCloud>', {
-    clientId: 'NodeJSClientRemote',
-    username: '<VotreUserName>',
-    password: '<VotreMotdepasse>',
-=======
+  
   mqttClient = mqtt.connect('<VotreAdressBrokerCloud>', {
     clientId: 'NodeJSClientRemote',
     username: '<VotreUserName>',
     password: '<VotreMotdePasse>',
->>>>>>> Tatumln
     port: 8883
   });
 
