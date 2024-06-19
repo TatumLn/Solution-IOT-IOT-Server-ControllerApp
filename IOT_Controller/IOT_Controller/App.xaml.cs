@@ -28,6 +28,7 @@ namespace IOT_Controller
 #else
                         MainPage = new NavigationPage(new DesktopView());
 #endif
+
         }
     }
 }

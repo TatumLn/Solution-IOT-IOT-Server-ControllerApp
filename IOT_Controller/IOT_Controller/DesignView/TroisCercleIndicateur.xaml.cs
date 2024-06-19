@@ -31,6 +31,8 @@ public partial class TroisCercleIndicateur : BaseContentView
     public override void OnMqttTopicRecu(string topic, string payload)
     {
         base.OnMqttTopicRecu(topic, payload);
+        System.Diagnostics.Debug.WriteLine($"Message reçu sur le sujet: {topic}, payload: {payload}");
+
         // Gérer le message MQTT reçu ici
         int index = Array.IndexOf(_topicTroisIndicateur, topic);
         if (index >= 0)
@@ -42,6 +44,7 @@ public partial class TroisCercleIndicateur : BaseContentView
                 {
                     DataTroisIndicateur[index] = valueElement.ToString();
                     NomTroisIndicateur[index] = nomElement.ToString();
+                    System.Diagnostics.Debug.WriteLine($"Données mises à jour pour {topic}: nom={nomElement}, valeur={valueElement}");
                 }
             }
             catch (Exception ex)
