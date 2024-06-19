@@ -24,29 +24,19 @@
                             <Border HeightRequest="70"
                                     WidthRequest="70"
                                     StrokeShape="RoundRectangle 40"
-                                    Stroke="#D9D9D9"
-                                    StrokeThickness="7"
+                                    Stroke="#0BDA51"
+                                    StrokeThickness="1"
                                     Margin="5">
-                            <Frame x:Name="frame"
+                            <Button x:Name="frame"
                                    CornerRadius="40" 
-                                   BackgroundColor="#19CBC0" 
+                                   BackgroundColor="#0BDA51" 
                                    Padding="10" 
+                                   Text="{Binding .}"
                                    HeightRequest="70" 
                                    WidthRequest="70"
-                                   BindingContext="{Binding}">
-
-                                <Label Style="{StaticResource IndicateurValue}"
-                                       Text="{Binding .}">
-                                    <!--
-                                    <Label.Triggers>
-                                        <DataTrigger TargetType="Label" 
-                                                     Binding="{Binding}" Value="1">
-                                            <Setter Property="TextColor" Value="OrangeRed"/>
-                                        </DataTrigger>
-                                    </Label.Triggers>
-                                   -->
-                                </Label>
-                            </Frame>
+                                   BindingContext="{Binding}"
+                                   Clicked="AfficherChart">
+                            </Button>
                             </Border>
                         </DataTemplate>
                 </CollectionView.ItemTemplate>

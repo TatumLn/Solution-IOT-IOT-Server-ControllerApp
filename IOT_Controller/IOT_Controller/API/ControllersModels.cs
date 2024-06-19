@@ -8,15 +8,33 @@ using System.Runtime.CompilerServices;
 using System;
 using System.Text.Json;
 using IOT_Controller.ViewsModels;
+using System.Windows.Input;
 
 namespace IOT_Controller.API
 {
     public class MainViewModel : BaseViewModel
     {
         private readonly CommunicationService _mqttService;
-        private static MainViewModel? _instance;
-        public static MainViewModel Instance => _instance ??= new MainViewModel();
+        private static readonly MainViewModel _instance = new();
+        public static MainViewModel Instance => _instance;
         public CommunicationService MqttService => _mqttService;
+        private readonly List<BaseContentView> _contentViews;
+        private CancellationTokenSource _cancellationTokenSource = new();
+
+        //Chart
+        private bool _isChartVisible;
+        public bool IsChartVisible
+        {
+            get => _isChartVisible;
+            set
+            {
+                if (_isChartVisible != value)
+                {
+                    _isChartVisible = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         public MainViewModel()
         {
@@ -24,6 +42,7 @@ namespace IOT_Controller.API
             Commands = new CommandeModels(_mqttService);
             //_certificatMqtt = new CertificatMqtt();
             _mqttService.MqttTopicRecu += OnMqttTopicRecu;
+            _contentViews = new List<BaseContentView>();
         }
 
         [Obsolete]
@@ -65,7 +84,11 @@ namespace IOT_Controller.API
 
         private void OnMqttTopicRecu(string topic, string payload)
         {
-            //Override
+            //A Override
+            foreach (var view in _contentViews)
+            {
+                view.OnMqttTopicRecu(topic, payload);
+            }
         }
 
         [Obsolete]
@@ -77,28 +100,48 @@ namespace IOT_Controller.API
             string? username = null,
             string? password = null)
         {
-            // si avec certificat  caCertPath, clientCertPath, clientCertPassword
-            var options = CreateMqttClientOptions(clientId, brokerAddress, port, username, password);
-            LoadingMessage = "Initialisation de la connexion au broker MQTT...";
-            await Task.Delay(500);
-            await _mqttService.ConnectMqtt(options);
+            _cancellationTokenSource = new CancellationTokenSource();
+            var cancellationToken = _cancellationTokenSource.Token;
 
-            //
-            if (_mqttService.IsConnected)
+            try
             {
-                LoadingMessage = "Connexion reussie...";
-                await Task.Delay(1000);
-                LoadingMessage = "Chargement de la page home...";
+                // si avec certificat  caCertPath, clientCertPath, clientCertPassword
+                var options = CreateMqttClientOptions(clientId, brokerAddress, port, username, password);
+                LoadingMessage = "Initialisation de la connexion au broker MQTT...";
+                await Task.Delay(500, cancellationToken);
+                await _mqttService.ConnectMqtt(options);
+
+                //
+                if (_mqttService.IsConnected)
+                {
+                    LoadingMessage = "Connexion reussie...";
+                    await Task.Delay(1000, cancellationToken);
+                    LoadingMessage = "Chargement de la page home...";
+                    // Subscribe to topics for all content views
+                    foreach (var view in _contentViews)
+                    {
+                        await view.SubscribeToTopics();
+                    }
+                }
+                else
+                {
+                    LoadingMessage = " Echec de la connexion au broker MQTT...";
+                    await Task.Delay(1000, cancellationToken);
+                }
             }
-            else
+            catch (TaskCanceledException)
             {
-                LoadingMessage = " Echec de la connexion au broker MQTT...";
-                await Task.Delay(1000);
+                LoadingMessage = "Connexion annulée.";
+            }
+            catch (Exception ex)
+            {
+                LoadingMessage = $"Erreur: {ex.Message}";
             }
         }
 
         public async Task Disconnect()
         {
+            _cancellationTokenSource.Cancel();
             await _mqttService.DisconnectMqtt();
         }
 
@@ -118,5 +161,14 @@ namespace IOT_Controller.API
         }
 
         public event EventHandler? LoadingMessageChanged;
+        public void RegisterContentView(BaseContentView view)
+        {
+            _contentViews.Add(view);
+        }
+
+        public void UnregisterContentView(BaseContentView view)
+        {
+            _contentViews.Remove(view);
+        }
     }
 }

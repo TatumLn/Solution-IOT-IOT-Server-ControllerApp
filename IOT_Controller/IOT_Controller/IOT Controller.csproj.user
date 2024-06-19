@@ -16,8 +16,12 @@
     <PlatformTarget>arm64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
+    <MauiXaml Update="DesignView\Chart.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="DesignView\SliderForms.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="DesignView\Header.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -27,19 +31,15 @@
     <MauiXaml Update="DesignView\TroisCercleIndicateur.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
->>>>>>> master
     <MauiXaml Update="Views\Desktop\DesktopView_Home.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Desktop\DesktopView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-<<<<<<< HEAD
-=======
     <MauiXaml Update="DesignView\SettingPageUI.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
->>>>>>> master
     <MauiXaml Update="Views\Mobile\MobileView_Home.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

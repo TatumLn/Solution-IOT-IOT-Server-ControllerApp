@@ -53,7 +53,7 @@ namespace IOT_Controller.DesignView
             NbrBtnActive = _popup.NbrBtnActive;
         }
 
-        protected override void OnMqttTopicRecu(string topic, string payload)
+        public override void OnMqttTopicRecu(string topic, string payload)
         {
             base.OnMqttTopicRecu(topic, payload);
             // Gérer le message MQTT reçu ici

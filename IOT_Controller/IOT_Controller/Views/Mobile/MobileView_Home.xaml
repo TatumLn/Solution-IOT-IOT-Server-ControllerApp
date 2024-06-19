@@ -80,7 +80,7 @@
                        Text="{Binding PositionText}"
                        FontFamily="Italiana" 
                        FontSize="60" 
-                       TextColor="#FFFFFF" 
+                       TextColor="#555D50" 
                        HorizontalOptions="Center" />
                     <local:TroisCercleIndicateur/>
                 </StackLayout>
@@ -97,7 +97,7 @@
                          AbsoluteLayout.LayoutFlags="All">
                 <IndicatorView x:Name="indicateur"
                                IndicatorColor="#1E1E1E47"
-                               SelectedIndicatorColor="#EAFD0E"
+                               SelectedIndicatorColor="#555D50"
                                IndicatorSize="10"
                                ItemsSource="{Binding BackgroundImages}"
                                Position="{Binding Position}"
@@ -107,11 +107,13 @@
                 </IndicatorView>
             </StackLayout>
 
+            <local:Chart x:Name="Chart" 
+                         AbsoluteLayout.LayoutBounds="0,0.5,1,0.5"
+                         AbsoluteLayout.LayoutFlags="All"/>
 
-            
             <!-- Popup (initialement invisible) -->
             <local:PopUp x:Name="popup"
-                         AbsoluteLayout.LayoutBounds="0, 1, 1, 0.4" 
+                         AbsoluteLayout.LayoutBounds="0, 1, 1, 0.5" 
                          AbsoluteLayout.LayoutFlags="All"/>
 
         </AbsoluteLayout>

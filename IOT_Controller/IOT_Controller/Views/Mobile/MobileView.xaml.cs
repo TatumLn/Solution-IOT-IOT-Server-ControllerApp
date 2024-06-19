@@ -24,12 +24,12 @@ namespace IOT_Controller.Views.Mobile
         {
             
             //Conexion au broker en local (par defaut)
-            string brokerAddress = "192.168.0.163";//ip.GetLocalIPAdress();
+            string brokerAddress = "192.168.3.177";//ip.GetLocalIPAdress();
             int port = 1883;
             //Username et Password par defaut du HiveMQ broker Community
             string username = "admin-user";
             string password = "admin-password";
-            string clientId = $"{username}";
+            string clientId = $"AppMAUI : {username}";
 
             /* Chemins des certificats si avec certificat
             string caCertPath = "D:\\Projet_Licence\\IOT_Controller\\IOT_Controller\\Certificats\\hivemq-server-cert.pem"; 
@@ -47,7 +47,7 @@ namespace IOT_Controller.Views.Mobile
             }
             else 
             {
-                notification.ShowNotification($"Votre broker est en hors ligne");
+                notification.ShowNotification($"Serveur indisponible");
             }
             //
             notification.HideLoading();

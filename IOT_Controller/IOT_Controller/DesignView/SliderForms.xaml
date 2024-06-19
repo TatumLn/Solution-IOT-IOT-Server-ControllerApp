@@ -1,0 +1,19 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<viewModels:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:local="clr-namespace:IOT_Controller.DesignView"
+                            xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
+                            x:Class="IOT_Controller.DesignView.SliderForms">
+
+    <HorizontalStackLayout HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Padding="20">
+        <local:SliderCanvas WidthRequest="60" 
+                            HeightRequest="100"/>
+        <local:SliderCanvas WidthRequest="100" 
+                            HeightRequest="100"/>
+        <local:SliderCanvas WidthRequest="60" 
+                            HeightRequest="100"/>
+    </HorizontalStackLayout>
+    
+</viewModels:BaseContentView>

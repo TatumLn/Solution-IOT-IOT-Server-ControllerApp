@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "EaILUeoCZvQ6BFCcUvB24vi/MJy1FccEDYPmnaFA1eKeSXatQJUoYwghKiYdcCcGHIqHsflk95SaAIfBxs8hdg==",
-=======
-  "dgSpecHash": "GsZrncOm0f1ekF52110vzV55L4zNHtDpx+mzJAmUMNvMbHjoEuXdGeAjDwRePSwLmrXfGN8wn/f1UkSXBzqC0Q==",
->>>>>>> master
+  "dgSpecHash": "ApWDdLqf+TsAiX9MysOsRzkojGZNRgNAO9gb5jU6HzhUhSE+oMX6FgglG3s2LDF94U+tku/rehPEqXtCkT/DKA==",
   "success": true,
   "projectFilePath": "D:\\Projet_Licence\\IOT_Controller\\IOT_Controller\\IOT Controller.csproj",
   "expectedPackageFiles": [
@@ -14,6 +10,7 @@
     "C:\\Users\\Silente\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\communitytoolkit.maui.9.0.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\communitytoolkit.maui.core\\9.0.0\\communitytoolkit.maui.core.9.0.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\inputkit.maui\\4.4.3\\inputkit.maui.4.4.3.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
@@ -43,8 +40,22 @@
     "C:\\Users\\Silente\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240311000\\microsoft.windowsappsdk.1.5.240311000.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\mqttnet\\4.3.6.1152\\mqttnet.4.3.6.1152.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\nsoftware.ipworksssh\\24.0.8917\\nsoftware.ipworksssh.24.0.8917.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\plainer.maui\\1.7.1\\plainer.maui.1.7.1.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp\\2.88.8\\skiasharp.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.nativeassets.android\\2.88.8\\skiasharp.nativeassets.android.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.nativeassets.ios\\2.88.8\\skiasharp.nativeassets.ios.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.nativeassets.maccatalyst\\2.88.8\\skiasharp.nativeassets.maccatalyst.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.8\\skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.8\\skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.views\\2.88.8\\skiasharp.views.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.views.maui.controls\\2.88.8\\skiasharp.views.maui.controls.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.views.maui.core\\2.88.8\\skiasharp.views.maui.core.2.88.8.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\skiasharp.views.winui\\2.88.8\\skiasharp.views.winui.2.88.8.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.6.0\\system.identitymodel.tokens.jwt.7.6.0.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\system.speech\\8.0.0\\system.speech.8.0.0.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\uraniumui\\2.8.1\\uraniumui.2.8.1.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\uraniumui.icons.materialicons\\2.8.1\\uraniumui.icons.materialicons.2.8.1.nupkg.sha512",
+    "C:\\Users\\Silente\\.nuget\\packages\\uraniumui.material\\2.8.1\\uraniumui.material.2.8.1.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\Silente\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",

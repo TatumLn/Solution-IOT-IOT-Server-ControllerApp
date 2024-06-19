@@ -80,6 +80,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -599,6 +619,114 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -613,6 +741,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -2458,6 +2633,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -2977,6 +3172,99 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "native": {
+          "runtimes/android-arm/native/libSkiaSharp.so": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -2991,6 +3279,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -4836,6 +5171,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -5355,6 +5710,99 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "native": {
+          "runtimes/android-arm64/native/libSkiaSharp.so": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -5369,6 +5817,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -7214,6 +7709,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -7733,6 +8248,99 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "native": {
+          "runtimes/android-x64/native/libSkiaSharp.so": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -7747,6 +8355,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -9592,6 +10247,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -10111,6 +10786,99 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "native": {
+          "runtimes/android-x86/native/libSkiaSharp.so": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -10125,6 +10893,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -11892,11 +12707,7 @@
       }
     },
     "net8.0-android34.0/ios-arm64": {
-<<<<<<< HEAD
-      "AcrylicView.Maui/2.1.3": {
-=======
       "Acr.UserDialogs/9.0.0": {
->>>>>>> master
         "type": "package",
         "dependencies": {
           "AndHUD": "2.0.1",
@@ -11971,6 +12782,26 @@
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       },
@@ -12493,6 +13324,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -12507,6 +13428,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -14352,6 +15320,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -14871,6 +15859,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -14885,6 +15963,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -16730,6 +17855,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -17249,6 +18394,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plainer.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Android": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Android/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -17263,6 +18498,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/UraniumUI.Material.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -19094,6 +20376,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -19602,6 +20904,122 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/ios/native/libSkiaSharp.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/iossimulator/native/libSkiaSharp.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "iossimulator"
+          },
+          "runtimes/iossimulator/native/libSkiaSharp.framework/_CodeSignature/CodeResources": {
+            "assetType": "native",
+            "rid": "iossimulator"
+          },
+          "runtimes/iossimulator/native/libSkiaSharp.framework/libSkiaSharp": {
+            "assetType": "native",
+            "rid": "iossimulator"
+          }
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -19616,6 +21034,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -19685,6 +21150,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20193,6 +21678,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -20207,6 +21782,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -20276,6 +21898,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20784,6 +22426,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -20798,6 +22530,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -20867,6 +22646,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21375,6 +23174,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -21389,6 +23278,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -21458,6 +23394,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21966,6 +23922,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -21982,14 +24028,57 @@
             "related": ".xml"
           }
         }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net8.0-ios17.2/ios-arm64": {
-<<<<<<< HEAD
-      "AcrylicView.Maui/2.1.3": {
-=======
       "Acr.UserDialogs/9.0.0": {
->>>>>>> master
         "type": "package",
         "dependencies": {
           "BTProgressHUD": "2.0.1"
@@ -22053,6 +24142,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22561,6 +24670,101 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "native": {
+          "runtimes/ios/native/libSkiaSharp.framework/Info.plist": {},
+          "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources": {},
+          "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -22575,6 +24779,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -22644,6 +24895,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23152,6 +25423,101 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "native": {
+          "runtimes/ios/native/libSkiaSharp.framework/Info.plist": {},
+          "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources": {},
+          "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -23166,6 +25532,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -23235,6 +25648,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23743,6 +26176,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.iOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.iOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -23757,6 +26280,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -23826,6 +26396,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24334,6 +26924,102 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/maccatalyst/native/libSkiaSharp.framework.zip": {
+            "assetType": "native",
+            "rid": "maccatalyst"
+          }
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -24348,6 +27034,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -24417,6 +27150,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24925,6 +27678,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -24939,6 +27782,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -25008,6 +27898,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -25516,6 +28426,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -25530,6 +28530,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -25599,6 +28646,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26107,6 +29174,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -26121,6 +29278,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -26190,6 +29394,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26698,6 +29922,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -26714,14 +30028,57 @@
             "related": ".xml"
           }
         }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/ios-arm64": {
-<<<<<<< HEAD
-      "AcrylicView.Maui/2.1.3": {
-=======
       "Acr.UserDialogs/9.0.0": {
->>>>>>> master
         "type": "package",
         "dependencies": {
           "BTProgressHUD": "2.0.1"
@@ -26785,6 +30142,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27293,6 +30670,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -27307,6 +30774,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -27376,6 +30890,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27884,6 +31418,99 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "native": {
+          "runtimes/maccatalyst/native/libSkiaSharp.framework.zip": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -27898,6 +31525,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -27967,6 +31641,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28475,6 +32169,96 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.MacCatalyst": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/_._": {}
+        },
+        "build": {
+          "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets": {}
+        }
+      },
+      "SkiaSharp.Views/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -28489,6 +32273,53 @@
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -28540,6 +32371,26 @@
         "runtime": {
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       },
@@ -29206,6 +33057,124 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -29238,6 +33207,53 @@
           "runtimes/win/lib/net8.0/System.Speech.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
@@ -29292,6 +33308,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -29915,6 +33951,104 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -29942,6 +34076,53 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -29995,6 +34176,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -30618,6 +34819,104 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -30645,6 +34944,53 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -30698,6 +35044,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -31321,6 +35687,104 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -31348,6 +35812,53 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -31401,6 +35912,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -32024,6 +36555,104 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -32052,14 +36681,57 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/ios-arm64": {
-<<<<<<< HEAD
-      "AcrylicView.Maui/2.1.3": {
-=======
       "Acr.UserDialogs/9.0.0": {
->>>>>>> master
         "type": "package",
         "compile": {
           "lib/net8.0/Acr.UserDialogs.dll": {
@@ -32108,6 +36780,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -32731,6 +37423,104 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -32758,6 +37548,53 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -32811,6 +37648,26 @@
           }
         }
       },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -33434,6 +38291,104 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -33461,6 +38416,53 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -33511,6 +38513,26 @@
         "runtime": {
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "InputKit.Maui/4.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       },
@@ -34143,6 +39165,107 @@
           }
         }
       },
+      "Plainer.Maui/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/libSkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.1.5",
+          "SkiaSharp": "2.88.8"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "type": "package",
         "dependencies": {
@@ -34170,6 +39293,53 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.7",
+          "Plainer.Maui": "1.7.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
         }
       }
     }
@@ -34311,6 +39481,87 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
+      ]
+    },
+    "InputKit.Maui/4.4.3": {
+      "sha512": "ou3S++/lAX5kJpHvGKW5EYMqfeNTgKr6W8YM4I7gHrrJwRXZ4Jd8KpU//uVIhgrbmu8DcbjyK1mK34ekGMd0aQ==",
+      "type": "package",
+      "path": "inputkit.maui/4.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/icon512.png",
+        "contentFiles/any/net8.0-android34.0/icon512.png",
+        "contentFiles/any/net8.0-ios17.2/icon512.png",
+        "contentFiles/any/net8.0-maccatalyst17.2/icon512.png",
+        "contentFiles/any/net8.0-windows10.0.19041/icon512.png",
+        "contentFiles/any/net8.0/icon512.png",
+        "icon512.png",
+        "inputkit.maui.4.4.3.nupkg.sha512",
+        "inputkit.maui.nuspec",
+        "lib/net8.0-android34.0/InputKit.Maui.dll",
+        "lib/net8.0-android34.0/InputKit.Maui.pdb",
+        "lib/net8.0-android34.0/InputKit.Maui.xml",
+        "lib/net8.0-ios17.2/InputKit.Maui.dll",
+        "lib/net8.0-ios17.2/InputKit.Maui.pdb",
+        "lib/net8.0-ios17.2/InputKit.Maui.xml",
+        "lib/net8.0-maccatalyst17.2/InputKit.Maui.dll",
+        "lib/net8.0-maccatalyst17.2/InputKit.Maui.pdb",
+        "lib/net8.0-maccatalyst17.2/InputKit.Maui.xml",
+        "lib/net8.0-windows10.0.19041/InputKit.Maui.dll",
+        "lib/net8.0-windows10.0.19041/InputKit.Maui.pdb",
+        "lib/net8.0-windows10.0.19041/InputKit.Maui.xml",
+        "lib/net8.0/InputKit.Maui.dll",
+        "lib/net8.0/InputKit.Maui.pdb",
+        "lib/net8.0/InputKit.Maui.xml",
+        "src/InputKit.Maui/Handlers/InputKitHandlersCollectionExtension.cs",
+        "src/InputKit.Maui/Handlers/StatefulStackLayoutHandler.cs",
+        "src/InputKit.Maui/InputKit.Maui.csproj",
+        "src/InputKit.Maui/Platforms/Android/Handlers/StatefulStackLayoutHandler.Android.cs",
+        "src/InputKit.Maui/Platforms/MacCatalyst/Handlers/StatefulStackLayoutHandler.MacCatalys.cs",
+        "src/InputKit.Maui/Platforms/Windows/Handlers/StatefulStackLayoutHandler.Windows.cs",
+        "src/InputKit.Maui/Platforms/iOS/Handlers/StatefulStackLayoutHandler.iOS.cs",
+        "src/InputKit.Maui/Shared/Abstraction/ISelection.cs",
+        "src/InputKit.Maui/Shared/Abstraction/IValidatable.cs",
+        "src/InputKit.Maui/Shared/Configuration/GlobalSetting.cs",
+        "src/InputKit.Maui/Shared/Controls/AdvancedEntry.Validation.cs",
+        "src/InputKit.Maui/Shared/Controls/AdvancedEntry.cs",
+        "src/InputKit.Maui/Shared/Controls/AdvancedSlider.cs",
+        "src/InputKit.Maui/Shared/Controls/AutoCompleteEntry.cs",
+        "src/InputKit.Maui/Shared/Controls/AutoCompleteView.cs",
+        "src/InputKit.Maui/Shared/Controls/CheckBox.cs",
+        "src/InputKit.Maui/Shared/Controls/FormView.cs",
+        "src/InputKit.Maui/Shared/Controls/PredefinedShapes.cs",
+        "src/InputKit.Maui/Shared/Controls/RadioButton.cs",
+        "src/InputKit.Maui/Shared/Controls/RadioButtonGroupView.cs",
+        "src/InputKit.Maui/Shared/Controls/SelectionView.cs",
+        "src/InputKit.Maui/Shared/Enums.cs",
+        "src/InputKit.Maui/Shared/Helpers/ColorExtensions.cs",
+        "src/InputKit.Maui/Shared/Helpers/GeometryConverter.cs",
+        "src/InputKit.Maui/Shared/InputKitOptions.cs",
+        "src/InputKit.Maui/Shared/Layouts/StatefulStackLayout.cs",
+        "src/InputKit.Maui/Shared/Resources/arrow_down.png",
+        "src/InputKit.Maui/Shared/Utils/PopupMenu.cs",
+        "src/InputKit.Maui/Shared/Utils/SelectedItemChangedArgs.cs",
+        "src/InputKit.Maui/Shared/Validations/ComparableTypeConverter.cs",
+        "src/InputKit.Maui/Shared/Validations/DigitsOnlyValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/IValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/LettersOnlyValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/MaxLengthValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/MaxValueValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/MinLengthValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/MinValueValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/NumericValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/RegexValidation.cs",
+        "src/InputKit.Maui/Shared/Validations/RequiredValidation.cs",
+        "src/InputKit.Maui/obj/Release/net8.0-android/InputKit.Maui.GlobalUsings.g.cs",
+        "src/InputKit.Maui/obj/Release/net8.0-android/__Microsoft.Android.Resource.Designer.cs",
+        "src/InputKit.Maui/obj/Release/net8.0-ios/InputKit.Maui.GlobalUsings.g.cs",
+        "src/InputKit.Maui/obj/Release/net8.0-ios/InputKit.Maui.nfloat.g.cs",
+        "src/InputKit.Maui/obj/Release/net8.0-maccatalyst/InputKit.Maui.GlobalUsings.g.cs",
+        "src/InputKit.Maui/obj/Release/net8.0-maccatalyst/InputKit.Maui.nfloat.g.cs",
+        "src/InputKit.Maui/obj/Release/net8.0-windows10.0.19041/InputKit.Maui.GlobalUsings.g.cs",
+        "src/InputKit.Maui/obj/Release/net8.0/InputKit.Maui.GlobalUsings.g.cs"
       ]
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
@@ -36575,6 +41826,373 @@
         "readme.md"
       ]
     },
+    "Plainer.Maui/1.7.1": {
+      "sha512": "rou+ErJ0l2GkJyMYRKtPiPxEtOGngj7Lv7H5NVACG9baPy3D3tGLO5ma16Usem5/vddu8Ov6bZaXntPMQANXQw==",
+      "type": "package",
+      "path": "plainer.maui/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net8.0-android34.0/Plainer.Maui.dll",
+        "lib/net8.0-android34.0/Plainer.Maui.pdb",
+        "lib/net8.0-android34.0/Plainer.Maui.xml",
+        "lib/net8.0-ios17.0/Plainer.Maui.dll",
+        "lib/net8.0-ios17.0/Plainer.Maui.pdb",
+        "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll",
+        "lib/net8.0-maccatalyst17.0/Plainer.Maui.pdb",
+        "lib/net8.0-windows10.0.19041/Plainer.Maui.dll",
+        "lib/net8.0-windows10.0.19041/Plainer.Maui.pdb",
+        "lib/net8.0/Plainer.Maui.dll",
+        "lib/net8.0/Plainer.Maui.pdb",
+        "plainer.maui.1.7.1.nupkg.sha512",
+        "plainer.maui.nuspec",
+        "src/Plainer.Maui/Controls/DatePickerView.cs",
+        "src/Plainer.Maui/Controls/EditorView.cs",
+        "src/Plainer.Maui/Controls/EntryView.cs",
+        "src/Plainer.Maui/Controls/PickerView.cs",
+        "src/Plainer.Maui/Controls/TimePickerView.cs",
+        "src/Plainer.Maui/Handlers/DatePickerViewHandler.cs",
+        "src/Plainer.Maui/Handlers/EditorViewHandler.cs",
+        "src/Plainer.Maui/Handlers/EntryViewHandler.cs",
+        "src/Plainer.Maui/Handlers/PickerViewHandler.cs",
+        "src/Plainer.Maui/Handlers/TimePickerViewHandler.cs",
+        "src/Plainer.Maui/MauiHandlerCollectionExtensions.cs",
+        "src/Plainer.Maui/Plainer.Maui.csproj",
+        "src/Plainer.Maui/Platforms/Android/PlatformClass1.cs",
+        "src/Plainer.Maui/Platforms/MacCatalyst/PlatformClass1.cs",
+        "src/Plainer.Maui/Platforms/Windows/PlatformClass1.cs",
+        "src/Plainer.Maui/Platforms/iOS/PlatformClass1.cs",
+        "src/Plainer.Maui/obj/Release/net8.0-android/Plainer.Maui.GlobalUsings.g.cs",
+        "src/Plainer.Maui/obj/Release/net8.0-android/__Microsoft.Android.Resource.Designer.cs",
+        "src/Plainer.Maui/obj/Release/net8.0-ios/Plainer.Maui.GlobalUsings.g.cs",
+        "src/Plainer.Maui/obj/Release/net8.0-ios/Plainer.Maui.nfloat.g.cs",
+        "src/Plainer.Maui/obj/Release/net8.0-maccatalyst/Plainer.Maui.GlobalUsings.g.cs",
+        "src/Plainer.Maui/obj/Release/net8.0-maccatalyst/Plainer.Maui.nfloat.g.cs",
+        "src/Plainer.Maui/obj/Release/net8.0-windows10.0.19041.0/Plainer.Maui.GlobalUsings.g.cs",
+        "src/Plainer.Maui/obj/Release/net8.0/Plainer.Maui.GlobalUsings.g.cs"
+      ]
+    },
+    "SkiaSharp/2.88.8": {
+      "sha512": "bRkp3uKp5ZI8gXYQT57uKwil1uobb2p8c69n7v5evlB/2JNcMAXVcw9DZAP5Ig3WSvgzGm2YSn27UVeOi05NlA==",
+      "type": "package",
+      "path": "skiasharp/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "interactive-extensions/dotnet/SkiaSharp.DotNet.Interactive.dll",
+        "lib/monoandroid1.0/SkiaSharp.dll",
+        "lib/monoandroid1.0/SkiaSharp.pdb",
+        "lib/monoandroid1.0/SkiaSharp.xml",
+        "lib/net462/SkiaSharp.dll",
+        "lib/net462/SkiaSharp.pdb",
+        "lib/net462/SkiaSharp.xml",
+        "lib/net6.0-android30.0/SkiaSharp.dll",
+        "lib/net6.0-android30.0/SkiaSharp.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.xml",
+        "lib/net6.0-macos10.15/SkiaSharp.dll",
+        "lib/net6.0-macos10.15/SkiaSharp.pdb",
+        "lib/net6.0-macos10.15/SkiaSharp.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.xml",
+        "lib/net6.0-tvos13.4/SkiaSharp.dll",
+        "lib/net6.0-tvos13.4/SkiaSharp.pdb",
+        "lib/net6.0-tvos13.4/SkiaSharp.xml",
+        "lib/net6.0/SkiaSharp.dll",
+        "lib/net6.0/SkiaSharp.pdb",
+        "lib/net6.0/SkiaSharp.xml",
+        "lib/netcoreapp3.1/SkiaSharp.dll",
+        "lib/netcoreapp3.1/SkiaSharp.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.pdb",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/netstandard2.0/SkiaSharp.dll",
+        "lib/netstandard2.0/SkiaSharp.pdb",
+        "lib/netstandard2.0/SkiaSharp.xml",
+        "lib/netstandard2.1/SkiaSharp.dll",
+        "lib/netstandard2.1/SkiaSharp.pdb",
+        "lib/netstandard2.1/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.pdb",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0.10240/SkiaSharp.dll",
+        "lib/uap10.0.10240/SkiaSharp.pdb",
+        "lib/uap10.0.10240/SkiaSharp.xml",
+        "lib/uap10.0.16299/SkiaSharp.dll",
+        "lib/uap10.0.16299/SkiaSharp.pdb",
+        "lib/uap10.0.16299/SkiaSharp.xml",
+        "lib/xamarinios1.0/SkiaSharp.dll",
+        "lib/xamarinios1.0/SkiaSharp.pdb",
+        "lib/xamarinios1.0/SkiaSharp.xml",
+        "lib/xamarinmac2.0/SkiaSharp.dll",
+        "lib/xamarinmac2.0/SkiaSharp.pdb",
+        "lib/xamarinmac2.0/SkiaSharp.xml",
+        "lib/xamarintvos1.0/SkiaSharp.dll",
+        "lib/xamarintvos1.0/SkiaSharp.pdb",
+        "lib/xamarintvos1.0/SkiaSharp.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.pdb",
+        "lib/xamarinwatchos1.0/SkiaSharp.xml",
+        "skiasharp.2.88.8.nupkg.sha512",
+        "skiasharp.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Android/2.88.8": {
+      "sha512": "tq417LpTlN9BB02LDnODI5WpTiaf2Wqwp9VsrUpLv1XOAXsIMscQrCagJbYkpfheZ0YoiqG4QuTMcQXL+P+4kg==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.android/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/monoandroid1.0/SkiaSharp.NativeAssets.Android.targets",
+        "build/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets",
+        "buildTransitive/monoandroid1.0/SkiaSharp.NativeAssets.Android.targets",
+        "buildTransitive/net6.0-android30.0/SkiaSharp.NativeAssets.Android.targets",
+        "lib/monoandroid1.0/_._",
+        "lib/net6.0-android30.0/_._",
+        "runtimes/android-arm/native/libSkiaSharp.so",
+        "runtimes/android-arm64/native/libSkiaSharp.so",
+        "runtimes/android-x64/native/libSkiaSharp.so",
+        "runtimes/android-x86/native/libSkiaSharp.so",
+        "skiasharp.nativeassets.android.2.88.8.nupkg.sha512",
+        "skiasharp.nativeassets.android.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.iOS/2.88.8": {
+      "sha512": "bo00z/N46eptBnCrdrLNMwLpJnjjMHJDW8c3/gA6WsGEc4M+n02WpQUbCukZMZzAGq4XmLMzBg46LcElHlAU6Q==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.ios/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets",
+        "build/xamarinios1.0/SkiaSharp.NativeAssets.iOS.targets",
+        "buildTransitive/net6.0-ios13.6/SkiaSharp.NativeAssets.iOS.targets",
+        "buildTransitive/xamarinios1.0/SkiaSharp.NativeAssets.iOS.targets",
+        "lib/net6.0-ios13.6/_._",
+        "lib/xamarinios1.0/_._",
+        "runtimes/ios/native/libSkiaSharp.framework/Info.plist",
+        "runtimes/ios/native/libSkiaSharp.framework/_CodeSignature/CodeResources",
+        "runtimes/ios/native/libSkiaSharp.framework/libSkiaSharp",
+        "runtimes/iossimulator/native/libSkiaSharp.framework/Info.plist",
+        "runtimes/iossimulator/native/libSkiaSharp.framework/_CodeSignature/CodeResources",
+        "runtimes/iossimulator/native/libSkiaSharp.framework/libSkiaSharp",
+        "skiasharp.nativeassets.ios.2.88.8.nupkg.sha512",
+        "skiasharp.nativeassets.ios.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.MacCatalyst/2.88.8": {
+      "sha512": "qwoqbad4RbMbfTa7cG27S0YtzyXcfoU4xu2t2Nux3GUxTKMnOneR1Ebj3QiGUTiGkYYejgmjEZpE1iSq6KmhYA==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.maccatalyst/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets",
+        "buildTransitive/net6.0-maccatalyst13.5/SkiaSharp.NativeAssets.MacCatalyst.targets",
+        "lib/net6.0-maccatalyst13.5/_._",
+        "runtimes/maccatalyst/native/libSkiaSharp.framework.zip",
+        "skiasharp.nativeassets.maccatalyst.2.88.8.nupkg.sha512",
+        "skiasharp.nativeassets.maccatalyst.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.8": {
+      "sha512": "6Kn5TSkKlfyS6azWHF3Jk2sW5C4jCE5uSshM/5AbfFrR+5n6qM5XEnz9h4VaVl7LTxBvHvMkuPb/3bpbq0vxTw==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.macos/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "build/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
+        "build/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
+        "lib/net462/_._",
+        "lib/net6.0-macos10.15/_._",
+        "lib/net6.0/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "lib/xamarinmac2.0/_._",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
+        "skiasharp.nativeassets.macos.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.8": {
+      "sha512": "O9QXoWEXA+6cweR4h3BOnwMz+pO9vL9mXdjLrpDd0w1QzCgWmLQBxa1VgySDITiH7nQndrDG1h6937zm9pLj1Q==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.win32/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "lib/net462/_._",
+        "lib/net6.0/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "runtimes/win-arm64/native/libSkiaSharp.dll",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
+        "skiasharp.nativeassets.win32.nuspec"
+      ]
+    },
+    "SkiaSharp.Views/2.88.8": {
+      "sha512": "K/WjsaZlFzGVdjpXmBq1l+XNxzYZB32yJU/TEXbk5bIkp5rFsQWS+SCFcSxFs2vVV1tOqtt9Um1q2zumvWQRrA==",
+      "type": "package",
+      "path": "skiasharp.views/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/monoandroid1.0/SkiaSharp.Views.Android.dll",
+        "lib/monoandroid1.0/SkiaSharp.Views.Android.pdb",
+        "lib/monoandroid1.0/SkiaSharp.Views.Android.xml",
+        "lib/net462/SkiaSharp.Views.Desktop.dll",
+        "lib/net462/SkiaSharp.Views.Desktop.pdb",
+        "lib/net462/SkiaSharp.Views.Desktop.xml",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Android.aar",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Android.dll",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Android.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Android.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.iOS.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.iOS.xml",
+        "lib/net6.0-macos10.15/SkiaSharp.Views.Mac.dll",
+        "lib/net6.0-macos10.15/SkiaSharp.Views.Mac.pdb",
+        "lib/net6.0-macos10.15/SkiaSharp.Views.Mac.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Tizen.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Tizen.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Tizen.xml",
+        "lib/net6.0-tvos13.4/SkiaSharp.Views.tvOS.dll",
+        "lib/net6.0-tvos13.4/SkiaSharp.Views.tvOS.pdb",
+        "lib/net6.0-tvos13.4/SkiaSharp.Views.tvOS.xml",
+        "lib/tizen40/SkiaSharp.Views.Tizen.dll",
+        "lib/tizen40/SkiaSharp.Views.Tizen.pdb",
+        "lib/tizen40/SkiaSharp.Views.Tizen.xml",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.pdb",
+        "lib/uap10.0/SkiaSharp.Views.UWP.xml",
+        "lib/xamarinios1.0/SkiaSharp.Views.iOS.dll",
+        "lib/xamarinios1.0/SkiaSharp.Views.iOS.pdb",
+        "lib/xamarinios1.0/SkiaSharp.Views.iOS.xml",
+        "lib/xamarinmac2.0/SkiaSharp.Views.Mac.dll",
+        "lib/xamarinmac2.0/SkiaSharp.Views.Mac.pdb",
+        "lib/xamarinmac2.0/SkiaSharp.Views.Mac.xml",
+        "lib/xamarintvos1.0/SkiaSharp.Views.tvOS.dll",
+        "lib/xamarintvos1.0/SkiaSharp.Views.tvOS.pdb",
+        "lib/xamarintvos1.0/SkiaSharp.Views.tvOS.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.Views.watchOS.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.Views.watchOS.pdb",
+        "lib/xamarinwatchos1.0/SkiaSharp.Views.watchOS.xml",
+        "skiasharp.views.2.88.8.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Maui.Controls/2.88.8": {
+      "sha512": "3erdv34NQE+c9Zis1ym1YtyNbNNL/r2THnXB8sHpoue/mVFzR1KCBXEvD48VCLRhX36L7xSzhojpf1G850B3cQ==",
+      "type": "package",
+      "path": "skiasharp.views.maui.controls/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.dll",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Controls.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Controls.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Controls.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Maui.Controls.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Maui.Controls.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Maui.Controls.xml",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.pdb",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.xml",
+        "lib/net6.0/SkiaSharp.Views.Maui.Controls.dll",
+        "lib/net6.0/SkiaSharp.Views.Maui.Controls.pdb",
+        "lib/net6.0/SkiaSharp.Views.Maui.Controls.xml",
+        "skiasharp.views.maui.controls.2.88.8.nupkg.sha512",
+        "skiasharp.views.maui.controls.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Maui.Core/2.88.8": {
+      "sha512": "s3E4c0VVHVGOWRtdUQ7M+0iYEm6KLTDaHKaZo8u2MbyJrPprGgNrvxETQCtM08aXEynxZq2nh7/MWHM78PVezQ==",
+      "type": "package",
+      "path": "skiasharp.views.maui.core/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.Views.Maui.Core.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.Views.Maui.Core.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Maui.Core.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Maui.Core.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.Views.Maui.Core.xml",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.pdb",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.xml",
+        "lib/net6.0/SkiaSharp.Views.Maui.Core.dll",
+        "lib/net6.0/SkiaSharp.Views.Maui.Core.pdb",
+        "lib/net6.0/SkiaSharp.Views.Maui.Core.xml",
+        "skiasharp.views.maui.core.2.88.8.nupkg.sha512",
+        "skiasharp.views.maui.core.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.WinUI/2.88.8": {
+      "sha512": "Zg+EgdDeAn8E8kCdP7WpBkOvdUHLHzmekluXLg5d4FSP0jrBEBs0uWc+dvf3A+OKlewJJzBJQSR6+mUuZe9YFg==",
+      "type": "package",
+      "path": "skiasharp.views.winui/2.88.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Windows.dll",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Windows.pdb",
+        "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Windows.xml",
+        "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll",
+        "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.pdb",
+        "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.xml",
+        "skiasharp.views.winui.2.88.8.nupkg.sha512",
+        "skiasharp.views.winui.nuspec"
+      ]
+    },
     "System.IdentityModel.Tokens.Jwt/7.6.0": {
       "sha512": "LIuEbv/kFpuw00yI/mPu+T9NAVdH/u7Y5ChCGzYQQeCg9Pft2C7HFWuO/P+Z7c2RcySNjVk1FmuAheKjYIbOkw==",
       "type": "package",
@@ -36624,6 +42242,78 @@
         "system.speech.8.0.0.nupkg.sha512",
         "system.speech.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "UraniumUI/2.8.1": {
+      "sha512": "IYe503jH0v7Gt2/EhyH1kja9GrvSPeMXTvV8anjTaX67PYLX8llsJnqsv7vuJCy1rEPC7dR8LCf0PpHVPlf4TA==",
+      "type": "package",
+      "path": "uraniumui/2.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0-android34.0/UraniumUI.dll",
+        "lib/net8.0-android34.0/UraniumUI.pdb",
+        "lib/net8.0-android34.0/UraniumUI.xml",
+        "lib/net8.0-ios17.2/UraniumUI.dll",
+        "lib/net8.0-ios17.2/UraniumUI.pdb",
+        "lib/net8.0-maccatalyst17.2/UraniumUI.dll",
+        "lib/net8.0-maccatalyst17.2/UraniumUI.pdb",
+        "lib/net8.0-windows10.0.19041/UraniumUI.dll",
+        "lib/net8.0-windows10.0.19041/UraniumUI.pdb",
+        "lib/net8.0/UraniumUI.dll",
+        "lib/net8.0/UraniumUI.pdb",
+        "logo_128.png",
+        "uraniumui.2.8.1.nupkg.sha512",
+        "uraniumui.nuspec"
+      ]
+    },
+    "UraniumUI.Icons.MaterialIcons/2.8.1": {
+      "sha512": "ci/hxXelML53o0emvLV5ZvjSkHpD5ajXLkCslwLu/aWbK35j0B9gZDnFWKv/g2afwTk3iCVfvtnZTidn0z1inw==",
+      "type": "package",
+      "path": "uraniumui.icons.materialicons/2.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.dll",
+        "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.pdb",
+        "lib/net8.0-android34.0/UraniumUI.Icons.MaterialIcons.xml",
+        "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.dll",
+        "lib/net8.0-ios17.2/UraniumUI.Icons.MaterialIcons.pdb",
+        "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.dll",
+        "lib/net8.0-maccatalyst17.2/UraniumUI.Icons.MaterialIcons.pdb",
+        "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll",
+        "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.pdb",
+        "lib/net8.0/UraniumUI.Icons.MaterialIcons.dll",
+        "lib/net8.0/UraniumUI.Icons.MaterialIcons.pdb",
+        "logo_128.png",
+        "uraniumui.icons.materialicons.2.8.1.nupkg.sha512",
+        "uraniumui.icons.materialicons.nuspec"
+      ]
+    },
+    "UraniumUI.Material/2.8.1": {
+      "sha512": "AbclZzfld1rojUZsIAOBBdyCW7RC1d5lfUcAgIr0UWpzlen/IuJn61GfOylXFwh/rK7m3erR0+4NHz0Q/xqAcQ==",
+      "type": "package",
+      "path": "uraniumui.material/2.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0-android34.0/UraniumUI.Material.dll",
+        "lib/net8.0-android34.0/UraniumUI.Material.pdb",
+        "lib/net8.0-android34.0/UraniumUI.Material.xml",
+        "lib/net8.0-ios17.2/UraniumUI.Material.dll",
+        "lib/net8.0-ios17.2/UraniumUI.Material.pdb",
+        "lib/net8.0-maccatalyst17.2/UraniumUI.Material.dll",
+        "lib/net8.0-maccatalyst17.2/UraniumUI.Material.pdb",
+        "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll",
+        "lib/net8.0-windows10.0.19041/UraniumUI.Material.pdb",
+        "lib/net8.0/UraniumUI.Material.dll",
+        "lib/net8.0/UraniumUI.Material.pdb",
+        "logo_128.png",
+        "uraniumui.material.2.8.1.nupkg.sha512",
+        "uraniumui.material.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.15.1.2": {
@@ -38673,7 +44363,12 @@
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.4",
+      "SkiaSharp >= 2.88.8",
+      "SkiaSharp.Views.Maui.Controls >= 2.88.8",
       "System.IdentityModel.Tokens.Jwt >= 7.6.0",
+      "UraniumUI >= 2.8.1",
+      "UraniumUI.Icons.MaterialIcons >= 2.8.1",
+      "UraniumUI.Material >= 2.8.1",
       "nsoftware.IPWorksSSH >= 24.0.8917"
     ],
     "net8.0-ios17.2": [
@@ -38684,7 +44379,12 @@
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.4",
+      "SkiaSharp >= 2.88.8",
+      "SkiaSharp.Views.Maui.Controls >= 2.88.8",
       "System.IdentityModel.Tokens.Jwt >= 7.6.0",
+      "UraniumUI >= 2.8.1",
+      "UraniumUI.Icons.MaterialIcons >= 2.8.1",
+      "UraniumUI.Material >= 2.8.1",
       "nsoftware.IPWorksSSH >= 24.0.8917"
     ],
     "net8.0-maccatalyst17.2": [
@@ -38695,7 +44395,12 @@
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.4",
+      "SkiaSharp >= 2.88.8",
+      "SkiaSharp.Views.Maui.Controls >= 2.88.8",
       "System.IdentityModel.Tokens.Jwt >= 7.6.0",
+      "UraniumUI >= 2.8.1",
+      "UraniumUI.Icons.MaterialIcons >= 2.8.1",
+      "UraniumUI.Material >= 2.8.1",
       "nsoftware.IPWorksSSH >= 24.0.8917"
     ],
     "net8.0-windows10.0.19041": [
@@ -38705,7 +44410,12 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "SkiaSharp >= 2.88.8",
+      "SkiaSharp.Views.Maui.Controls >= 2.88.8",
       "System.IdentityModel.Tokens.Jwt >= 7.6.0",
+      "UraniumUI >= 2.8.1",
+      "UraniumUI.Icons.MaterialIcons >= 2.8.1",
+      "UraniumUI.Material >= 2.8.1",
       "nsoftware.IPWorksSSH >= 24.0.8917"
     ]
   },
@@ -38805,9 +44515,29 @@
             "version": "[8.0.4, )",
             "autoReferenced": true
           },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
+          "SkiaSharp.Views.Maui.Controls": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.6.0, )"
+          },
+          "UraniumUI": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Icons.MaterialIcons": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.8.1, )"
           },
           "nsoftware.IPWorksSSH": {
             "target": "Package",
@@ -38868,9 +44598,29 @@
             "version": "[8.0.4, )",
             "autoReferenced": true
           },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
+          "SkiaSharp.Views.Maui.Controls": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.6.0, )"
+          },
+          "UraniumUI": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Icons.MaterialIcons": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.8.1, )"
           },
           "nsoftware.IPWorksSSH": {
             "target": "Package",
@@ -38931,9 +44681,29 @@
             "version": "[8.0.4, )",
             "autoReferenced": true
           },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
+          "SkiaSharp.Views.Maui.Controls": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.6.0, )"
+          },
+          "UraniumUI": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Icons.MaterialIcons": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.8.1, )"
           },
           "nsoftware.IPWorksSSH": {
             "target": "Package",
@@ -38989,9 +44759,29 @@
             "target": "Package",
             "version": "[8.0.21, )"
           },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
+          "SkiaSharp.Views.Maui.Controls": {
+            "target": "Package",
+            "version": "[2.88.8, )"
+          },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.6.0, )"
+          },
+          "UraniumUI": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Icons.MaterialIcons": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.8.1, )"
           },
           "nsoftware.IPWorksSSH": {
             "target": "Package",

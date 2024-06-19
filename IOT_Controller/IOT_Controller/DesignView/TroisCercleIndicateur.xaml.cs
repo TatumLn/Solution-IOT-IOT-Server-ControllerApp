@@ -3,15 +3,17 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
 using IOT_Controller.ViewsModels;
+using IOT_Controller.API;
 
 namespace IOT_Controller.DesignView;
 
 public partial class TroisCercleIndicateur : BaseContentView
 {
+
     public ObservableCollection<string> NomTroisIndicateur { get; set; }
     public ObservableCollection<string> DataTroisIndicateur { get; set; }
     //protected readonly CertificatMqtt _certificatMqtt;
-    public string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidite"];
+    private string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidite"];
 
     public TroisCercleIndicateur() 
     {
@@ -21,7 +23,12 @@ public partial class TroisCercleIndicateur : BaseContentView
         this.BindingContext = this;
     }
 
-    protected override void OnMqttTopicRecu(string topic, string payload)
+    public override List<string> GetSubscriptionTopics()
+    {
+        return [.. _topicTroisIndicateur];
+    }
+
+    public override void OnMqttTopicRecu(string topic, string payload)
     {
         base.OnMqttTopicRecu(topic, payload);
         // Gérer le message MQTT reçu ici
@@ -45,4 +52,8 @@ public partial class TroisCercleIndicateur : BaseContentView
         }
     }
 
+    private void AfficherChart(object sender, EventArgs e)
+    {
+        MainViewModel.Instance.IsChartVisible = true;
+    }
 }
