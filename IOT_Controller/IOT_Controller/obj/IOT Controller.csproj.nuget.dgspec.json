@@ -96,9 +96,29 @@
               "version": "[8.0.4, )",
               "autoReferenced": true
             },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
+            "SkiaSharp.Views.Maui.Controls": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[7.6.0, )"
+            },
+            "UraniumUI": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Icons.MaterialIcons": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.8.1, )"
             },
             "nsoftware.IPWorksSSH": {
               "target": "Package",
@@ -159,9 +179,29 @@
               "version": "[8.0.4, )",
               "autoReferenced": true
             },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
+            "SkiaSharp.Views.Maui.Controls": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[7.6.0, )"
+            },
+            "UraniumUI": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Icons.MaterialIcons": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.8.1, )"
             },
             "nsoftware.IPWorksSSH": {
               "target": "Package",
@@ -222,9 +262,29 @@
               "version": "[8.0.4, )",
               "autoReferenced": true
             },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
+            "SkiaSharp.Views.Maui.Controls": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[7.6.0, )"
+            },
+            "UraniumUI": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Icons.MaterialIcons": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.8.1, )"
             },
             "nsoftware.IPWorksSSH": {
               "target": "Package",
@@ -280,9 +340,29 @@
               "target": "Package",
               "version": "[8.0.21, )"
             },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
+            "SkiaSharp.Views.Maui.Controls": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[7.6.0, )"
+            },
+            "UraniumUI": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Icons.MaterialIcons": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.8.1, )"
             },
             "nsoftware.IPWorksSSH": {
               "target": "Package",

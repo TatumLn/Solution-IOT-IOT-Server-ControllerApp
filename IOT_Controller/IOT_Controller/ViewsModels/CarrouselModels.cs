@@ -55,9 +55,9 @@ namespace IOT_Controller.ViewsModels
             // Initialisation d la liste d'URLs d'images de fond
             BackgroundImages =
             [
-                "sallereunion2.jpg",
-                "backgroundbureau.jpg",
-                "backgroundjardin.jpg",
+                "reunion.jpg",
+                "bureau.jpg",
+                "jardinage.jpg",
                 "backgroundsetting.jpg"
             ];
 

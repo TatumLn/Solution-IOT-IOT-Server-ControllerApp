@@ -60,16 +60,22 @@
 	  <None Remove="Resources\Images\backgroundbureau.jpg" />
 	  <None Remove="Resources\Images\backgroundjardin.jpg" />
 	  <None Remove="Resources\Images\backgroundsetting.jpg" />
+	  <None Remove="Resources\Images\icons_climatisation.png" />
+	  <None Remove="Resources\Images\icons_climatisation_disable.png" />
 	  <None Remove="Resources\Images\icon_ajouter.png" />
-	  <None Remove="Resources\Images\icon_climatisation.png" />
 	  <None Remove="Resources\Images\icon_deshumidificateur.png" />
+	  <None Remove="Resources\Images\icon_deshumidificateur_disable.png" />
 	  <None Remove="Resources\Images\icon_lampe.png" />
+	  <None Remove="Resources\Images\iot.svg" />
 	  <None Remove="Resources\Images\iotcontroller.png" />
 	  <None Remove="Resources\Images\iotcontrollersmile.png" />
 	  <None Remove="Resources\Images\iotwhite.png" />
 	  <None Remove="Resources\Images\iotyellow.png" />
+	  <None Remove="Resources\Images\logoauximad.png" />
 	  <None Remove="Resources\Images\notification.svg" />
+	  <None Remove="Resources\Images\plafonnier.png" />
 	  <None Remove="Resources\Images\power.svg" />
+	  <None Remove="Resources\Images\reunion.jpg" />
 	  <None Remove="Resources\Images\sallereunion2.jpg" />
 	  <None Remove="Resources\Images\smileyellow.png" />
 	  <None Remove="Resources\Images\splash.gif" />
@@ -87,10 +93,21 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="MQTTnet" Version="4.3.6.1152" />
 		<PackageReference Include="nsoftware.IPWorksSSH" Version="24.0.8917" />
+		<PackageReference Include="SkiaSharp" Version="2.88.8" />
+		<PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.8" />
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+		<PackageReference Include="UraniumUI" Version="2.8.1" />
+		<PackageReference Include="UraniumUI.Icons.MaterialIcons" Version="2.8.1" />
+		<PackageReference Include="UraniumUI.Material" Version="2.8.1" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="DesignView\Chart.xaml.cs">
+	    <DependentUpon>Chart.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="DesignView\SliderForms.xaml.cs">
+	    <DependentUpon>SliderForms.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="DesignView\Header.xaml.cs">
 	    <DependentUpon>Header.xaml</DependentUpon>
 	  </Compile>
@@ -112,6 +129,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="DesignView\Chart.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="DesignView\SliderForms.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="DesignView\Header.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

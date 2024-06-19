@@ -130,7 +130,7 @@ public partial class PopUp : BaseContentView
         }
     }
 
-    protected override void OnMqttTopicRecu(string topic, string payload)
+    public override void OnMqttTopicRecu(string topic, string payload)
     {
         base.OnMqttTopicRecu(topic, payload);
         // Gérer le message MQTT reçu ici

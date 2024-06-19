@@ -12,7 +12,7 @@ namespace IOT_Controller.API
     public class CommunicationService
     {
         private IMqttClient? _mqttClient;
-        private readonly MqttClientOptions? _mqttOptions;
+        private MqttClientOptions _mqttOptions;
         private readonly object _lock = new();
         public bool _IsConnectingOrDisconnecting;
         public bool IsConnected { get; private set; }
@@ -31,6 +31,7 @@ namespace IOT_Controller.API
             var factory = new MqttFactory();
             _mqttClient = factory.CreateMqttClient();
 
+            //connexion
             _mqttClient.ConnectedAsync += async e =>
             {
                 lock (_lock)
@@ -41,6 +42,7 @@ namespace IOT_Controller.API
                 await Task.CompletedTask;
             };
 
+            //Deconnection
             _mqttClient.DisconnectedAsync += async e =>
             {
                 lock (_lock)
@@ -50,14 +52,17 @@ namespace IOT_Controller.API
                 IsConnected = false;
                 await Task.CompletedTask;
 
-                //Tentative de reconnexion si l'utilisateur ne s'est pas deconnecte volontairement
-                await ReconnectAsync();
+                // Tentative de reconnexion si l'utilisateur ne s'est pas déconnecté volontairement
+                if (!_IsConnectingOrDisconnecting)
+                {
+                    await ReconnectAsync();
+                }
             };
 
+            //Reception des messages
             _mqttClient.ApplicationMessageReceivedAsync += e =>
             {
-                MqttTopicRecu?.Invoke(e.ApplicationMessage.Topic,
-                    e.ApplicationMessage.ConvertPayloadToString());
+                MqttTopicRecu?.Invoke(e.ApplicationMessage.Topic,e.ApplicationMessage.ConvertPayloadToString());
                 return Task.CompletedTask;
             };
         }
@@ -72,6 +77,7 @@ namespace IOT_Controller.API
                 }
                 _IsConnectingOrDisconnecting = true;
             }
+            _mqttOptions = options;
             try
             {
                 await _mqttClient.ConnectAsync(options, CancellationToken.None);
@@ -102,6 +108,13 @@ namespace IOT_Controller.API
                 IsConnected = false;
             }
             catch (Exception)
+            {
+                lock (_lock)
+                {
+                    _IsConnectingOrDisconnecting = false;
+                }
+            }
+            finally
             {
                 lock (_lock)
                 {

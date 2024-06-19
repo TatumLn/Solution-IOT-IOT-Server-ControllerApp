@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <viewModels:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:local="clr-namespace:IOT_Controller.DesignView"
                             xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
                             x:Class="IOT_Controller.DesignView.PopUp"
                             IsVisible="False">
@@ -74,6 +75,10 @@
                 </ScrollView>
             </HorizontalStackLayout>
 
+            <StackLayout Grid.Row="2">
+                <local:SliderForms/>
+            </StackLayout>
+
             <Button Style="{StaticResource BouttonStyleContentPage}"
                     Grid.Row="4"
                     Text="Switcher vers Home Assistant"
@@ -84,4 +89,4 @@
     </Border>
 
 </viewModels:BaseContentView>
-    
+   
