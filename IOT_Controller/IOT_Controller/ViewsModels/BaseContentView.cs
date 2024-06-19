@@ -17,35 +17,9 @@ namespace IOT_Controller.ViewsModels
         public BaseContentView()
         {
             _mqttConnexion = MainViewModel.Instance;
-            _mqttConnexion.MqttService.MqttTopicRecu += OnMqttTopicRecu;
             ip = DependencyService.Get<IPAdressService>();
             notification = DependencyService.Get<INotificationServices>();
             BindingContext = _mqttConnexion;
-        }
-
-        public virtual void OnMqttTopicRecu(string topic, string payload)
-        {
-            // Implémentation par défaut (si nécessaire)
-        }
-
-        public virtual List<string> GetSubscriptionTopics()
-        {
-            return [];
-        }
-
-        public async Task SubscribeToTopics()
-        {
-            if (_mqttConnexion.MqttService != null)
-            {
-                foreach (var topic in GetSubscriptionTopics())
-                {
-                    await _mqttConnexion.MqttService.SubscribeAsync(topic);
-                }
-            }
-            else
-            {
-                System.Diagnostics.Debug.WriteLine("MqttService est nul, impossible de s'abonner aux topics.");
-            }
         }
     }
 }

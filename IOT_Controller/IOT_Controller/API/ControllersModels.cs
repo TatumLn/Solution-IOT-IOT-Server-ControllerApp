@@ -18,7 +18,6 @@ namespace IOT_Controller.API
         private static readonly MainViewModel _instance = new();
         public static MainViewModel Instance => _instance;
         public CommunicationService MqttService => _mqttService;
-        private readonly List<BaseContentView> _contentViews;
         private CancellationTokenSource _cancellationTokenSource = new();
 
         //Chart
@@ -42,7 +41,6 @@ namespace IOT_Controller.API
             Commands = new CommandeModels(_mqttService);
             //_certificatMqtt = new CertificatMqtt();
             _mqttService.MqttTopicRecu += OnMqttTopicRecu;
-            _contentViews = new List<BaseContentView>();
         }
 
         [Obsolete]
@@ -84,11 +82,7 @@ namespace IOT_Controller.API
 
         private void OnMqttTopicRecu(string topic, string payload)
         {
-            //A Override
-            foreach (var view in _contentViews)
-            {
-                view.OnMqttTopicRecu(topic, payload);
-            }
+
         }
 
         [Obsolete]
@@ -118,10 +112,7 @@ namespace IOT_Controller.API
                     await Task.Delay(1000, cancellationToken);
                     LoadingMessage = "Chargement de la page home...";
                     // Subscribe to topics for all content views
-                    foreach (var view in _contentViews)
-                    {
-                        await view.SubscribeToTopics();
-                    }
+
                 }
                 else
                 {
@@ -161,14 +152,5 @@ namespace IOT_Controller.API
         }
 
         public event EventHandler? LoadingMessageChanged;
-        public void RegisterContentView(BaseContentView view)
-        {
-            _contentViews.Add(view);
-        }
-
-        public void UnregisterContentView(BaseContentView view)
-        {
-            _contentViews.Remove(view);
-        }
     }
 }

@@ -2,61 +2,68 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
+using SkiaSharp;
+using SkiaSharp.Views.Maui;
+using Microsoft.Maui.Controls;
 using IOT_Controller.ViewsModels;
 using IOT_Controller.API;
+using SkiaSharp.Views.Maui.Controls;
 
 namespace IOT_Controller.DesignView;
 
 public partial class TroisCercleIndicateur : BaseContentView
 {
-
-    public ObservableCollection<string> NomTroisIndicateur { get; set; }
-    public ObservableCollection<string> DataTroisIndicateur { get; set; }
-    //protected readonly CertificatMqtt _certificatMqtt;
-    private string[] _topicTroisIndicateur = ["iot/temperature", "iot/luminosite", "iot/humidite"];
+    private SliderAnimation _sliderAnimation;
+    private double _animationWa;
 
     public TroisCercleIndicateur() 
     {
         InitializeComponent();
-        DataTroisIndicateur = ["N/A", "N/A", "N/A"];
-        NomTroisIndicateur = ["__", "__", "__"];
-        this.BindingContext = this;
+        var viewModel = (TroisCercleIndicateurViewModel)BindingContext;
+        _sliderAnimation = new SliderAnimation(viewModel.CurrentValue, UpdateAnimation);
     }
 
-    public override List<string> GetSubscriptionTopics()
+    private void UpdateAnimation(double value)
     {
-        return [.. _topicTroisIndicateur];
+        _animationWa = value;
+        //canvasView.InvalidateSurface();
     }
 
-    public override void OnMqttTopicRecu(string topic, string payload)
+    private void OnCanvasViewPaintSurface(object sender, SKPaintSurfaceEventArgs e)
     {
-        base.OnMqttTopicRecu(topic, payload);
-        System.Diagnostics.Debug.WriteLine($"Message reçu sur le sujet: {topic}, payload: {payload}");
+        var canvas = e.Surface.Canvas;
+        canvas.Clear();
 
-        // Gérer le message MQTT reçu ici
-        int index = Array.IndexOf(_topicTroisIndicateur, topic);
-        if (index >= 0)
+        var info = e.Info;
+        float centerX = info.Width / 2;
+        float centerY = info.Height / 2;
+        float radius = Math.Min(info.Width, info.Height) / 2;
+
+        using (var paint = new SKPaint
         {
-            try
-            {
-                var jsonData = JsonDocument.Parse(payload);
-                if ((jsonData.RootElement.TryGetProperty("nom", out var nomElement)) && (jsonData.RootElement.TryGetProperty("valeur", out var valueElement)))
-                {
-                    DataTroisIndicateur[index] = valueElement.ToString();
-                    NomTroisIndicateur[index] = nomElement.ToString();
-                    System.Diagnostics.Debug.WriteLine($"Données mises à jour pour {topic}: nom={nomElement}, valeur={valueElement}");
-                }
-            }
-            catch (Exception ex)
-            {
-                DataTroisIndicateur[index] = $"{ex.Message}";
-                NomTroisIndicateur[index] = $"{ex.Message}";
-            }
+            Style = SKPaintStyle.Fill,
+            Color = SKColor.Parse("#0BDA51"),
+            IsAntialias = true
+        })
+        {
+            var path = new SKPath();
+            path.AddCircle(centerX, centerY, radius);
+            canvas.ClipPath(path);
+
+            var waHeight = (float)(centerY + radius * (1 - 2 * _animationWa));
+            var rect = new SKRect(centerX - radius, waHeight, centerX + radius, centerY + radius);
+            canvas.DrawRect(rect, paint);
         }
     }
 
     private void AfficherChart(object sender, EventArgs e)
     {
         MainViewModel.Instance.IsChartVisible = true;
+
+        var button = sender as Button;
+        if (button != null && double.TryParse(button.Text, out double targetValue))
+        {
+            _sliderAnimation.LancerAnimation(targetValue);
+        }
     }
 }

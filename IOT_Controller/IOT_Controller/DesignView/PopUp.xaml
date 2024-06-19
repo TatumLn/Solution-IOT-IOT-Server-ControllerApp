@@ -6,6 +6,10 @@
                             x:Class="IOT_Controller.DesignView.PopUp"
                             IsVisible="False">
 
+    <viewModels:BaseContentView.BindingContext>
+        <viewModels:PopUpViewModel/>
+    </viewModels:BaseContentView.BindingContext>
+
     <!-- Semi-transparent background -->
     <Border StrokeShape="RoundRectangle 40,40,0,0"
             Stroke="White"
