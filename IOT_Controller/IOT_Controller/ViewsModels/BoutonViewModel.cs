@@ -51,7 +51,7 @@ namespace IOT_Controller.ViewsModels
         public void UpdateBackgroundColor()
         {
             // Mettre à jour l'arrière-plan
-            BorderBackgroundColor = IsSelected ? "#EAFD0E" : "#3319CBC0";
+            BorderBackgroundColor = IsSelected ? "#EAFD0E" : "#0BDA510";
         }
 
         public void UpdateButtonState(string state)

@@ -41,7 +41,7 @@ namespace IOT_Controller.ViewsModels
         }
 
         //Compteur 
-        public int NbrBtn => (ButtonList.Count) - 1;
+        public int NbrBtn => ((ButtonList.Count) - 1);
         public int NbrBtnActive => GetNbrBtnActive();
 
         public PopUpViewModel()
@@ -55,16 +55,15 @@ namespace IOT_Controller.ViewsModels
             Task.Run(() => InitializeButtons());
         }
 
-        private async void InitializeButtons()
+        public async Task InitializeButtons()
         {
-            ButtonList.Add(new BoutonViewModel { ButtonText = "Climatiseur", ButtonIndex = Index++, ButtonImage = "icon_climatisation.png" });
-            ButtonList.Add(new BoutonViewModel { ButtonText = "Deshumidificateur", ButtonIndex = Index++, ButtonImage = "icon_deshumidificateur.png" });
-            ButtonList.Add(new BoutonViewModel { ButtonText = "Lumiere", ButtonIndex = Index++, ButtonImage = "icon_lampe.png" });
-            ButtonList.Add(new BoutonViewModel { ButtonText = "Add", ButtonIndex = Index++, ButtonImage = "icon_ajouter.png" });
+            ButtonList.Add(new BoutonViewModel { ButtonText = "Climatiseur", ButtonIndex = Index++, ButtonImage = "" });
+            ButtonList.Add(new BoutonViewModel { ButtonText = "Deshumidificateur", ButtonIndex = Index++, ButtonImage = "" });
+            ButtonList.Add(new BoutonViewModel { ButtonText = "Lumiere", ButtonIndex = Index++, ButtonImage = "" });
+            ButtonList.Add(new BoutonViewModel { ButtonText = "Add", ButtonIndex = Index++, ButtonImage = "" });
 
             foreach (var button in ButtonList)
             {
-                button.ButtonCommand = new Command(async () => await UpdateSelectedContentAsync(button.ButtonIndex));
                 if (button.ButtonIndex == _topicStateAppareil.Length)
                 {
                     var state = await DataTopicStateAsync(_topicStateAppareil[button.ButtonIndex - 1]);
@@ -75,20 +74,6 @@ namespace IOT_Controller.ViewsModels
 
             OnPropertyChanged(nameof(NbrBtn));
             OnPropertyChanged(nameof(NbrBtnActive));
-        }
-
-        private async Task UpdateSelectedContentAsync(int buttonIndex)
-        {
-            foreach (var button in ButtonList)
-            {
-                button.IsSelected = button.ButtonIndex == buttonIndex;
-                button.UpdateBackgroundColor();
-            }
-            // Met à jour le contenu en fonction de l'index du bouton sélectionné
-            if (buttonIndex > 0 && buttonIndex <= 3)
-            {
-                SelectedContent = await DataTopicStateAsync(_topicVirtuel);
-            }
         }
 
         public async Task<string> DataTopicStateAsync(string topic)

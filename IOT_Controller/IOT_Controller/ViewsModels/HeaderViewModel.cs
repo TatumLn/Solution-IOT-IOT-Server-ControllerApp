@@ -9,8 +9,8 @@ namespace IOT_Controller.ViewsModels
 {
     public class HeaderViewModel : BaseViewModel
     {
-        public required ObservableCollection<string> BtnImgHeader { get; set; }
-        private readonly PopUpViewModel _popup;
+        public ObservableCollection<string> BtnImgHeader { get; set; }
+        private PopUpViewModel _popup;
         private int _nbrDevice;
         public int NbrDevice
         {
@@ -40,7 +40,13 @@ namespace IOT_Controller.ViewsModels
                 "notification.svg",
                 "power.svg"
              ];
+           _=InitializeAsync();
+        }
+
+        private async Task InitializeAsync()
+        {
             _popup = new PopUpViewModel();
+            await _popup.InitializeButtons();
             UpdateNbrDevice();
             UpdateNbrBtnActive();
         }
