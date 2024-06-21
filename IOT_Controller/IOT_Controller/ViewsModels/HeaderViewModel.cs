@@ -4,12 +4,13 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace IOT_Controller.ViewsModels
 {
     public class HeaderViewModel : BaseViewModel
     {
-        public ObservableCollection<string> BtnImgHeader { get; set; }
+        public ObservableCollection<HeaderButtonViewModel> BtnImgHeader { get; set; }
         private PopUpViewModel _popup;
         private int _nbrDevice;
         public int NbrDevice
@@ -35,12 +36,20 @@ namespace IOT_Controller.ViewsModels
 
         public HeaderViewModel() 
         {
-            BtnImgHeader =
-             [
-                "notification.svg",
-                "power.svg"
-             ];
-           _=InitializeAsync();
+            BtnImgHeader = new ObservableCollection<HeaderButtonViewModel>
+            {
+                new HeaderButtonViewModel
+                {
+                    ImageSource = "notification.svg",
+                    Command = new Command(OnNotificationClicked)
+                },
+                new HeaderButtonViewModel
+                {
+                    ImageSource = "power.svg",
+                    Command = new Command(OnPowerClicked)
+                }
+            };
+           _ =InitializeAsync();
         }
 
         private async Task InitializeAsync()
@@ -60,5 +69,28 @@ namespace IOT_Controller.ViewsModels
         {
             NbrBtnActive = _popup.NbrBtnActive;
         }
+
+        private void OnNotificationClicked()
+        {
+            // Logique pour le bouton de notification
+            Console.WriteLine("Notification button clicked");
+        }
+
+        private void OnPowerClicked()
+        {
+            // Logique pour le bouton d'alimentation
+            Console.WriteLine("Power button clicked");
+        }
+    }
+
+
+    /*#######################################################################################################################################################################
+     *  Classe HeaderBoutton
+     *  ####################################################################################################################################################################*/
+
+    public class HeaderButtonViewModel
+    {
+        public string ImageSource { get; set; }
+        public ICommand Command { get; set; }
     }
 }

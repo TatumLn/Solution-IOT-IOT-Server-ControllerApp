@@ -18,9 +18,9 @@ public partial class PopUp : BaseContentView
 
     private void InitializeGesture()
     {
-        var _taperHorsPopUp = new TapGestureRecognizer();
+        /*var _taperHorsPopUp = new TapGestureRecognizer();
         _taperHorsPopUp.Tapped += (s, e) => { IsVisible = false; };
-        this.GestureRecognizers.Add(_taperHorsPopUp);
+        this.GestureRecognizers.Add(_taperHorsPopUp);*/
         //
         var _swipeVersleBas = new SwipeGestureRecognizer { Direction = SwipeDirection.Down };
         _swipeVersleBas.Swiped += (s, e) => { IsVisible = false; };

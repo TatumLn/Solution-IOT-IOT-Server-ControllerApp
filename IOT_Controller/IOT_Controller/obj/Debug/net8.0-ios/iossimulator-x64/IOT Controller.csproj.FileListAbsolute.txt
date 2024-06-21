@@ -283,9 +283,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulato
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\auxisplash_4312AED938F109259FCF62B448C52F54E04445FEA67FA5514D94C4442AC3A946.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\auxisplash_4312AED938F109259FCF62B448C52F54E04445FEA67FA5514D94C4442AC3A946@2x.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\auxisplash_4312AED938F109259FCF62B448C52F54E04445FEA67FA5514D94C4442AC3A946@3x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
@@ -362,3 +359,6 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulato
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\IOT Controller.pdb
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\IOT Controller.genruntimeconfig.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\ref\IOT Controller.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\auxisplash_4E83C71CA5799FAB540BDA032BE73BF6C9655E8479E485D17271E3A7D0FD7070.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\auxisplash_4E83C71CA5799FAB540BDA032BE73BF6C9655E8479E485D17271E3A7D0FD7070@2x.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\auxisplash_4E83C71CA5799FAB540BDA032BE73BF6C9655E8479E485D17271E3A7D0FD7070@3x.png

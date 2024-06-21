@@ -108,8 +108,9 @@
             </StackLayout>
 
             <local:Chart x:Name="Chart" 
-                         AbsoluteLayout.LayoutBounds="0,0.5,1,0.5"
-                         AbsoluteLayout.LayoutFlags="All"/>
+                         AbsoluteLayout.LayoutBounds="0,0.3,1,0.4"
+                         AbsoluteLayout.LayoutFlags="All"
+                         Margin="10,0"/>
 
             <!-- Popup (initialement invisible) -->
             <local:PopUp x:Name="popup"
