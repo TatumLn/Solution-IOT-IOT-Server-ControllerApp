@@ -3,6 +3,9 @@
                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                             xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
                             x:Class="IOT_Controller.DesignView.Header">
+    <viewModels:BaseContentView.BindingContext>
+        <viewModels:HeaderViewModel/>
+    </viewModels:BaseContentView.BindingContext>
 
     <Grid>
 
@@ -51,9 +54,10 @@
                                             VerticalOptions="Start"
                                             HeightRequest="35"
                                             WidthRequest="35">
-                            <ImageButton Source="{Binding .}"
-                                                     HeightRequest="22"
-                                                     VerticalOptions="Center"/>
+                            <ImageButton Source="{Binding ImageSource}"
+                                         HeightRequest="22"
+                                         VerticalOptions="Center"
+                                         Command="{Binding Command}"/>
                         </Border>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

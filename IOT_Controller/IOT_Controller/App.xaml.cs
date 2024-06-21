@@ -18,8 +18,8 @@ namespace IOT_Controller
             DependencyService.Register<IPAdressService, IOSIPAdressService>();
             DependencyService.Register<INotificationServices, iOSNotificationService>();
 #else
-            DependencyService.Register<IPAdressService, WindowsIPAdressService>();
-            DependencyService.Register<INotificationServices, WindowsNotificationService>();
+            //DependencyService.Register<IPAdressService, WindowsIPAdressService>();
+            //DependencyService.Register<INotificationServices, WindowsNotificationService>();
 #endif
 
 
@@ -28,6 +28,7 @@ namespace IOT_Controller
 #else
                         MainPage = new NavigationPage(new DesktopView());
 #endif
+
         }
     }
 }

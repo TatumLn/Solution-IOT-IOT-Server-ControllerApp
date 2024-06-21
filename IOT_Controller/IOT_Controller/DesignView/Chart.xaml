@@ -1,17 +1,41 @@
 ﻿<?xml version = "1.0" encoding = "UTF-8" ?>
 <viewModels:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
                             xmlns:local="clr-namespace:IOT_Controller.API"
                             xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
                             x:Class="IOT_Controller.DesignView.Chart"
                             IsVisible="{Binding IsChartVisible, Source={x:Static local:MainViewModel.Instance}}">
+    <viewModels:BaseContentView.BindingContext>
+        <viewModels:ChartViewModel/>
+    </viewModels:BaseContentView.BindingContext>
     <!-- Semi-transparent background -->
-    <Border StrokeShape="RoundRectangle 20,20,20,20"
+    <Border x:Name="GestureGrid"
+            StrokeShape="RoundRectangle 20,20,20,20"
             Stroke="White"
             BackgroundColor="#FFFFFF">
-        <StackLayout HorizontalOptions="Center">
-            <Label Text="ChartUI"/>
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <HorizontalStackLayout Grid.Row="0">
+                
+                <Label Text="Temperature" 
+                        FontSize="15"
+                       TextColor="Black"
+                        HorizontalOptions="Start" />
+                <Button Text="X"
+                        BackgroundColor="Gray"
+                        Clicked="FermerChart"
+                        HorizontalOptions="End"/>
+            </HorizontalStackLayout>
+            <ScrollView Orientation="Horizontal"
+                        Grid.Row="1"
+                        Margin="0,20,0,0">
+                <microcharts:ChartView Chart="{Binding TemperatureChart}" HeightRequest="250" WidthRequest="700"/>
+            </ScrollView>
+        </Grid>
     </Border>
 
 

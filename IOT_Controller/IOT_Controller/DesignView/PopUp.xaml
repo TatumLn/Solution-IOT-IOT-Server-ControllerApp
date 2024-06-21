@@ -6,6 +6,10 @@
                             x:Class="IOT_Controller.DesignView.PopUp"
                             IsVisible="False">
 
+    <viewModels:BaseContentView.BindingContext>
+        <viewModels:PopUpViewModel/>
+    </viewModels:BaseContentView.BindingContext>
+
     <!-- Semi-transparent background -->
     <Border StrokeShape="RoundRectangle 40,40,0,0"
             Stroke="White"
@@ -46,7 +50,7 @@
                                                 HeightRequest="70"
                                                 WidthRequest="70">
                                             <ImageButton Source="{Binding ButtonImage}"
-                                                         HeightRequest="45"
+                                                         HeightRequest="35"
                                                          Command="{Binding ButtonCommand}" 
                                                          CommandParameter="{Binding ButtonIndex}"
                                                          VerticalOptions="Center"/>

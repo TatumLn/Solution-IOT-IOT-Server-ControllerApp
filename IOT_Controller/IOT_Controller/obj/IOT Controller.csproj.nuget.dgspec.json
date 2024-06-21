@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[4.3.6.1152, )"
             },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -160,6 +164,10 @@
             "MQTTnet": {
               "target": "Package",
               "version": "[4.3.6.1152, )"
+            },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -244,6 +252,10 @@
               "target": "Package",
               "version": "[4.3.6.1152, )"
             },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -327,6 +339,10 @@
             "MQTTnet": {
               "target": "Package",
               "version": "[4.3.6.1152, )"
+            },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",

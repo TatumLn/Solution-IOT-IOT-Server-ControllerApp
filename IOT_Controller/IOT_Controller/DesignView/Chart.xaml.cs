@@ -1,5 +1,6 @@
 ﻿using IOT_Controller.ViewsModels;
 using IOT_Controller.API;
+using Microcharts.Maui;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 
@@ -16,19 +17,22 @@ namespace IOT_Controller.DesignView
         private void InitializeGesture()
         {
             var _taperHorsChart = new TapGestureRecognizer();
-            _taperHorsChart.Tapped += (s, e) => { FermerChart(); };
-            this.GestureRecognizers.Add(_taperHorsChart);
+            _taperHorsChart.Tapped += (s, e) => 
+            {
+                FermerChart(s,e); 
+            };
+            GestureGrid.GestureRecognizers.Add(_taperHorsChart);
             //
             var _swipeVerslaGauche = new SwipeGestureRecognizer { Direction = SwipeDirection.Left };
-            _swipeVerslaGauche.Swiped += (s, e) => { FermerChart(); };
-            this.GestureRecognizers.Add(_swipeVerslaGauche);
+            _swipeVerslaGauche.Swiped += (s, e) => { FermerChart(s,e); };
+            GestureGrid.GestureRecognizers.Add(_swipeVerslaGauche);
             //
             var _swipeVerslaDroite = new SwipeGestureRecognizer { Direction = SwipeDirection.Right };
-            _swipeVerslaDroite.Swiped += (s, e) => { FermerChart(); };
-            this.GestureRecognizers.Add(_swipeVerslaDroite);
+            _swipeVerslaDroite.Swiped += (s, e) => { FermerChart(s,e); };
+            GestureGrid.GestureRecognizers.Add(_swipeVerslaDroite);
         }
 
-        private void FermerChart()
+        private void FermerChart(object sender, EventArgs e)
         {
             MainViewModel.Instance.IsChartVisible = false;
         }

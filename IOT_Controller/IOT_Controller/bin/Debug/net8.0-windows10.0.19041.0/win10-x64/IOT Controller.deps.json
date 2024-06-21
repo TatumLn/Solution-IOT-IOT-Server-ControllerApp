@@ -15,7 +15,13 @@
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.21",
           "Microsoft.Maui.Controls.Compatibility": "8.0.21",
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.Maui.Controls": "2.88.8",
           "System.IdentityModel.Tokens.Jwt": "7.6.0",
+          "UraniumUI": "2.8.1",
+          "UraniumUI.Icons.MaterialIcons": "2.8.1",
+          "UraniumUI.Material": "2.8.1",
+          "nsoftware.IPWorksSSH": "24.0.8917",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
         "runtime": {
@@ -65,6 +71,14 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "InputKit.Maui/4.4.3": {
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/InputKit.Maui.dll": {
+            "assemblyVersion": "4.4.3.0",
+            "fileVersion": "4.4.3.0"
           }
         }
       },
@@ -523,6 +537,81 @@
           }
         }
       },
+      "nsoftware.IPWorksSSH/24.0.8917": {
+        "runtime": {
+          "lib/net6.0/nsoftware.IPWorksSSH.System.dll": {
+            "assemblyVersion": "24.0.8917.0",
+            "fileVersion": "24.0.8917.0"
+          },
+          "lib/net6.0/nsoftware.IPWorksSSH.dll": {
+            "assemblyVersion": "24.0.8917.0",
+            "fileVersion": "24.0.8917.0"
+          }
+        }
+      },
+      "Plainer.Maui/1.7.1": {
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.8.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {},
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "native": {
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Controls/2.88.8": {
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Core": "2.88.8"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Controls.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.8.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Maui.Core/2.88.8": {
+        "dependencies": {
+          "SkiaSharp": "2.88.8",
+          "SkiaSharp.Views.WinUI": "2.88.8"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/SkiaSharp.Views.Maui.Core.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.8.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.WinUI/2.88.8": {
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.5.240311000",
+          "SkiaSharp": "2.88.8"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/SkiaSharp.Views.Windows.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.8.0"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.6.0",
@@ -540,6 +629,38 @@
           "runtimes/win/lib/net8.0/System.Speech.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "UraniumUI/2.8.1": {
+        "dependencies": {
+          "InputKit.Maui": "4.4.3",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Plainer.Maui": "1.7.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.dll": {
+            "assemblyVersion": "2.8.1.0",
+            "fileVersion": "2.8.1.0"
+          }
+        }
+      },
+      "UraniumUI.Icons.MaterialIcons/2.8.1": {
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Icons.MaterialIcons.dll": {
+            "assemblyVersion": "2.8.1.0",
+            "fileVersion": "2.8.1.0"
+          }
+        }
+      },
+      "UraniumUI.Material/2.8.1": {
+        "dependencies": {
+          "UraniumUI": "2.8.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "assemblyVersion": "2.8.1.0",
+            "fileVersion": "2.8.1.0"
           }
         }
       }
@@ -576,6 +697,13 @@
       "sha512": "sha512-wzOYHQPs5yokoYyoCm2Ri5RDEkDmnvSklotzp0M4jfOE5M0ZPmCDvEVUJpVzZR9J5cudPlsL3Hh1cK3QzQd2NQ==",
       "path": "communitytoolkit.maui.core/9.0.0",
       "hashPath": "communitytoolkit.maui.core.9.0.0.nupkg.sha512"
+    },
+    "InputKit.Maui/4.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ou3S++/lAX5kJpHvGKW5EYMqfeNTgKr6W8YM4I7gHrrJwRXZ4Jd8KpU//uVIhgrbmu8DcbjyK1mK34ekGMd0aQ==",
+      "path": "inputkit.maui/4.4.3",
+      "hashPath": "inputkit.maui.4.4.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",
@@ -766,6 +894,62 @@
       "path": "mqttnet/4.3.6.1152",
       "hashPath": "mqttnet.4.3.6.1152.nupkg.sha512"
     },
+    "nsoftware.IPWorksSSH/24.0.8917": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E+9cLsWGrG7oExEVHS5Lg/uRa0eOgNiMvOJ5M/lLhv68BljfYvnAondH3UUX5M25HT5TaVGzMQfvv4obWb90Ew==",
+      "path": "nsoftware.ipworksssh/24.0.8917",
+      "hashPath": "nsoftware.ipworksssh.24.0.8917.nupkg.sha512"
+    },
+    "Plainer.Maui/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rou+ErJ0l2GkJyMYRKtPiPxEtOGngj7Lv7H5NVACG9baPy3D3tGLO5ma16Usem5/vddu8Ov6bZaXntPMQANXQw==",
+      "path": "plainer.maui/1.7.1",
+      "hashPath": "plainer.maui.1.7.1.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bRkp3uKp5ZI8gXYQT57uKwil1uobb2p8c69n7v5evlB/2JNcMAXVcw9DZAP5Ig3WSvgzGm2YSn27UVeOi05NlA==",
+      "path": "skiasharp/2.88.8",
+      "hashPath": "skiasharp.2.88.8.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Kn5TSkKlfyS6azWHF3Jk2sW5C4jCE5uSshM/5AbfFrR+5n6qM5XEnz9h4VaVl7LTxBvHvMkuPb/3bpbq0vxTw==",
+      "path": "skiasharp.nativeassets.macos/2.88.8",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.8.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O9QXoWEXA+6cweR4h3BOnwMz+pO9vL9mXdjLrpDd0w1QzCgWmLQBxa1VgySDITiH7nQndrDG1h6937zm9pLj1Q==",
+      "path": "skiasharp.nativeassets.win32/2.88.8",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.8.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Maui.Controls/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3erdv34NQE+c9Zis1ym1YtyNbNNL/r2THnXB8sHpoue/mVFzR1KCBXEvD48VCLRhX36L7xSzhojpf1G850B3cQ==",
+      "path": "skiasharp.views.maui.controls/2.88.8",
+      "hashPath": "skiasharp.views.maui.controls.2.88.8.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Maui.Core/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s3E4c0VVHVGOWRtdUQ7M+0iYEm6KLTDaHKaZo8u2MbyJrPprGgNrvxETQCtM08aXEynxZq2nh7/MWHM78PVezQ==",
+      "path": "skiasharp.views.maui.core/2.88.8",
+      "hashPath": "skiasharp.views.maui.core.2.88.8.nupkg.sha512"
+    },
+    "SkiaSharp.Views.WinUI/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zg+EgdDeAn8E8kCdP7WpBkOvdUHLHzmekluXLg5d4FSP0jrBEBs0uWc+dvf3A+OKlewJJzBJQSR6+mUuZe9YFg==",
+      "path": "skiasharp.views.winui/2.88.8",
+      "hashPath": "skiasharp.views.winui.2.88.8.nupkg.sha512"
+    },
     "System.IdentityModel.Tokens.Jwt/7.6.0": {
       "type": "package",
       "serviceable": true,
@@ -779,6 +963,27 @@
       "sha512": "sha512-CNuiA6vb95Oe5PRjClZEBiaju31vwB8OIeCgeSBXyZL6+MS4RVVB2X/C11z0xCkooHE3Vy91nM2z76emIzR+sg==",
       "path": "system.speech/8.0.0",
       "hashPath": "system.speech.8.0.0.nupkg.sha512"
+    },
+    "UraniumUI/2.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IYe503jH0v7Gt2/EhyH1kja9GrvSPeMXTvV8anjTaX67PYLX8llsJnqsv7vuJCy1rEPC7dR8LCf0PpHVPlf4TA==",
+      "path": "uraniumui/2.8.1",
+      "hashPath": "uraniumui.2.8.1.nupkg.sha512"
+    },
+    "UraniumUI.Icons.MaterialIcons/2.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ci/hxXelML53o0emvLV5ZvjSkHpD5ajXLkCslwLu/aWbK35j0B9gZDnFWKv/g2afwTk3iCVfvtnZTidn0z1inw==",
+      "path": "uraniumui.icons.materialicons/2.8.1",
+      "hashPath": "uraniumui.icons.materialicons.2.8.1.nupkg.sha512"
+    },
+    "UraniumUI.Material/2.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AbclZzfld1rojUZsIAOBBdyCW7RC1d5lfUcAgIr0UWpzlen/IuJn61GfOylXFwh/rK7m3erR0+4NHz0Q/xqAcQ==",
+      "path": "uraniumui.material/2.8.1",
+      "hashPath": "uraniumui.material.2.8.1.nupkg.sha512"
     }
   }
 }
