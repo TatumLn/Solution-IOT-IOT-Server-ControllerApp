@@ -4,6 +4,7 @@
                        xmlns:local="clr-namespace:IOT_Controller.DesignView"
                        xmlns:views="http://schemas.microsoft.com/winfx/2009/xaml"
                        xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
+                       xmlns:extra="clr-namespace:IOT_Controller.API"
                        x:Class="IOT_Controller.Views.Mobile.MobileView_Home"
                        NavigationPage.HasNavigationBar="False">
     
@@ -107,8 +108,16 @@
                 </IndicatorView>
             </StackLayout>
 
+            <!-- Overlay -->
+            <BoxView x:Name="DarkOverlay"
+                 AbsoluteLayout.LayoutBounds="0,0,1,1"
+                 AbsoluteLayout.LayoutFlags="All"
+                 Color="Black"
+                 Opacity="0.3"
+                 IsVisible="False"/>
+
             <local:Chart x:Name="Chart" 
-                         AbsoluteLayout.LayoutBounds="0,0.3,1,0.4"
+                         AbsoluteLayout.LayoutBounds="0,0.4,1,0.3"
                          AbsoluteLayout.LayoutFlags="All"
                          Margin="10,0"/>
 

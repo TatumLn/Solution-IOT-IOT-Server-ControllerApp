@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace IOT_Controller.DesignView
 {
-     public class SliderAnimation
+     public class SliderAnimation(double initialValue, Action<double> onUpdate)
     {
-        private double _currentValue;
-        private readonly Action<double> _onUpdate;
-
-        public SliderAnimation(double initialValue, Action<double> onUpdate)
-        {
-            _currentValue = initialValue;
-            _onUpdate = onUpdate;
-        }
+        private double _currentValue = initialValue;
+        private readonly Action<double> _onUpdate = onUpdate;
 
         public void LancerAnimation(double targetValue)
         {
@@ -24,7 +18,7 @@ namespace IOT_Controller.DesignView
                 _currentValue = valeur;
                 _onUpdate(_currentValue);
             }, _currentValue, targetValue);
-            animation.Commit(Application.Current.MainPage, "Animation", 16, 1000, Easing.Linear);
+            animation.Commit(Application.Current?.MainPage, "Animation", 16, 1000, Easing.Linear);
         }
     }
 }

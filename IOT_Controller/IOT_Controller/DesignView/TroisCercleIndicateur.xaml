@@ -34,6 +34,7 @@
                                    BackgroundColor="#0BDA51" 
                                    Padding="10" 
                                    Text="{Binding .}"
+                                   FontAttributes="Bold"
                                    HeightRequest="70" 
                                    WidthRequest="70"
                                    BindingContext="{Binding}"

@@ -1,10 +1,10 @@
 
 using IOT_Controller.ViewsModels;
+using IOT_Controller.DesignView;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.Shapes;
-using IOT_Controller.DesignView;
 using System.ComponentModel;
 using CommunityToolkit.Maui.Views;
 using Microsoft.Maui.Layouts;
@@ -16,12 +16,19 @@ public partial class MobileView_Home : BaseContentPage
     public MobileView_Home()
 	{
         InitializeComponent();
+        popup.Overlay = DarkOverlay;
+        popup.PopupClosed += (sender, e) =>
+        {
+            DarkOverlay.IsVisible = false;
+        };
         popup.PropertyChanged += OnPopupPropertyChanged;
     }
 
-    private void AfficherPopup(object sender, EventArgs e)
+    private async void AfficherPopup(object sender, EventArgs e)
     {
-        popup.IsVisible = true;
+        DarkOverlay.IsVisible = true;
+        await DarkOverlay.FadeTo(0.5, 250); 
+        await popup.ShowPopUpAsync();
     }
 
     private void OnPopupPropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
