@@ -58,10 +58,10 @@ public partial class TroisCercleIndicateur : BaseContentView
 
     private void AfficherChart(object sender, EventArgs e)
     {
+        
         MainViewModel.Instance.IsChartVisible = true;
 
-        var button = sender as Button;
-        if (button != null && double.TryParse(button.Text, out double targetValue))
+        if (sender is Button button && double.TryParse(button.Text, out double targetValue))
         {
             _sliderAnimation.LancerAnimation(targetValue);
         }

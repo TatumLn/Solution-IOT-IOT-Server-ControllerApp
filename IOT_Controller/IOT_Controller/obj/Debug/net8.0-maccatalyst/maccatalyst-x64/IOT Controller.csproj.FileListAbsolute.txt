@@ -292,12 +292,10 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\mac
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\splash.gif
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\reunion.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\power@3x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\power@2x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\power.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\plafonnier.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
@@ -310,18 +308,12 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\mac
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\notification@2x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\notification.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logoauximad.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_deshumidificateur_disable.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_deshumidificateur.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icons_climatisation_disable.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icons_climatisation.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\bureau.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\iot@3x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\iot@2x.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\iot.png
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_ajouter.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\backgroundbureau.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\jardinage.jpg
-D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_lampe.png
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\backgroundsetting.jpg
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
@@ -351,3 +343,16 @@ D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\mac
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IOT Controller.pdb
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\IOT Controller.genruntimeconfig.cache
 D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\IOT Controller.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microcharts.Maui.dll
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\plant_pot_active.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\plant_pot.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\lock_active.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\lock.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\light_active.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\light.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\humidifier.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\air_conditioner.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\add.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\humidifier_active.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\add_active.png
+D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\air_conditioner_active.png

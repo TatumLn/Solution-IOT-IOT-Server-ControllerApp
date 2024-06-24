@@ -1,19 +1,53 @@
 ﻿<?xml version = "1.0" encoding = "UTF-8" ?>
 <viewModels:BaseContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
                             xmlns:local="clr-namespace:IOT_Controller.DesignView"
                             xmlns:viewModels="clr-namespace:IOT_Controller.ViewsModels"
                             x:Class="IOT_Controller.DesignView.SliderForms">
 
-    <HorizontalStackLayout HorizontalOptions="Center"
-                           VerticalOptions="Center"
-                           Padding="20">
-        <local:SliderCanvas WidthRequest="60" 
-                            HeightRequest="100"/>
-        <local:SliderCanvas WidthRequest="100" 
-                            HeightRequest="100"/>
-        <local:SliderCanvas WidthRequest="60" 
-                            HeightRequest="100"/>
-    </HorizontalStackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" 
+                        Text="Appareil"
+                        FontSize="13"
+                        CornerRadius="20"
+                        WidthRequest="120"
+                        BackgroundColor="#F16161"
+                        HorizontalOptions="Center"/>
+            <ImageButton Grid.Column="2" 
+                                 
+                            BackgroundColor="Transparent"
+                            HorizontalOptions="End"/>
+        </Grid>
+        
+        <HorizontalStackLayout  Grid.Row="1"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center">
+        <local:SliderCanvas WidthRequest="155" 
+                            HeightRequest="155"/>
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout Grid.Row="2"
+                               HorizontalOptions="Center"
+                               VerticalOptions="EndAndExpand">
+            <local:SliderGraduation WidthRequest="125"
+                                    HeightRequest="35"/>
+        </HorizontalStackLayout>
+
+    </Grid>
     
+
 </viewModels:BaseContentView>

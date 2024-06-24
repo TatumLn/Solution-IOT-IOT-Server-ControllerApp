@@ -36,28 +36,36 @@ namespace IOT_Controller.ViewsModels
 
         public HeaderViewModel() 
         {
-            BtnImgHeader = new ObservableCollection<HeaderButtonViewModel>
-            {
-                new HeaderButtonViewModel
-                {
+            _popup = new PopUpViewModel();
+            BtnImgHeader =
+            [
+                new() {
                     ImageSource = "notification.svg",
                     Command = new Command(OnNotificationClicked)
                 },
-                new HeaderButtonViewModel
-                {
+                new() {
                     ImageSource = "power.svg",
                     Command = new Command(OnPowerClicked)
                 }
-            };
-           _ =InitializeAsync();
-        }
-
-        private async Task InitializeAsync()
-        {
-            _popup = new PopUpViewModel();
-            await _popup.InitializeButtons();
+            ];
+  
             UpdateNbrDevice();
             UpdateNbrBtnActive();
+
+            _popup.PropertyChanged += PopUp_PropertyChanged;
+
+        }
+
+        private void PopUp_PropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == nameof(PopUpViewModel.NbrBtn))
+            {
+                UpdateNbrDevice();
+            }
+            else if (e.PropertyName == nameof(PopUpViewModel.NbrBtnActive))
+            {
+                UpdateNbrBtnActive();
+            }
         }
 
         private void UpdateNbrDevice()

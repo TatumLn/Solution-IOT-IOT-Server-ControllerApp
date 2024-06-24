@@ -67,68 +67,47 @@
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-100.gif">
-      <PackagePath>splash.scale-100.gif</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-400.png">
-      <PackagePath>setting.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-200.png">
-      <PackagePath>setting.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-150.png">
-      <PackagePath>setting.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-125.png">
-      <PackagePath>setting.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-100.png">
-      <PackagePath>setting.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sallereunion2.scale-100.jpg">
-      <PackagePath>sallereunion2.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\reunion.scale-100.jpg">
-      <PackagePath>reunion.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plafonnier.scale-100.png">
-      <PackagePath>plafonnier.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-400.png">
-      <PackagePath>notification.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-200.png">
-      <PackagePath>notification.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-150.png">
-      <PackagePath>notification.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-125.png">
-      <PackagePath>notification.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-100.png">
-      <PackagePath>notification.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoauximad.scale-100.png">
-      <PackagePath>logoauximad.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\light.scale-100.png">
+      <PackagePath>light.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jardinage.scale-100.jpg">
       <PackagePath>jardinage.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_deshumidificateur_disable.scale-100.png">
-      <PackagePath>icon_deshumidificateur_disable.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_deshumidificateur.scale-100.png">
-      <PackagePath>icon_deshumidificateur.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons_climatisation_disable.scale-100.png">
-      <PackagePath>icons_climatisation_disable.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bureau.scale-100.jpg">
-      <PackagePath>bureau.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundjardin.scale-100.jpg">
       <PackagePath>backgroundjardin.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundbureau.scale-100.jpg">
+      <PackagePath>backgroundbureau.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-100.png">
+      <PackagePath>add.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-400.png">
+      <PackagePath>iot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-200.png">
+      <PackagePath>iot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-150.png">
+      <PackagePath>iot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-125.png">
+      <PackagePath>iot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-100.png">
+      <PackagePath>iot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_active.scale-100.png">
+      <PackagePath>add_active.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plant_pot.scale-100.png">
+      <PackagePath>plant_pot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\light_active.scale-100.png">
+      <PackagePath>light_active.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundsetting.scale-100.jpg">
+      <PackagePath>backgroundsetting.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -268,32 +247,68 @@
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-400.png">
-      <PackagePath>iot.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plant_pot_active.scale-100.png">
+      <PackagePath>plant_pot_active.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-200.png">
-      <PackagePath>iot.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lock.scale-100.png">
+      <PackagePath>lock.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-150.png">
-      <PackagePath>iot.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bureau.scale-100.jpg">
+      <PackagePath>bureau.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-125.png">
-      <PackagePath>iot.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-400.png">
+      <PackagePath>notification.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iot.scale-100.png">
-      <PackagePath>iot.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-200.png">
+      <PackagePath>notification.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_lampe.scale-100.png">
-      <PackagePath>icon_lampe.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-150.png">
+      <PackagePath>notification.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_ajouter.scale-100.png">
-      <PackagePath>icon_ajouter.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-125.png">
+      <PackagePath>notification.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons_climatisation.scale-100.png">
-      <PackagePath>icons_climatisation.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-100.png">
+      <PackagePath>notification.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundbureau.scale-100.jpg">
-      <PackagePath>backgroundbureau.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lock_active.scale-100.png">
+      <PackagePath>lock_active.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\air_conditioner.scale-100.png">
+      <PackagePath>air_conditioner.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\reunion.scale-100.jpg">
+      <PackagePath>reunion.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidifier_active.scale-100.png">
+      <PackagePath>humidifier_active.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sallereunion2.scale-100.jpg">
+      <PackagePath>sallereunion2.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\air_conditioner_active.scale-100.png">
+      <PackagePath>air_conditioner_active.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-400.png">
+      <PackagePath>setting.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-200.png">
+      <PackagePath>setting.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-150.png">
+      <PackagePath>setting.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-125.png">
+      <PackagePath>setting.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-100.png">
+      <PackagePath>setting.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoauximad.scale-100.png">
+      <PackagePath>logoauximad.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidifier.scale-100.png">
+      <PackagePath>humidifier.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\power.scale-400.png">
       <PackagePath>power.scale-400.png</PackagePath>
@@ -325,9 +340,6 @@
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backgroundsetting.scale-100.jpg">
-      <PackagePath>backgroundsetting.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projet_Licence\IOT_Controller\IOT_Controller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IOT Controller.deps.json">
       <PackagePath>IOT Controller.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -348,6 +360,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Silente\.nuget\packages\inputkit.maui\4.4.3\lib\net8.0-windows10.0.19041\InputKit.Maui.dll">
       <PackagePath>InputKit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Silente\.nuget\packages\microcharts.maui\1.0.0\lib\net6.0-windows10.0.19041\Microcharts.Maui.dll">
+      <PackagePath>Microcharts.Maui.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Silente\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>

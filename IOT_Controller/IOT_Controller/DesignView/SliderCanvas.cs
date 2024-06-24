@@ -16,6 +16,7 @@ namespace IOT_Controller.DesignView
         private bool _isDragging;
         private SliderAnimation _sliderAnimation;
         private float _animationWa;
+        public event EventHandler<double> ValueChanged;
 
         public static readonly BindableProperty ValueProperty =
             BindableProperty.Create(nameof(Value), typeof(double), typeof(SliderCanvas), 10.0, propertyChanged: OnValueChanged);
@@ -28,8 +29,9 @@ namespace IOT_Controller.DesignView
 
         private static void OnValueChanged(BindableObject bindable, object oldValue, object newValue)
         {
-            var control = ((SliderCanvas)bindable);
+            var control = (SliderCanvas)bindable;
             control._sliderAnimation.LancerAnimation((double)newValue);
+            SliderEndPoint.PublishSliderValueChanged((double)newValue); // Met à jour la valeur du slider gradué
         }
 
         public SliderCanvas()
@@ -55,8 +57,14 @@ namespace IOT_Controller.DesignView
                 var dx = e.Location.X - centerX;
                 var dy = e.Location.Y - centerY;
                 _angle = (float)Math.Atan2(dy, dx);
-                Value = (_angle + Math.PI) / (2 * Math.PI) * 100; // Value between 0 and 100
-                _isDragging = true;
+               double nouveauValue = (_angle + Math.PI) / (2 * Math.PI) * 20 + 10;
+                // Mettre à jour la valeur uniquement si elle change
+                if (Value != nouveauValue)
+                {
+                    Value = nouveauValue;
+                }
+
+                //_isDragging = true;
                 InvalidateSurface();
             }
             else if (e.ActionType == SKTouchAction.Released)
@@ -70,30 +78,54 @@ namespace IOT_Controller.DesignView
         protected void OnPaintSurface(object? sender, SKPaintSurfaceEventArgs e)
         {
             var canvas = e.Surface.Canvas;
-            canvas.Clear(SKColors.Transparent);
+            canvas.Clear(SKColors.White);
 
             var width = e.Info.Width;
             var height = e.Info.Height;
             var centerX = width / 2;
             var centerY = height / 2;
-            var radius = Math.Min(width, height) / 2 - 20;
+            var radius = Math.Min(width, height) / 2 - 40;
+            var outerRadius = radius + 20;
 
-            using (var paint = new SKPaint
+            // Dessiner le deuxième cercle (bordure extérieure)
+            using (var secondcercle = new SKPaint
             {
                 Style = SKPaintStyle.Stroke,
-                Color = SKColor.Parse("#0BDA51"),
+                Color = SKColor.Parse("#E8FDEE"),
                 StrokeWidth = 10,
                 IsAntialias = true
             })
             {
-                canvas.DrawCircle(centerX, centerY, radius, paint);
+                canvas.DrawCircle(centerX, centerY, outerRadius, secondcercle);
+            }
+
+            // Dessiner le cercle principal
+            using (var premiercercle = new SKPaint
+            {
+                Style = SKPaintStyle.Stroke,
+                Color = SKColor.Parse("##00BF63"),
+                StrokeWidth = 10,
+                IsAntialias = true
+            })
+            {
+                canvas.DrawCircle(centerX, centerY, radius, premiercercle);
+            }
+
+            // Dessiner l'image au centre du premier cercle
+            var imageResource = SKBitmap.Decode("Resources/Images/add.png"); 
+            if (imageResource != null)
+            {
+                var imageWidth = imageResource.Width;
+                var imageHeight = imageResource.Height;
+                var destRect = new SKRect(centerX - imageWidth / 2, centerY - imageHeight / 2, centerX + imageWidth / 2, centerY + imageHeight / 2);
+                canvas.DrawBitmap(imageResource, destRect);
             }
 
             //Dessiner l'animation  l'eau
-            using (var paint = new SKPaint
+            using (var animationeau = new SKPaint
             {
                 Style = SKPaintStyle.Fill,
-                Color = SKColor.Parse("#0BDA51"),
+                Color = SKColor.Parse("#00BF63"),
                 IsAntialias = true
             })
             {
@@ -103,49 +135,23 @@ namespace IOT_Controller.DesignView
 
                 var waHeight = (float)(centerY + radius * (1 - 2 * _animationWa));
                 var rect = new SKRect(centerX - radius, waHeight, centerX + radius, centerY + radius);
-                canvas.DrawRect(rect, paint);
+                canvas.DrawRect(rect, animationeau);
             }
 
-            //Dessiner les valeurs autour du cercle
-            using (var paint = new SKPaint
-            {
-                Style = SKPaintStyle.Fill,
-                Color = SKColors.Black,
-                TextSize = 40,
-                IsAntialias = true
-            })
-            { 
-                canvas.DrawText("10", centerX - radius - 50, centerY + 15, paint);  //a gauche
-                canvas.DrawText("30", centerX + radius + 10, centerY + 15, paint);  //a droite
-                canvas.DrawText("20", centerX - 15, centerY - radius - 20, paint);  //en haut
-            }
-
-            //Dessiner la valeur actuel du slider
-            using (var paint = new SKPaint
-            {
-                Style = SKPaintStyle.Fill,
-                Color = SKColors.Black,
-                TextSize = 50,
-                IsAntialias = true
-            })
-            {
-                var text = Value.ToString("F0");
-                var textWidth = paint.MeasureText(text);
-                canvas.DrawText(text, centerX - textWidth / 2, centerY + 15, paint);
-            }
+            
 
             //Slider 
-            using (var paint = new SKPaint
+            using (var curseur = new SKPaint
             {
                 Style = SKPaintStyle.Fill,
-                Color = SKColor.Parse("#0BDA51"),
+                Color = SKColor.Parse("#000000"),
                 IsAntialias = true
             })
             {
                 var angle = (float)((Value - 10) / 20 * 2 * Math.PI - Math.PI / 2);
-                var handleX = centerX + radius * Math.Cos(angle);
-                var handleY = centerY + radius * Math.Sin(angle);
-                canvas.DrawCircle((float)handleX, (float)handleY, 15, paint);
+                var handleX = centerX + outerRadius * Math.Cos(angle);
+                var handleY = centerY + outerRadius * Math.Sin(angle);
+                canvas.DrawCircle((float)handleX, (float)handleY, 15, curseur);
             }
         }
     }
